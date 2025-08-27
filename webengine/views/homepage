@@ -1,17 +1,15 @@
-
-<div class="relative" style="position:relative">
-  <div class="pattern-square" style="position: absolute; width: 100%; top: 0px; z-index: 2;"></div>
-<!-- Platform Visualization -->
+<!--Pageheader start-->
+<div class="pattern-square"></div>
+<!--Pageheader end-->
  
-    <img src="{{this.hero_image.getImage()}}" style="width: 100%; z-index: 1; position: relative;" class="img-fluid" alt="Platform Visualization">
+{{include /components/homepage/home-hero.html}}
 
-</div>
 <!-- Hero Section -->
 <section class="hero text-center mt-5">
   <div class="container">
     <h1 class="display-4 fw-bold">Solve your content problem with AI</h1>
     <p class="lead">Empower enterprise teams to scale content with automation, structure, and security.</p>
- 
+  
   </div>
 </section>
 
