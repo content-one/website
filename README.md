@@ -1,9 +1,11 @@
 # Zesty.io + VS Code Plugin + Bootstrap SCSS Workflow
 
-This README explains how to use Zesty.io as the CMS, edit your styles with Bootstrap via SCSS, compile with npm, preview on the Zesty preview domain, and finally publish your CSS via the Zesty Manager code editor.
+Content.one website repo that uses Zesty.io as the CMS, Bootstrap via SCSS with https://block.codescandy.com/blocks/, npm to compile custom SCSS, preview on the Zesty preview domain.
 
-Preview URL: https://hj5v68xn-dev.webengine.zesty.io/
-Password: bobby
+**Project board:** https://coda.io/d/Bobaks-Coda-Playground_d8OzrmMloaj/Content-One-Website_suQ9vSaa#_lue45cnD
+**Component Library:** https://block.codescandy.com/blocks/about.html
+**Preview URL:** https://hj5v68xn-dev.webengine.zesty.io/
+**Prod URL:** https://www.content.one
 
 ⸻
 
