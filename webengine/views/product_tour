@@ -1,0 +1,11 @@
+(** default code https://zesty.org/services/web-engine/introduction-to-parsley/parsley-autolayout **)
+   <!--body-->
+   <section class="my-xl-9 my-5">
+      <div class="container">
+         <div class="row">
+            <div class="content">
+            {{this.body}}
+            </div>
+         </div>
+      </div>
+   </section>

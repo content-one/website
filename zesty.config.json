@@ -1,0 +1,143 @@
+{
+    "instance_zuid": "8-98969f9fe2-5w3x3g",
+    "instance": {
+        "views": {
+            "404": {
+                "zuid": "11-acd397fbef-w4zl5m",
+                "type": "404",
+                "updatedAt": "2021-10-08T18:04:55Z",
+                "createdAt": "2021-10-08T18:04:55Z"
+            },
+            "homepage": {
+                "zuid": "11-a8b694fbef-kq7ds0",
+                "type": "templateset",
+                "updatedAt": "2018-08-13T22:56:07Z",
+                "createdAt": "2025-06-04T14:18:57Z"
+            },
+            "loader": {
+                "zuid": "11-e4fe95fbef-b3kn74",
+                "type": "snippet",
+                "updatedAt": "2018-08-13T22:56:07Z",
+                "createdAt": "2025-06-06T19:51:04Z"
+            },
+            "/components/nav.html": {
+                "zuid": "11-d2b1c58ff3-1dm88s",
+                "type": "ajax-json",
+                "updatedAt": "2025-03-14T19:29:05Z",
+                "createdAt": "2025-06-09T15:16:43Z"
+            },
+            "/assets/theme.css": {
+                "zuid": "11-9ad6dec9d3-9znmtm",
+                "type": "ajax-json",
+                "updatedAt": "2025-03-14T19:33:35Z",
+                "createdAt": "2025-05-21T20:40:26Z"
+            },
+            "/assets/theme.min.js": {
+                "zuid": "11-e299d5e4f6-6br1cw",
+                "type": "ajax-json",
+                "updatedAt": "2025-03-14T19:39:58Z",
+                "createdAt": "2025-03-14T20:14:01Z"
+            },
+            "industries": {
+                "zuid": "11-c4f9fce9d6-shm8f4",
+                "type": "pageset",
+                "updatedAt": "2025-03-14T19:53:56Z",
+                "createdAt": "2025-05-29T18:31:41Z"
+            },
+            "/components/footer.html": {
+                "zuid": "11-9680efe6c2-1zp3dq",
+                "type": "ajax-json",
+                "updatedAt": "2025-03-14T21:08:54Z",
+                "createdAt": "2025-03-14T21:15:22Z"
+            },
+            "about": {
+                "zuid": "11-80e197a7b7-g6vb89",
+                "type": "templateset",
+                "updatedAt": "2025-05-21T20:20:18Z",
+                "createdAt": "2025-06-17T16:41:00Z"
+            },
+            "/-/block/review_block.html": {
+                "zuid": "11-cecdcbc1d3-px5wrz",
+                "type": "block",
+                "updatedAt": "2025-05-27T20:02:56Z",
+                "createdAt": "2025-05-27T20:50:07Z"
+            },
+            "/-/block/form_capture.html": {
+                "zuid": "11-e6fec6a5e8-tgjsfq",
+                "type": "block",
+                "updatedAt": "2025-05-27T20:12:09Z",
+                "createdAt": "2025-05-27T20:51:18Z"
+            },
+            "/-/block/sales_personal_cta.html": {
+                "zuid": "11-d6f3f0dfec-tdl2n1",
+                "type": "block",
+                "updatedAt": "2025-05-27T20:39:56Z",
+                "createdAt": "2025-05-27T20:44:51Z"
+            },
+            "/-/block/consulting_provided.html": {
+                "zuid": "11-a0d6a781d2-nrmlvb",
+                "type": "block",
+                "updatedAt": "2025-05-27T21:00:47Z",
+                "createdAt": "2025-05-27T21:04:20Z"
+            },
+            "product_tour": {
+                "zuid": "11-aecfc5f3c0-tgxk51",
+                "type": "templateset",
+                "updatedAt": "2025-06-01T10:34:20Z",
+                "createdAt": "2025-06-02T19:46:26Z"
+            },
+            "product_tour_pages": {
+                "zuid": "11-f88b81de83-m5n4b0",
+                "type": "pageset",
+                "updatedAt": "2025-06-01T10:35:20Z",
+                "createdAt": "2025-06-06T19:28:22Z"
+            },
+            "product_solutions": {
+                "zuid": "11-eec4b8aaf7-hrg59z",
+                "type": "pageset",
+                "updatedAt": "2025-06-09T15:17:18Z",
+                "createdAt": "2025-06-09T15:17:18Z"
+            }
+        },
+        "styles": {
+            "main.less": {
+                "zuid": "10-9cfbeefaef-f996qc",
+                "type": "text/less",
+                "updatedAt": "2018-08-13T22:56:05Z",
+                "createdAt": "2025-03-14T15:52:45Z"
+            },
+            "homepage.less": {
+                "zuid": "10-e49ea5c5c7-ph20rp",
+                "type": "text/less",
+                "updatedAt": "2025-03-14T13:52:16Z",
+                "createdAt": "2025-03-14T16:19:56Z"
+            },
+            "jaralax.min.css": {
+                "zuid": "10-acdc9bae83-w9jd09",
+                "type": "text/css",
+                "updatedAt": "2025-03-14T20:15:14Z",
+                "createdAt": "2025-03-14T20:15:18Z"
+            },
+            "theme-tweaks.scss": {
+                "zuid": "10-c8bdfdaab8-s4mwhq",
+                "type": "text/scss",
+                "updatedAt": "2025-05-21T19:59:08Z",
+                "createdAt": "2025-05-21T20:04:33Z"
+            },
+            "content.scss": {
+                "zuid": "10-eadcbe8fe1-pk1zdd",
+                "type": "text/scss",
+                "updatedAt": "2025-06-06T19:11:54Z",
+                "createdAt": "2025-06-06T19:52:19Z"
+            }
+        },
+        "scripts": {
+            "main.js": {
+                "zuid": "10-9688f0faef-x1wz1k",
+                "type": "text/javascript",
+                "updatedAt": "2018-08-13T22:56:05Z",
+                "createdAt": "2020-05-13T06:18:26Z"
+            }
+        }
+    }
+}

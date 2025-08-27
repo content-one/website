@@ -1,0 +1,116 @@
+      <!-- Navbar -->
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light w-100">
+            <div class="container px-3">
+               <a class="navbar-brand" href="/"><img src="{{globals.logo_full.getImage()}}" height="36" alt /></a>
+               <button class="navbar-toggler offcanvas-nav-btn" type="button">
+                  <i class="bi bi-list"></i>
+               </button>
+               <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
+                  <div class="offcanvas-header">
+                     <a href="/" class="text-inverse"><img src="{{globals.logo.getImage(120)}}" alt /></a>
+                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body pt-0 align-items-center">
+                     <ul class="navbar-nav mx-auto align-items-lg-center">
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
+                           <ul class="dropdown-menu">
+                              {{each product_solutions as solution}}
+                                 <li><a class="dropdown-item" href="{{indy.getUrl()}}">{{solution.seo_link_title}}</a></li>
+                              {{/each}}
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Industries</a>
+                           <ul class="dropdown-menu">
+                              {{each industries as indy}}
+                                 <li><a class="dropdown-item" href="{{indy.getUrl()}}">{{indy.seo_link_title}}</a></li>
+                              {{/each}}
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Features</a>
+                           <div class="dropdown-menu dropdown-menu-xxl">
+                              <div class="row ">
+                                 
+                                 <div class="col col-3">
+                                    <div>
+                                       {{each product_sections as section order by section.sort_order limit 0,2}}
+                                          <div>
+                                             <div class="dropdown-header">{{section.section_name}}</div>
+                                             {{each product_tour_pages as nav_page where product_section = '{section.zuid}' }}
+                                             <a class="dropdown-item" href="{{nav_page.getUrl()}}">{{nav_page.seo_link_title}}</a>
+                                             {{/each}}
+                                          </div>
+                                       {{/each}}
+                                    </div>
+                                 </div>
+                                 <div class="col col-4">
+                                    <div class="mt-3 mt-lg-0">
+                                        {{each product_sections as section order by section.sort_order limit 2,2}}
+                                          <div>
+                                             <div class="dropdown-header">{{section.section_name}}</div>
+                                             {{each product_tour_pages as nav_page where product_section = '{section.zuid}' }}
+                                             <a class="dropdown-item" href="{{nav_page.getUrl()}}">{{nav_page.seo_link_title}}</a>
+                                             {{/each}}
+                                          </div>
+                                       {{/each}}
+                                    </div>
+                                 </div>
+                                 <div class="col col-3">
+                                    <div class="mt-3 mt-lg-0">
+                                        {{each product_sections as section order by section.sort_order limit 4,2}}
+                                          <div>
+                                             <div class="dropdown-header">{{section.section_name}}</div>
+                                             {{each product_tour_pages as nav_page where product_section = '{section.zuid}' }}
+                                             <a class="dropdown-item" href="{{nav_page.getUrl()}}">{{nav_page.seo_link_title}}</a>
+                                             {{/each}}
+                                          </div>
+                                       {{/each}}
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                      
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentation</a>
+                           <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item mb-3 text-body" target="_blank" href="https://docs.zesty.io/">
+                                 <div class="d-flex align-items-center">
+                                    <i class="bi bi-file-text fs-4 text-primary"></i>
+                                    <div class="ms-3 lh-1">
+                                       <h5 class="mb-1">Documentation</h5>
+                                       <p class="mb-0 fs-6">Browse our Documentation</p>
+                                    </div>
+                                 </div>
+                              </a>
+
+                              <a class="dropdown-item text-body" target="_blank" href="https://github.com/zesty-io/">
+                                 <div class="d-flex align-items-center">
+                                    <i class="bi bi-clipboard fs-4 text-primary"></i>
+                                    <div class="ms-3 lh-1">
+                                       <h5 class="mb-1">
+                                          Github and Commit Log
+                                          <span class="text-primary ms-1" id="changelog"></span>
+                                       </h5>
+                                       <p class="mb-0 fs-6">Visit our GitHub public repos and commits</p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                           <a class="nav-link" href="/about/" role="button">About</a>
+                        </li> -->
+                     </ul>
+                     <div class="mt-3 mt-lg-0 d-flex align-items-center">
+                        <a href="https://www.zesty.io/login/" rel="nofollow" class="btn btn-light mx-2">Login</a>
+                        <a href="https://www.zesty.io/login/" rel="nofollow" class="btn btn-primary">Create account</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>

@@ -1,0 +1,185 @@
+
+<div class="relative" style="position:relative">
+  <div class="pattern-square" style="position: absolute; width: 100%; top: 0px; z-index: 2;"></div>
+<!-- Platform Visualization -->
+ 
+    <img src="{{this.hero_image.getImage()}}" style="width: 100%; z-index: 1; position: relative;" class="img-fluid" alt="Platform Visualization">
+
+</div>
+<!-- Hero Section -->
+<section class="hero text-center mt-5">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Solve your content problem with AI</h1>
+    <p class="lead">Empower enterprise teams to scale content with automation, structure, and security.</p>
+ 
+  </div>
+</section>
+
+<!-- Features -->
+<section class="container my-5">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <div class="feature-icon mb-3">🤖</div>
+      <h4>AI Content Assistant</h4>
+      <p>Plan, generate, and refine content at scale with AI-powered workflows.</p>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-icon mb-3">🔐</div>
+      <h4>Enterprise Security</h4>
+      <p>Control governance and structure while scaling across departments securely.</p>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-icon mb-3">🌐</div>
+      <h4>Multisite Management</h4>
+      <p>Launch and manage content seamlessly across all channels.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Audience Personas -->
+<section class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Who It's For</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h5>CMOs & Marketing Leaders</h5>
+        <p>Create more content with fewer resources.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>CIOs & IT Teams</h5>
+        <p>Ensure enterprise-grade security and scalability.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Content Teams</h5>
+        <p>Use visual workflows and collaborate in real time with AI.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Social Proof -->
+(** <section class="container text-center my-5">
+  <h2 class="mb-4">Trusted by Leading Enterprises</h2>
+  <div class="logo-bar d-flex justify-content-center flex-wrap">
+    <img src="https://placehold.co/100x40?text=Client+1" alt="Client 1">
+    <img src="https://placehold.co/100x40?text=Client+2" alt="Client 2">
+    <img src="https://placehold.co/100x40?text=Client+3" alt="Client 3">
+    <img src="https://placehold.co/100x40?text=Client+4" alt="Client 4">
+  </div>
+</section> **)
+
+<!-- Platform Benefits -->
+<section class="bg-white py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">What You'll Achieve with Content.One</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <p>🚀 Reduce content production time by up to 50%</p>
+      </div>
+      <div class="col-md-4">
+        <p>👥 Collaborate efficiently across global teams</p>
+      </div>
+      <div class="col-md-4">
+        <p>🛡️ Enterprise-grade security, simplified</p>
+      </div>
+    </div>
+  </div>
+</section>
+(**
+<!-- Learn More CTA -->
+<section class="text-center my-5">
+  <div class="container">
+    <h4>Explore how Content.One can transform your organization</h4>
+    <a href="#" class="btn btn-outline-primary mt-3">Learn More</a>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section class="cta-section text-center">
+  <div class="container">
+    <h2 class="fw-bold">Ready to unify your enterprise content?</h2>
+    <a href="#" class="btn btn-primary btn-lg mt-3">Talk to Sales</a>
+  </div>
+</section>**)
+
+<div class="quote-wrapper">
+    <div class="quote-banner">
+        <div class="quote-content" id="quoteContent">
+             <div class="quote-text">
+                <h3 class="ubuntu-medium" id="quoteText"></h3>
+                <p class="ubuntu-light"  id="personName"></p>
+                
+            </div>
+            <img src="" alt="Person Image" id="personImage">
+           
+        </div>
+    </div>
+</div>
+
+<script>
+    // paralax effects
+    window.addEventListener('scroll', function() {
+        let scrollPosition = window.scrollY;
+        document.querySelector('.video-bg').style.transform = 'translateY(' + scrollPosition * 0.3 + 'px)';
+    });
+
+    // quote banner
+
+     const quotes = [
+            // {
+            //     name: "Bill Gates",
+            //     quote: "Content is king.",
+            //     image: "https://pbs.twimg.com/profile_images/1879013694367252480/Gxa-Pspq_400x400.jpg"
+            // },
+            {
+                name: "Seth Godin",
+                quote: "Marketing is no longer about the stuff that you make, but about the stories you tell.",
+                image: "https://brianondrako.com/wp-content/uploads/2020/10/Seth-Godin-web_headshot_template.jpg"
+            },
+            {
+                name: "Steve Jobs",
+                quote: "The most powerful person in the world is the storyteller. The storyteller sets the vision, values, and agenda of an entire generation that is to come.",
+                image: "https://www.hollywoodreporter.com/wp-content/uploads/2015/03/steve_jobs_the_man_in_the_machine_still.jpg?w=1440&h=810&crop=1"
+            },
+            {
+                name: "Jeff Bezos",
+                quote: "Your brand is what people say about you when you're not in the room.",
+                image: "https://static01.nyt.com/images/2024/11/06/multimedia/06jeff-bezos-ktmj/06jeff-bezos-ktmj-mediumSquareAt3X.jpg"
+            },
+            {
+                name: "Gary Vaynerchuk",
+                quote: "No matter what you do, your job is to tell a story.",
+                image: "https://s.hdnux.com/photos/01/23/60/14/21955385/4/ratio3x2_1920.jpg"
+            }
+        ];
+        
+         let currentIndex = 0;
+        const quoteContent = document.getElementById('quoteContent');
+        const personImage = document.getElementById('personImage');
+        const personName = document.getElementById('personName');
+        const quoteText = document.getElementById('quoteText');
+
+        function updateQuote(index) {
+            personName.innerText = quotes[index].name;
+            quoteText.innerText = quotes[index].quote;
+            personImage.src = quotes[index].image;
+        }
+
+        // Display the first quote immediately
+        updateQuote(currentIndex);
+
+        function rotateQuotes() {
+            const nextIndex = (currentIndex + 1) % quotes.length;
+            quoteContent.style.opacity = '0';
+            setTimeout(() => {
+                updateQuote(nextIndex);
+                quoteContent.style.opacity = '1';
+                currentIndex = nextIndex;
+            }, 800);
+        }
+
+        // Rotate quotes every 5 seconds
+        setInterval(rotateQuotes, 4000);
+
+
+</script>

@@ -1,0 +1,82 @@
+<link rel="stylesheet" href="/assets/theme.css" crossorigin="anonymous"></link>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+
+{{include /components/nav.html}}
+
+{{current_view}}
+
+{{include /components/footer.html}}
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+ <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+<!-- Fullscreen Overlay -->
+<div id="fullscreenOverlay" class="overlay hidden">
+  <span id="closeBtn" class="close-button">&times;</span>
+  <img id="fullscreenImg" class="fullscreen-img" />
+</div>
+
+
+<script>
+    // column adjustment 
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('table').forEach(table => {
+      const firstRow = table.querySelector('tr');
+      if (!firstRow) return;
+
+      const firstCell = firstRow.querySelector('td:first-child');
+      const secondCell = firstRow.querySelector('td:nth-child(2)');
+
+      if (firstCell && firstCell.querySelector('img')) {
+        table.classList.add('has-img-in-col1');
+      } else if (secondCell && secondCell.querySelector('img')) {
+        table.classList.add('has-img-in-col2');
+      }
+    });
+  });
+
+  // tiger striping tables in content 
+   const tables = document.querySelectorAll('.content table');
+    
+    tables.forEach((table, index) => {
+      const firstRow = table.querySelector('tr');
+      if (!firstRow) return;
+
+      const firstCell = firstRow.querySelector('td:first-child');
+      const secondCell = firstRow.querySelector('td:nth-child(2)');
+
+      if (firstCell && firstCell.querySelector('img')) {
+        table.classList.add('has-img-in-col1');
+      } else if (secondCell && secondCell.querySelector('img')) {
+        table.classList.add('has-img-in-col2');
+      }
+
+      if (index % 2 === 0) {
+        table.classList.add('alt-table-style');
+      }
+    });
+
+// full screen script 
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const images = document.querySelectorAll('.content img');
+    const overlay = document.getElementById('fullscreenOverlay');
+    const fullscreenImg = document.getElementById('fullscreenImg');
+    const closeBtn = document.getElementById('closeBtn');
+
+    images.forEach((img) => {
+      img.addEventListener('click', () => {
+        fullscreenImg.src = img.src;
+        overlay.classList.remove('hidden');
+      });
+    });
+
+    fullscreenImg.addEventListener('click', () => {
+      overlay.classList.add('hidden');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      overlay.classList.add('hidden');
+    });
+  });
+</script>

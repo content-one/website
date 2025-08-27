@@ -1,0 +1,46 @@
+ <main>
+   <!--hero start-->
+   <section class="jarallax py-9 hero-agency" data-jarallax data-speed="0.4">
+      <img class="jarallax-img" src="{{this.header_background_image.getImage(1000)}}" alt="agency" />
+      <div class="position-absolute start-0 end-0">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-5 col-lg-7 col-12" data-cue="zoomIn">
+                  <div class="text-center text-lg-start">
+                     <div class="mb-4 text-white-stable">
+                        <small class="text-uppercase ls-lg">Digital Content Solutions</small>
+                        <h1 class="mb-3 mt-3 display-3 text-white-stable">{{this.title}}</h1>
+                        <div class="lead mb-0">{{this.title_by_line}}</div>
+                     </div>
+
+                     <a href="#!" class="btn btn-primary">Learn More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--hero end-->
+{{if {this.first_block_before_content} }}
+   {{blocks({this.first_block_before_content})}}
+{{/if}}
+   <!--body-->
+   <section class="my-xl-9 my-5">
+      <div class="container">
+         <div class="row">
+            <div class="content">
+            {{this.body}}
+            </div>
+         </div>
+      </div>
+   </section>
+
+{{if {this.cta_block} }}
+   {{blocks({this.cta_block})}}
+{{/if}}
+   {{if {this.above_the_footer_block} }}
+      {{blocks({this.above_the_footer_block})}}
+   {{/if}}
+
+</main>
+     
