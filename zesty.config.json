@@ -12,7 +12,7 @@
                 "zuid": "11-a8b694fbef-kq7ds0",
                 "type": "templateset",
                 "updatedAt": "2018-08-13T22:56:07Z",
-                "createdAt": "2025-08-27T20:20:54Z"
+                "createdAt": "2025-09-03T23:10:40Z"
             },
             "loader": {
                 "zuid": "11-e4fe95fbef-b3kn74",
@@ -102,7 +102,13 @@
                 "zuid": "11-eeffb3909e-s5hz81",
                 "type": "ajax-json",
                 "updatedAt": "2025-08-27T20:00:48Z",
-                "createdAt": "2025-08-27T20:02:46Z"
+                "createdAt": "2025-09-03T21:53:39Z"
+            },
+            "/-/block/client_logos.html": {
+                "zuid": "11-d0c6ba919e-lk12q4",
+                "type": "block",
+                "updatedAt": "2025-09-03T22:33:42Z",
+                "createdAt": "2025-09-03T22:59:49Z"
             }
         },
         "styles": {

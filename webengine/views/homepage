@@ -4,35 +4,61 @@
  
 {{include /components/homepage/home-hero.html}}
 
-<!-- Hero Section -->
-<section class="hero text-center mt-5">
-  <div class="container">
-    <h1 class="display-4 fw-bold">Solve your content problem with AI</h1>
-    <p class="lead">Empower enterprise teams to scale content with automation, structure, and security.</p>
-  
-  </div>
-</section>
 
-<!-- Features -->
-<section class="container my-5">
-  <div class="row text-center">
-    <div class="col-md-4">
-      <div class="feature-icon mb-3">🤖</div>
-      <h4>AI Content Assistant</h4>
-      <p>Plan, generate, and refine content at scale with AI-powered workflows.</p>
+<!--Priority-->
+<section class="py-xl-9 py-6">
+  <div class="container">
+    <div class="row mb-6">
+      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12">
+        <div class="d-flex flex-column gap-4 text-center">
+          <div class="d-flex justify-content-center">
+            <span class="badge bg-white text-muted border border-light-subtle rounded-pill text-uppercase fw-semibold py-2 px-3 small ls-md">Why Content.One</span>
+          </div>
+          <div class="d-flex flex-column gap-2">
+            <h2 class="mb-0 display-6">Why Choose Content.One</h2>
+            <p class="mb-0">
+              Plan, secure, and manage your content seamlessly across all channels with 
+              <span class="text-primary">Content.One</span>.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <div class="feature-icon mb-3">🔐</div>
-      <h4>Enterprise Security</h4>
-      <p>Control governance and structure while scaling across departments securely.</p>
-    </div>
-    <div class="col-md-4">
-      <div class="feature-icon mb-3">🌐</div>
-      <h4>Multisite Management</h4>
-      <p>Launch and manage content seamlessly across all channels.</p>
+    <div class="row gy-lg-6 gy-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="d-flex flex-column gap-5 p-xxl-6 text-center p-3 card card-lift">
+          <div><i class="bi bi-lightning-charge fs-1 text-primary"></i></div>
+          <div class="d-flex flex-column gap-2">
+            <h3 class="h4">AI Content Assistant</h3>
+            <p class="mb-0">Plan, generate, and refine content at scale with AI-powered workflows.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="d-flex flex-column gap-5 p-xxl-6 text-center p-3 card card-lift">
+          <div><i class="bi bi-shield-lock fs-1 text-primary"></i></div>
+          <div class="d-flex flex-column gap-2">
+            <h3 class="h4">Enterprise Security</h3>
+            <p class="mb-0">Control governance and structure while scaling across departments securely.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="d-flex flex-column gap-5 p-xxl-6 text-center p-3 card card-lift">
+          <div><i class="bi bi-diagram-3 fs-1 text-primary"></i></div>
+          <div class="d-flex flex-column gap-2">
+            <h3 class="h4">Multisite Management</h3>
+            <p class="mb-0">Launch and manage content seamlessly across all channels.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+<!--Priority-->
+
+
+{{ block('/-/block/client_logos.html') }}
 
 <!-- Audience Personas -->
 <section class="bg-light py-5">

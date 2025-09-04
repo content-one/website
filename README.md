@@ -1,6 +1,6 @@
 # Zesty.io + VS Code Plugin + Bootstrap SCSS Workflow
 
-Content.one website repo that uses Zesty.io as the CMS, Bootstrap via SCSS with https://block.codescandy.com/blocks/, npm to compile custom SCSS, preview on the Zesty preview domain.
+Content.one website repo that uses Zesty.io as the CMS, Bootstrap via SCSS with https://block.codescandy.com/, npm to compile custom SCSS, preview on the Zesty preview domain.
 
 * **Project board:** https://coda.io/d/Bobaks-Coda-Playground_d8OzrmMloaj/Content-One-Website_suQ9vSaa#_lue45cnD
 * **Figma file:** https://www.figma.com/design/S2eLYQT6Q3Jfq4ZwFqQT8K/Content.One-Site---Template?node-id=10-2973&p=f&t=VgQjdLLe6W6hdylf-0

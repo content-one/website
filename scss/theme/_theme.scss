@@ -5,7 +5,7 @@
 @import "./components/docs";
 @import "./components/reboot";
 @import "./components/avatar";
-@import "./components/tansition";
+@import "./components/transition";
 @import "./components/card";
 @import "./components/nav";
 @import "./components/pattern";
@@ -25,6 +25,8 @@
 @import "./vendors/prism/prism";
 @import "./vendors/swiper/swiper";
 @import "./vendors/plyr/plyr";
-
+@import "./vendors/intl/intl";
+@import "./vendors/embla/embla";
+@import "./vendors/glight/glight";
 // darkmode classes
 @import "darkmode";

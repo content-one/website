@@ -14,7 +14,7 @@
 .form-control.is-invalid {
     & + span .passwordToggler {
         right: 37px !important;
-        top: 33% !important;
+        top: 20px !important;
     }
 }
 .was-validated .form-control:valid,
@@ -44,4 +44,12 @@
 .is-valid:not(:required):not(.btn) {
     border-color: var(--#{$prefix}gray-300) !important;
     background-image: none;
+}
+
+.focus-none {
+    &:focus {
+        box-shadow: none;
+        outline: none;
+        border: 0px;
+    }
 }

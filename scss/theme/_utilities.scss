@@ -288,6 +288,15 @@ $utilities: (
     property: background-color,
     class: bg,
     values: $utilities-bg-subtle
+  ),
+  "white-space": (
+    property: white-space,
+    class: text,
+    responsive: true,
+    values: (
+      wrap: normal,
+      nowrap: nowrap
+    )
   )
 );
 

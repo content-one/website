@@ -46,6 +46,12 @@
     background-color: var(--#{$prefix}gray-900);
   }
 
+  .dark-mode-block {
+    display: block !important;
+  }
+  .dark-mode-none {
+    display: none;
+  }
   // theme color
 
   @each $color, $value in $theme-colors {
