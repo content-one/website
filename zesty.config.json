@@ -12,7 +12,7 @@
                 "zuid": "11-a8b694fbef-kq7ds0",
                 "type": "templateset",
                 "updatedAt": "2018-08-13T22:56:07Z",
-                "createdAt": "2025-09-03T23:10:40Z"
+                "createdAt": "2025-09-04T04:02:18Z"
             },
             "loader": {
                 "zuid": "11-e4fe95fbef-b3kn74",
@@ -24,13 +24,13 @@
                 "zuid": "11-d2b1c58ff3-1dm88s",
                 "type": "ajax-json",
                 "updatedAt": "2025-03-14T19:29:05Z",
-                "createdAt": "2025-08-03T04:12:07Z"
+                "createdAt": "2025-09-04T01:48:19Z"
             },
             "/assets/theme.css": {
                 "zuid": "11-9ad6dec9d3-9znmtm",
                 "type": "ajax-json",
                 "updatedAt": "2025-03-14T19:33:35Z",
-                "createdAt": "2025-08-27T19:11:44Z"
+                "createdAt": "2025-09-04T01:31:21Z"
             },
             "/assets/theme.min.js": {
                 "zuid": "11-e299d5e4f6-6br1cw",
@@ -102,13 +102,31 @@
                 "zuid": "11-eeffb3909e-s5hz81",
                 "type": "ajax-json",
                 "updatedAt": "2025-08-27T20:00:48Z",
-                "createdAt": "2025-09-03T21:53:39Z"
+                "createdAt": "2025-09-04T12:56:36Z"
             },
             "/-/block/client_logos.html": {
                 "zuid": "11-d0c6ba919e-lk12q4",
                 "type": "block",
                 "updatedAt": "2025-09-03T22:33:42Z",
-                "createdAt": "2025-09-03T22:59:49Z"
+                "createdAt": "2025-09-04T02:13:01Z"
+            },
+            "/-/block/feature_highlight.html": {
+                "zuid": "11-beb097baa4-xhn1wh",
+                "type": "block",
+                "updatedAt": "2025-09-04T02:37:40Z",
+                "createdAt": "2025-09-04T03:14:03Z"
+            },
+            "/components/features/block_highlight.html": {
+                "zuid": "11-d0b2c4d8cb-33nddj",
+                "type": "ajax-json",
+                "updatedAt": "2025-09-04T02:52:22Z",
+                "createdAt": "2025-09-04T03:14:15Z"
+            },
+            "/components/features/analytics_highlight.html": {
+                "zuid": "11-88d4a0c9fe-gmh9nv",
+                "type": "ajax-json",
+                "updatedAt": "2025-09-04T03:13:05Z",
+                "createdAt": "2025-09-04T03:21:48Z"
             }
         },
         "styles": {
@@ -141,6 +159,12 @@
                 "type": "text/scss",
                 "updatedAt": "2025-06-06T19:11:54Z",
                 "createdAt": "2025-06-06T19:52:19Z"
+            },
+            "scrollcue.scss": {
+                "zuid": "10-90b48fa299-qcsf6f",
+                "type": "text/scss",
+                "updatedAt": "2025-09-04T13:42:15.317603612Z",
+                "createdAt": "2025-09-04T13:42:15.317593191Z"
             }
         },
         "scripts": {
@@ -148,7 +172,61 @@
                 "zuid": "10-9688f0faef-x1wz1k",
                 "type": "text/javascript",
                 "updatedAt": "2018-08-13T22:56:05Z",
-                "createdAt": "2020-05-13T06:18:26Z"
+                "createdAt": "2025-09-04T12:57:50Z"
+            },
+            "cleave-function.js": {
+                "zuid": "10-beb388d8f6-mlrjz8",
+                "type": "text/javascript",
+                "updatedAt": "2025-09-04T12:58:20Z",
+                "createdAt": "2025-09-04T12:58:20Z"
+            },
+            "jarallax.js": {
+                "zuid": "10-a4a2e0cbd4-r39vt9",
+                "type": "text/javascript",
+                "updatedAt": "2025-09-04T13:04:51.171970801Z",
+                "createdAt": "2025-09-04T13:04:51.171961435Z"
+            },
+            "navbar.js": {
+                "zuid": "10-f4f5c8a9f7-cgg0m5",
+                "type": "text/javascript",
+                "updatedAt": "2025-09-04T13:05:13.032448144Z",
+                "createdAt": "2025-09-04T13:05:13.032440925Z"
+            },
+            "parallax.js": {
+                "zuid": "10-a6e1a290a6-w7snxk",
+                "type": "text/javascript",
+                "updatedAt": "2025-09-04T13:38:32.16016209Z",
+                "createdAt": "2025-09-04T13:38:32.160151255Z"
+            },
+            "sidebar-menu.js": {
+                "zuid": "10-a691ea9383-f4n3vx",
+                "type": "text/javascript",
+                "updatedAt": "2025-09-04T13:39:01.826407913Z",
+                "createdAt": "2025-09-04T13:39:01.826399401Z"
+            },
+            "tab-to-dropdown.js": {
+                "zuid": "10-98b5f7fdbd-fzw741",
+                "type": "text/javascript",
+                "updatedAt": "2025-09-04T13:39:09.720300531Z",
+                "createdAt": "2025-09-04T13:39:09.720292285Z"
+            },
+            "swiper.js": {
+                "zuid": "10-aeb2d9aae1-04w3g4",
+                "type": "text/javascript",
+                "updatedAt": "2025-09-04T13:39:14.474085963Z",
+                "createdAt": "2025-09-04T13:39:14.47407864Z"
+            },
+            "sidenav.js": {
+                "zuid": "10-aef2ccfea9-j38889",
+                "type": "text/javascript",
+                "updatedAt": "2025-09-04T13:39:24.215654916Z",
+                "createdAt": "2025-09-04T13:39:24.21564716Z"
+            },
+            "scrollcue.js": {
+                "zuid": "10-b4b1bfe2de-sbd3dx",
+                "type": "text/javascript",
+                "updatedAt": "2025-09-04T13:39:48.487157463Z",
+                "createdAt": "2025-09-04T13:39:48.487151006Z"
             }
         }
     }

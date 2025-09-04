@@ -1,6 +1,6 @@
  <!-- Footer -->
       <footer class="pt-6 mt-6">
-         <!-- (** <div class="container">
+         <div class="container">
             
             <div class="row">
                <div class="col-xxl-5 col-lg-5 col-md-7">
@@ -10,7 +10,7 @@
                            <img src="{{globals.logo.getImage(100)}}" alt="logo" class="text-inverse" />
                         </a>
                      </div>
-                     <p class="mb-5">Content.One enables organizations to move as fast as their ideas. Get your connect online, get it connected, and maximize your marketing reach and impact.</p>
+                     <p class="mb-5">Content.One, a content mangagement system for organizations to create and move content at scale.</p>
 
                      <form class="needs-validation" novalidate>
                         <h5 class="mb-3">Subscribe to our newsletter</h5>
@@ -47,32 +47,18 @@
                            </div>
                            <div class="collapse d-lg-block" id="collapseLanding" data-bs-parent="#ft-links">
                               <ul class="list-unstyled mb-0 py-3 py-lg-0">
+                                 {{each industries as indy}}
                                  <li class="mb-2">
-                                    <a href="./index.html" class="text-decoration-none text-reset">Saas</a>
+                                    <a href="{{indy.getUrl()}}" class="text-decoration-none text-reset">{{indy.seo_link_title}}</a>
                                  </li>
-                                 <li class="mb-2">
-                                    <a href="#!" class="text-decoration-none text-reset">Software Company</a>
-                                 </li>
-                                 <li class="mb-2">
-                                    <a href="./landing-finance.html" class="text-decoration-none text-reset">Finance</a>
-                                 </li>
-                                 <li class="mb-2">
-                                    <a href="./landing-jamstack-agancy.html" class="text-decoration-none text-reset">Digital Agency</a>
-                                 </li>
-                                 <li class="mb-2">
-                                    <a href="./landing-conference.html" class="text-decoration-none text-reset">Conference</a>
-                                 </li>
-                                 <li class="mb-2">
-                                    <a href="#!" class="text-decoration-none text-reset">App Template</a>
-                                 </li>
+                                 {{/each}}
                               </ul>
                            </div>
                         </div>
                      </div>
                      <div class="col-lg-4 col-12">
                         <div class="mb-3 pb-2 d-flex justify-content-between border-bottom border-bottom-lg-0 position-relative">
-                           <h5>Features</h5>
-                           {{each industries as indy}}
+                           <h5>Solutions</h5>
                            <a
                               class="d-block d-lg-none stretched-link text-inherit"
                               data-bs-toggle="collapse"
@@ -82,25 +68,14 @@
                               aria-controls="collapseAccounts">
                               <i class="bi bi-chevron-down"></i>
                            </a>
-                            {{/each}}
                         </div>
                         <div class="collapse d-lg-block" id="collapseAccounts" data-bs-parent="#ft-links">
                            <ul class="list-unstyled mb-0 py-3 py-lg-0">
+                              {{each product_solutions as solution}}
                               <li class="mb-2">
-                                 <a href="./signup.html" class="text-decoration-none text-reset">Register</a>
+                                 <a href="{{indy.getUrl()}}" class="text-decoration-none text-reset">{{solution.seo_link_title}}</a>
                               </li>
-                              <li class="mb-2">
-                                 <a href="./signin.html" class="text-decoration-none text-reset">Login</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="./forget-password.html" class="text-decoration-none text-reset">Forgot Password</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="./reset-password.html" class="text-decoration-none text-reset">Reset Password</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="#!" class="text-decoration-none text-reset">Profile</a>
-                              </li>
+                              {{/each}}
                            </ul>
                         </div>
                      </div>
@@ -120,22 +95,10 @@
                         <div class="collapse d-lg-block" id="collapseResources" data-bs-parent="#ft-links">
                            <ul class="list-unstyled mb-0 py-3 py-lg-0">
                               <li class="mb-2">
-                                 <a href="./docs/index.html" class="text-decoration-none text-reset">Docs</a>
+                                 <a href="https://docs.zesty.io/" target="_blank" class="text-decoration-none text-reset">Docs</a>
                               </li>
                               <li class="mb-2">
-                                 <a href="#!" class="text-decoration-none text-reset">Support</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="./changelog.html" class="text-decoration-none text-reset">Changelog</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="#!" class="text-decoration-none text-reset">Help Center</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="#!" class="text-decoration-none text-reset">Community</a>
-                              </li>
-                              <li class="mb-2">
-                                 <a href="#!" class="text-decoration-none text-reset">Webinars</a>
+                                 <a href="/about/" class="text-decoration-none text-reset">About</a>
                               </li>
                            </ul>
                         </div>
@@ -143,7 +106,7 @@
                   </div>
                </div>
             </div>
-         </div> **) -->
+         </div>
          <div class="container mt-7 mb-3">
             <div class="row align-items-center">
                <div class="col-md-9">

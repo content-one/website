@@ -4,16 +4,21 @@
  
 {{include /components/homepage/home-hero.html}}
 
+{{ block('/-/block/client_logos.html') }}
+
+{{ include /components/features/block_highlight.html }}
+
+
 
 <!--Priority-->
-<section class="py-xl-9 py-6">
+<section class="py-xl-6 py-3">
   <div class="container">
     <div class="row mb-6">
       <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12">
         <div class="d-flex flex-column gap-4 text-center">
-          <div class="d-flex justify-content-center">
+          <!-- <div class="d-flex justify-content-center">
             <span class="badge bg-white text-muted border border-light-subtle rounded-pill text-uppercase fw-semibold py-2 px-3 small ls-md">Why Content.One</span>
-          </div>
+          </div> -->
           <div class="d-flex flex-column gap-2">
             <h2 class="mb-0 display-6">Why Choose Content.One</h2>
             <p class="mb-0">
@@ -58,75 +63,9 @@
 <!--Priority-->
 
 
-{{ block('/-/block/client_logos.html') }}
+{{ include /components/features/analytics_highlight.html }}
 
-<!-- Audience Personas -->
-<section class="bg-light py-5">
-  <div class="container text-center">
-    <h2 class="mb-4">Who It's For</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <h5>CMOs & Marketing Leaders</h5>
-        <p>Create more content with fewer resources.</p>
-      </div>
-      <div class="col-md-4">
-        <h5>CIOs & IT Teams</h5>
-        <p>Ensure enterprise-grade security and scalability.</p>
-      </div>
-      <div class="col-md-4">
-        <h5>Content Teams</h5>
-        <p>Use visual workflows and collaborate in real time with AI.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Social Proof -->
-(** <section class="container text-center my-5">
-  <h2 class="mb-4">Trusted by Leading Enterprises</h2>
-  <div class="logo-bar d-flex justify-content-center flex-wrap">
-    <img src="https://placehold.co/100x40?text=Client+1" alt="Client 1">
-    <img src="https://placehold.co/100x40?text=Client+2" alt="Client 2">
-    <img src="https://placehold.co/100x40?text=Client+3" alt="Client 3">
-    <img src="https://placehold.co/100x40?text=Client+4" alt="Client 4">
-  </div>
-</section> **)
-
-<!-- Platform Benefits -->
-<section class="bg-white py-5">
-  <div class="container text-center">
-    <h2 class="mb-4">What You'll Achieve with Content.One</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <p>🚀 Reduce content production time by up to 50%</p>
-      </div>
-      <div class="col-md-4">
-        <p>👥 Collaborate efficiently across global teams</p>
-      </div>
-      <div class="col-md-4">
-        <p>🛡️ Enterprise-grade security, simplified</p>
-      </div>
-    </div>
-  </div>
-</section>
-(**
-<!-- Learn More CTA -->
-<section class="text-center my-5">
-  <div class="container">
-    <h4>Explore how Content.One can transform your organization</h4>
-    <a href="#" class="btn btn-outline-primary mt-3">Learn More</a>
-  </div>
-</section>
-
-<!-- Final CTA -->
-<section class="cta-section text-center">
-  <div class="container">
-    <h2 class="fw-bold">Ready to unify your enterprise content?</h2>
-    <a href="#" class="btn btn-primary btn-lg mt-3">Talk to Sales</a>
-  </div>
-</section>**)
-
-<div class="quote-wrapper">
+<div class="quote-wrapper mb-lg-8 mb-6">
     <div class="quote-banner">
         <div class="quote-content" id="quoteContent">
              <div class="quote-text">
@@ -140,21 +79,218 @@
     </div>
 </div>
 
+<!-- Audience Personas -->
+<!-- Who it's for (Personas) -->
+<section class="my-xl-9 my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="text-center mb-xl-7 mb-5">
+          <h2 class="mb-3">
+            Who is <span class="text-primary">Content.One</span> for
+          </h2>
+          <p class="mb-0">
+            Empower leaders and teams to ship more, stay secure, and collaborate in real time.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-center">
+      
+
+      <!-- Right: Tab previews -->
+      <div class="col-xl-6 offset-xl-1 col-md-6 col-12">
+        <div class="tab-content" id="persona-pills-content">
+
+          <!-- CMOs & Marketing Leaders -->
+          <div class="tab-pane fade show active" id="v-pills-cmo" role="tabpanel" aria-labelledby="v-pills-cmo-tab" tabindex="0">
+            <div class="position-relative scene" data-relative-input="true">
+              <figure>
+                <!-- Unsplash: marketing collaboration -->
+                <img
+                  src="https://hj5v68xn.media.zestyio.com/christina-wocintechchat-com-dKBTFoarrOU-unsplash.jpg?q=80&w=1920&auto=format&fit=crop"
+                  alt="Marketing team collaborating"
+                  class="img-fluid rounded-3">
+              </figure>
+            </div>
+          </div>
+
+          <!-- CIOs & IT Teams -->
+          <div class="tab-pane fade" id="v-pills-cio" role="tabpanel" aria-labelledby="v-pills-cio-tab" tabindex="0">
+            <div class="position-relative scene" data-relative-input="true">
+              <figure>
+                <!-- Unsplash: security / server ops -->
+                <img
+                  src="https://hj5v68xn.media.zestyio.com/charlesdeluvio-Lks7vei-eAg-unsplash.jpg?q=80&w=1920&auto=format&fit=crop"
+                  alt="Secure infrastructure"
+                  class="img-fluid rounded-3">
+              </figure>
+            </div>
+          </div>
+
+          <!-- Content Teams -->
+          <div class="tab-pane fade" id="v-pills-content" role="tabpanel" aria-labelledby="v-pills-content-tab" tabindex="0">
+            <div class="position-relative scene" data-relative-input="true">
+              <figure>
+                <!-- Unsplash: creative team working -->
+                <img
+                  src="https://hj5v68xn.media.zestyio.com/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg?q=80&w=1920&auto=format&fit=crop"
+                  alt="Content team collaborating"
+                  class="img-fluid rounded-3">
+              </figure>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- /Right -->
+
+      <!-- Left: Persona tabs -->
+      <div class="col-xl-5 col-md-6 col-12">
+        <div class="nav flex-column nav-pills mb-5 mb-lg-0" id="persona-pills" role="tablist" aria-orientation="vertical">
+
+          <!-- CMOs & Marketing Leaders -->
+          <a href="#" class="nav-link active d-flex text-start align-items-center align-items-lg-start p-xl-4 p-3"
+             id="v-pills-cmo-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cmo" role="tab"
+             aria-controls="v-pills-cmo" aria-selected="true">
+            <div class="d-flex">
+              <div class="icon-md icon-shape rounded-circle bg-white shadow-sm">
+                <i class="bi bi-megaphone-fill text-primary"></i>
+              </div>
+            </div>
+            <div class="ms-4">
+              <h4 class="mb-0">CMOs &amp; Marketing Leaders</h4>
+              <p class="mb-0 mt-lg-3 d-none d-lg-block">
+                Create more content with fewer resources using AI-assisted planning and production.
+              </p>
+            </div>
+          </a>
+
+          <!-- CIOs & IT Teams -->
+          <a href="#" class="nav-link d-flex text-start align-items-center align-items-lg-start p-xl-4 p-3"
+             id="v-pills-cio-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cio" role="tab"
+             aria-controls="v-pills-cio" aria-selected="false">
+            <div class="d-flex">
+              <div class="icon-md icon-shape rounded-circle bg-white shadow-sm">
+                <i class="bi bi-shield-check text-primary"></i>
+              </div>
+            </div>
+            <div class="ms-4">
+              <h4 class="mb-0">CIOs &amp; IT Teams</h4>
+              <p class="mb-0 mt-lg-3 d-none d-lg-block">
+                Ensure enterprise-grade security, governance, and scalability across departments.
+              </p>
+            </div>
+          </a>
+
+          <!-- Content Teams -->
+          <a href="#" class="nav-link d-flex text-start p-xl-4 p-3 align-items-center align-items-lg-start"
+             id="v-pills-content-tab" data-bs-toggle="pill" data-bs-target="#v-pills-content" role="tab"
+             aria-controls="v-pills-content" aria-selected="false">
+            <div class="d-flex">
+              <div class="icon-md icon-shape rounded-circle bg-white shadow-sm">
+                <i class="bi bi-diagram-3 text-primary"></i>
+              </div>
+            </div>
+            <div class="ms-4">
+              <h4 class="mb-0">Content Teams</h4>
+              <p class="mb-0 mt-lg-3 d-none d-lg-block">
+                Use visual workflows and collaborate in real time with AI-powered tools.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements start -->
+<section class="py-6 py-xl-9 bg-dark text-light">
+  <div class="container">
+    <div class="row mb-5 mb-xl-6">
+      <div class="col-lg-10 offset-lg-1">
+        <div class="text-center">
+          <h2 class="display-5 fw-bold mb-3 text-white">Explore More of <span class="text-primary">Content.One</span></h2>
+          <p class="lead text-light mb-0">
+            Discover how <span class="text-primary">Content.One</span> can transform your organization
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 g-xl-5">
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="security-card h-100 rounded-4 p-4 p-xxl-5 text-center">
+          <div class="d-inline-flex align-items-center justify-content-center icon-tile mb-4">
+            <i class="bi bi-layers fs-2 text-primary"></i>
+          </div>
+          <h3 class="h3 fw-semibold mb-3 text-white">Features</h3>
+          <p class="mb-0 text-light">We have you and your team covered with features marketing teams need</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="security-card h-100 rounded-4 p-4 p-xxl-5 text-center">
+          <div class="d-inline-flex align-items-center justify-content-center icon-tile mb-4">
+            <i class="bi bi-puzzle fs-2 text-primary"></i>
+          </div>
+          <h3 class="h3 fw-semibold mb-3 text-white">Solutions</h3>
+          <p class="mb-0 text-light">From Marketing Website to custom AI Content Applications</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="security-card h-100 rounded-4 p-4 p-xxl-5 text-center">
+          <div class="d-inline-flex align-items-center justify-content-center icon-tile mb-4">
+            <i class="bi bi-building fs-2 text-primary"></i>
+          </div>
+          <h3 class="h3 fw-semibold mb-3 text-white">Industries</h3>
+          <p class="mb-0 text-light">We Serve Multi-Faceted Large Organizations</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Achievements end -->
+
+<style>
+  /* Optional: subtle shadow like the reference */
+  .shadow-sm-sm { box-shadow: 0 .25rem .75rem rgba(0,0,0,.04); }
+  /* Optional: make the icon tile a fixed size on larger screens */
+  @media (min-width: 768px){
+    .bg-primary-subtle.p-4 { width: 96px; height: 96px; }
+  }
+  .security-card{ background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 0 0 1px rgba(255,255,255,0.02) inset; }
+  .icon-tile{ width: 72px; height: 72px; border-radius: 16px; background: rgba(255, 255, 255, 0.1); color: var(--bs-primary); }
+  @media (min-width: 992px){ .icon-tile{ width: 80px; height: 80px; } }
+</style>
+
+
 <script>
-    // paralax effects
-    window.addEventListener('scroll', function() {
-        let scrollPosition = window.scrollY;
-        document.querySelector('.video-bg').style.transform = 'translateY(' + scrollPosition * 0.3 + 'px)';
+
+  window.addEventListener('load', () => {
+      scrollCue.init({
+        // tweak as you like
+        percentage: 0.85,  // trigger when 25% in view
+        interval: -0.15,   // stagger children
+        duration: 400,
+        // once: true,     // uncomment if you only want it to fire once
+      });
     });
 
     // quote banner
 
      const quotes = [
-            // {
-            //     name: "Bill Gates",
-            //     quote: "Content is king.",
-            //     image: "https://pbs.twimg.com/profile_images/1879013694367252480/Gxa-Pspq_400x400.jpg"
-            // },
+            {
+                name: "Bill Gates",
+                quote: "Content is king.",
+                image: "https://pbs.twimg.com/profile_images/1879013694367252480/Gxa-Pspq_400x400.jpg"
+            },
             {
                 name: "Seth Godin",
                 quote: "Marketing is no longer about the stuff that you make, but about the stories you tell.",

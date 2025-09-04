@@ -1,47 +1,19 @@
- <div
-	class="swiper-container swiper"
-	id="swiper-1"
-	data-pagination-type=""
-	data-speed="400"
-	data-space-between="100"
-	data-pagination="true"
-	data-navigation="false"
-	data-autoplay="true"
-	data-autoplay-delay="3000"
-	data-breakpoints='{"480": {"slidesPerView": 2}, "768": {"slidesPerView": 3}, "1024": {"slidesPerView": 5}}'>
-	<div class="swiper-wrapper pb-6">
-		<div class="swiper-slide">
-			<figure class="text-center">
-			<img src="{{this.logo_1.getImage()}}" alt="{{this.logo_1_name}}" />
-			</figure>
-		</div>
-		<div class="swiper-slide">
-			<figure class="text-center">
-			<img src="{{this.logo_2.getImage()}}" alt="{{this.logo_1_name}}" />
-			</figure>
-		</div>
-		<div class="swiper-slide">
-			<figure class="text-center">
-			<img src="{{this.logo_3.getImage()}}" alt="{{this.logo_1_name}}" />
-			</figure>
-		</div>
-		<div class="swiper-slide">
-			<figure class="text-center">
-			<img src="{{this.logo_4.getImage()}}" alt="{{this.logo_1_name}}" />
-			</figure>
-		</div>
-		<div class="swiper-slide">
-			<figure class="text-center">
-			<img src="{{this.logo_5.getImage()}}" alt="{{this.logo_1_name}}" />
-			</figure>
-		</div>
-		<!-- Add more slides as needed -->
-	</div>
-	<!-- Add Pagination -->
-	<div class="swiper-pagination"></div>
-	<!-- Add Navigation -->
-	<div class="swiper-navigation">
-		<div class="swiper-button-next"></div>
-		<div class="swiper-button-prev"></div>
-	</div>
-</div>
+<section class="container my-5 client-logos">
+  <h6 class="text-center text-uppercase fw-semibold mb-5 trust-heading">{{this.component_title}}</h6>
+  <div class="logo-bar d-flex justify-content-center align-items-center flex-wrap gap-4 gap-lg-5">
+    <img class="client-logo" src="{{this.logo_1.getImage()}}" alt="{{this.logo_1_name}}">
+    <img class="client-logo" src="{{this.logo_2.getImage()}}" alt="{{this.logo_2_name}}">
+    <img class="client-logo" src="{{this.logo_3.getImage()}}" alt="{{this.logo_3_name}}">
+    <img class="client-logo" src="{{this.logo_4.getImage()}}" alt="{{this.logo_4_name}}">
+    <img class="client-logo" src="{{this.logo_5.getImage()}}" alt="{{this.logo_5_name}}">
+  </div>
+</section>
+<style>
+  /* Scoped styles for the client logos block */
+  .client-logos .trust-heading { letter-spacing: .08em; color: var(--bs-secondary-color); }
+  .client-logos .client-logo { height: 48px; margin: 0 12px; object-fit: contain; filter: grayscale(1); opacity: .75; transition: opacity .2s ease, filter .2s ease; }
+  .client-logos .client-logo:hover { opacity: 1; filter: grayscale(1); }
+  @media (min-width: 576px) { .client-logos .client-logo { height: 54px; } }
+  @media (min-width: 992px) { .client-logos .client-logo { height: 60px; } }
+</style>
+ 

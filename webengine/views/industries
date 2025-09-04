@@ -1,11 +1,11 @@
  <main>
    <!--hero start-->
-   <section class="jarallax py-9 hero-agency" data-jarallax data-speed="0.4">
+   <section class="jarallax py-4 hero-agency" data-jarallax data-speed="0.4">
       <img class="jarallax-img" src="{{this.header_background_image.getImage(1000)}}" alt="agency" />
       <div class="position-absolute start-0 end-0">
          <div class="container">
             <div class="row">
-               <div class="col-xl-5 col-lg-7 col-12" data-cue="zoomIn">
+               <div class="col-xl-5 col-lg-7 col-12" >
                   <div class="text-center text-lg-start">
                      <div class="mb-4 text-white-stable">
                         <small class="text-uppercase ls-lg">Digital Content Solutions</small>
@@ -13,7 +13,7 @@
                         <div class="lead mb-0">{{this.title_by_line}}</div>
                      </div>
 
-                     <a href="#!" class="btn btn-primary">Learn More</a>
+                     <a href="#!" class="btn btn-primary" >Learn More</a>
                   </div>
                </div>
             </div>
@@ -44,3 +44,16 @@
 
 </main>
      
+
+<script>
+
+  window.addEventListener('load', () => {
+      scrollCue.init({
+         duration : 300,
+         interval : -200,
+         percentage : 0.8,
+         enable: true,
+         once: false
+      });
+    });
+</script>

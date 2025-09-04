@@ -18,6 +18,7 @@
 
 
 <script>
+
     // column adjustment 
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('table').forEach(table => {
