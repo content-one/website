@@ -48,45 +48,7 @@
                         <div class="col-lg-6 col-12 order-lg-2" data-cue="slideInRight" data-show="true" style="animation-name: slideInRight; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                            <div class="card shadow-sm">
                               <div class="card-body">
-                                 <form class="row needs-validation g-3" novalidate="">
-                                    <div class="col-lg-12">
-                                       <div class="mb-3">
-                                          <h3 class="mb-0">Schedule a free estimate call</h3>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                       <label for="ScheduleFirstnameInput" class="form-label">
-                                          First Name
-                                          <span class="text-danger">*</span>
-                                       </label>
-                                       <input type="text" class="form-control" id="ScheduleFirstnameInput" required="">
-                                       <div class="invalid-feedback">Please enter firstname.</div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                       <label for="scheduleLastnameInput" class="form-label">
-                                          Last Name
-                                          <span class="text-danger">*</span>
-                                       </label>
-                                       <input type="text" class="form-control" id="scheduleLastnameInput" required="">
-                                       <div class="invalid-feedback">Please enter lastname.</div>
-                                    </div>
-                                    <div class="col-md-12">
-                                       <label for="scheduleEmailInput" class="form-label">
-                                          Email
-                                          <span class="text-danger">*</span>
-                                       </label>
-                                       <input type="email" class="form-control" id="scheduleEmailInput" required="">
-                                       <div class="invalid-feedback">Please enter email.</div>
-                                    </div>
-                                    <div class="col-md-12">
-                                       <label for="scheduleTextarea" class="form-label">Message</label>
-                                       <textarea class="form-control" id="scheduleTextarea" placeholder="Write to us" rows="3" required=""></textarea>
-                                       <div class="invalid-feedback">Please write message.</div>
-                                    </div>
-                                    <div class="d-grid">
-                                       <button class="btn btn-primary" type="submit">Let’s work together!</button>
-                                    </div>
-                                 </form>
+                                 {{include /components/forms/zoho-form.html}}
                               </div>
                            </div>
                         </div>

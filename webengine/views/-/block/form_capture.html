@@ -26,46 +26,7 @@
                   <div class="col-xxl-3 col-xl-4 col-lg-5 col-12 position-lg-absolute start-50 ms-lg-6">
                      <div class="card shadow-sm">
                         <div class="card-body">
-                           <form class="row needs-validation g-3" novalidate="">
-                              <div class="col-lg-12">
-                                 <div class="mb-3">
-                                    <h2 class="h3">{{this.form_title}}</h2>
-                                    <p class="mb-0">{{this.form_title_byline}}</p>
-                                 </div>
-                              </div>
-                              <div class="col-lg-6 col-12">
-                                 <label for="ServiceFirstnameInput" class="form-label">
-                                    First Name
-                                    <span class="text-danger">*</span>
-                                 </label>
-                                 <input type="text" class="form-control" id="ServiceFirstnameInput" required="">
-                                 <div class="invalid-feedback">Please enter firstname.</div>
-                              </div>
-                              <div class="col-lg-6 col-12">
-                                 <label for="serviceLastnameInput" class="form-label">
-                                    Last Name
-                                    <span class="text-danger">*</span>
-                                 </label>
-                                 <input type="text" class="form-control" id="serviceLastnameInput" required="">
-                                 <div class="invalid-feedback">Please enter lastname.</div>
-                              </div>
-                              <div class="col-12">
-                                 <label for="serviceEmailInput" class="form-label">
-                                    Email
-                                    <span class="text-danger">*</span>
-                                 </label>
-                                 <input type="email" class="form-control" id="serviceEmailInput" required="">
-                                 <div class="invalid-feedback">Please enter email.</div>
-                              </div>
-                              <div class="col-12">
-                                 <label for="servieTextarea" class="form-label">Message</label>
-                                 <textarea class="form-control" id="servieTextarea" placeholder="Write to us" rows="5" required=""></textarea>
-                                 <div class="invalid-feedback">Please write message.</div>
-                              </div>
-                              <div class="d-grid">
-                                 <button class="btn btn-primary" type="submit">Let’s work together!</button>
-                              </div>
-                           </form>
+                          {{include /components/forms/zoho-form.html}}
                         </div>
                      </div>
                   </div>
