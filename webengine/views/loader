@@ -19,6 +19,17 @@
 
 <script>
 
+  window.addEventListener('load', () => {
+      scrollCue.init({
+        percentage: 0.90,  // trigger when 25% in view
+        interval: -400,   // stagger children
+        duration: 600,
+        // once: true,     // uncomment if you only want it to fire once
+      });
+    });
+
+    scrollCue.update();
+
     // column adjustment 
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('table').forEach(table => {

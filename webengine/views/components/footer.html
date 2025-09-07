@@ -12,21 +12,7 @@
                      </div>
                      <p class="mb-5">Content.One, a content mangagement system for organizations to create and move content at scale.</p>
 
-                     <form class="needs-validation" novalidate>
-                        <h5 class="mb-3">Subscribe to our newsletter</h5>
-                        <div class="row g-2">
-                           <div class="col-lg-9 col-8">
-                              <label for="subscribeEmail" class="visually-hidden">Email</label>
-                              <input type="email" class="form-control" id="subscribeEmail" placeholder="Email address" required />
-                              <div class="invalid-feedback">Please enter email.</div>
-                           </div>
-                           <div class="col-lg-3 col-4">
-                              <div>
-                                 <button type="submit" class="btn btn-primary">Subscribe</button>
-                              </div>
-                           </div>
-                        </div>
-                     </form>
+                     {{include /components/ctas/email-subscription-form.html}}
                   </div>
                </div>
                <div class="offset-xxl-1 col-xxl-6 col-lg-6 offset-md-1 col-md-4">
@@ -100,6 +86,10 @@
                               <li class="mb-2">
                                  <a href="/about/" class="text-decoration-none text-reset">About</a>
                               </li>
+                              <li class="mb-2">
+                                 <a href="/contact-us/" class="text-decoration-none text-reset">Contact Us</a>
+                              </li>
+                              
                            </ul>
                         </div>
                      </div>

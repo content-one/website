@@ -23,11 +23,3 @@ a.setDurationValue(c.$jscomp$loop$prop$interval$7,c.$jscomp$loop$prop$elms$6[b-1
 docSlider.getCurrentPage();return a.scrollTop>=a.scrollHeight-a.clientHeight}};return{init:function(b){m=a.setOptions(p,b);k=m.enable;l=m.docSlider;n=m.pageChangeReset;l||(a.setEvents(),a.searchElements(),a.setQuery())},update:function(){k&&(a.searchElements(),a.setQuery(),a.runQuery())},enable:function(a){k="undefined"===typeof a?!k:a;scrollCue.update()},_hasDocSlider:function(){return l},_hasPageChangeReset:function(){return n},_initWithDocSlider:function(b){a.setEvents(b);a.searchElements();a.setQuery()},
 _updateWithDocSlider:function(){k&&(a.setQuery(),a.runQuery())},_searchElements:function(){a.searchElements()}}}();
 
-// custom launcher
-scrollCue.init({
-    interval: -400,
-    duration: 600,
-    percentage: 0.8,
-});
-scrollCue.update();
- 

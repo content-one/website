@@ -43,17 +43,4 @@
    {{/if}}
 
 </main>
-     
-
-<script>
-
-  window.addEventListener('load', () => {
-      scrollCue.init({
-         duration : 300,
-         interval : -200,
-         percentage : 0.8,
-         enable: true,
-         once: false
-      });
-    });
-</script>
+   

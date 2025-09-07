@@ -1,0 +1,22 @@
+<main class="w-100">
+   <!--404 error start-->
+   <div class="container d-flex flex-column overflow-hidden py-5">
+      <div class="row align-items-center justify-content-center mt-8 text-center">
+         <div class="col-lg-8 col-12">
+            <div class="mb-8">
+               <img src="https://hj5v68xn.media.zestyio.com/content-one-brand-2025.png" alt="Content.One Logo" class="img-fluid" style="max-height:70px;">
+            </div>
+            <h1 class="display-3 fw-bold text-primary mb-3">404</h1>
+            <h2 class="h4 mb-3">Oops! Page not found</h2>
+            <p class="lead mb-4 text-muted">
+               The page you are looking for might have been moved, deleted, or never existed.<br>
+               But don’t worry—you can always get back on track.
+            </p>
+            <a href="/" class="btn btn-primary btn-lg px-4">
+               Go Back Home
+            </a>
+         </div>
+      </div>
+   </div>
+   <!--404 error end-->
+</main>

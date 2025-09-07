@@ -1,4 +1,3 @@
-<div class="pattern-square"></div>
 <main>
 
     <!--Accounting software start-->
@@ -13,10 +12,10 @@
                         </div>
                         <div class="mb-7">
                             <div class="mb-3">
-                                <a href="#!" class="btn btn-primary me-2">Try for free</a>
+                                {{include /components/ctas/book-button.html}}
                                 <a href="#!" class="btn btn-white">How it works</a>
                             </div>
-                            <small>📣 Driving Success to Large Federated Non-Profits</small>
+                            <!-- <small>📣 Driving Success to Large Federated Non-Profits</small> -->
                         </div>
 
                     </div>
@@ -41,6 +40,7 @@
             </div>
         </div>
     </section>
+{{ block('/-/block/client_logos.html') }}
 
     {{blocks('/-/block/sales_personal_cta.html') }}
 </main>

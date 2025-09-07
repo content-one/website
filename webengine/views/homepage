@@ -109,7 +109,7 @@
               <figure>
                 <!-- Unsplash: marketing collaboration -->
                 <img
-                  src="https://hj5v68xn.media.zestyio.com/christina-wocintechchat-com-dKBTFoarrOU-unsplash.jpg?q=80&w=1920&auto=format&fit=crop"
+                  src="https://hj5v68xn.media.zestyio.com/christina-wocintechchat-com-dKBTFoarrOU-unsplash.jpg?q=80&w=372&auto=format&fit=crop"
                   alt="Marketing team collaborating"
                   class="img-fluid rounded-3">
               </figure>
@@ -122,7 +122,7 @@
               <figure>
                 <!-- Unsplash: security / server ops -->
                 <img
-                  src="https://hj5v68xn.media.zestyio.com/charlesdeluvio-Lks7vei-eAg-unsplash.jpg?q=80&w=1920&auto=format&fit=crop"
+                  src="https://hj5v68xn.media.zestyio.com/charlesdeluvio-Lks7vei-eAg-unsplash.jpg?q=80&w=372&auto=format&fit=crop"
                   alt="Secure infrastructure"
                   class="img-fluid rounded-3">
               </figure>
@@ -135,7 +135,7 @@
               <figure>
                 <!-- Unsplash: creative team working -->
                 <img
-                  src="https://hj5v68xn.media.zestyio.com/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg?q=80&w=1920&auto=format&fit=crop"
+                  src="https://hj5v68xn.media.zestyio.com/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg?q=80&w=372&auto=format&fit=crop"
                   alt="Content team collaborating"
                   class="img-fluid rounded-3">
               </figure>
@@ -224,7 +224,7 @@
       <!-- Card 1 -->
       <div class="col-lg-4 col-md-6">
         <div class="security-card h-100 rounded-4 p-4 p-xxl-5 text-center">
-          <div class="d-inline-flex align-items-center justify-content-center icon-tile mb-4">
+          <div class="d-inline-flex align-items-center justify-content-center bg-white icon-tile mb-4">
             <i class="bi bi-layers fs-2 text-primary"></i>
           </div>
           <h3 class="h3 fw-semibold mb-3 text-white">Features</h3>
@@ -235,7 +235,7 @@
       <!-- Card 2 -->
       <div class="col-lg-4 col-md-6">
         <div class="security-card h-100 rounded-4 p-4 p-xxl-5 text-center">
-          <div class="d-inline-flex align-items-center justify-content-center icon-tile mb-4">
+          <div class="d-inline-flex align-items-center justify-content-center bg-white icon-tile mb-4">
             <i class="bi bi-puzzle fs-2 text-primary"></i>
           </div>
           <h3 class="h3 fw-semibold mb-3 text-white">Solutions</h3>
@@ -246,7 +246,7 @@
       <!-- Card 3 -->
       <div class="col-lg-4 col-md-6">
         <div class="security-card h-100 rounded-4 p-4 p-xxl-5 text-center">
-          <div class="d-inline-flex align-items-center justify-content-center icon-tile mb-4">
+          <div class="d-inline-flex align-items-center justify-content-center icon-tile bg-white mb-4">
             <i class="bi bi-building fs-2 text-primary"></i>
           </div>
           <h3 class="h3 fw-semibold mb-3 text-white">Industries</h3>
@@ -273,15 +273,7 @@
 
 <script>
 
-  window.addEventListener('load', () => {
-      scrollCue.init({
-        // tweak as you like
-        percentage: 0.85,  // trigger when 25% in view
-        interval: -0.15,   // stagger children
-        duration: 400,
-        // once: true,     // uncomment if you only want it to fire once
-      });
-    });
+  
 
     // quote banner
 

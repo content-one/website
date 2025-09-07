@@ -2,29 +2,23 @@
     "instance_zuid": "8-98969f9fe2-5w3x3g",
     "instance": {
         "views": {
-            "404": {
-                "zuid": "11-acd397fbef-w4zl5m",
-                "type": "404",
-                "updatedAt": "2021-10-08T18:04:55Z",
-                "createdAt": "2021-10-08T18:04:55Z"
-            },
             "homepage": {
                 "zuid": "11-a8b694fbef-kq7ds0",
                 "type": "templateset",
                 "updatedAt": "2018-08-13T22:56:07Z",
-                "createdAt": "2025-09-04T04:02:18Z"
+                "createdAt": "2025-09-06T02:33:25Z"
             },
             "loader": {
                 "zuid": "11-e4fe95fbef-b3kn74",
                 "type": "snippet",
                 "updatedAt": "2018-08-13T22:56:07Z",
-                "createdAt": "2025-08-27T18:58:39Z"
+                "createdAt": "2025-09-06T02:37:54Z"
             },
             "/components/nav.html": {
                 "zuid": "11-d2b1c58ff3-1dm88s",
                 "type": "ajax-json",
                 "updatedAt": "2025-03-14T19:29:05Z",
-                "createdAt": "2025-09-04T01:48:19Z"
+                "createdAt": "2025-09-06T03:54:35Z"
             },
             "/assets/theme.css": {
                 "zuid": "11-9ad6dec9d3-9znmtm",
@@ -42,13 +36,13 @@
                 "zuid": "11-c4f9fce9d6-shm8f4",
                 "type": "pageset",
                 "updatedAt": "2025-03-14T19:53:56Z",
-                "createdAt": "2025-05-29T18:31:41Z"
+                "createdAt": "2025-09-06T02:37:36Z"
             },
             "/components/footer.html": {
                 "zuid": "11-9680efe6c2-1zp3dq",
                 "type": "ajax-json",
                 "updatedAt": "2025-03-14T21:08:54Z",
-                "createdAt": "2025-08-03T04:21:00Z"
+                "createdAt": "2025-09-06T02:15:27Z"
             },
             "about": {
                 "zuid": "11-80e197a7b7-g6vb89",
@@ -60,19 +54,19 @@
                 "zuid": "11-cecdcbc1d3-px5wrz",
                 "type": "block",
                 "updatedAt": "2025-05-27T20:02:56Z",
-                "createdAt": "2025-05-27T20:50:07Z"
+                "createdAt": "2025-09-04T14:35:26Z"
             },
             "/-/block/form_capture.html": {
                 "zuid": "11-e6fec6a5e8-tgjsfq",
                 "type": "block",
                 "updatedAt": "2025-05-27T20:12:09Z",
-                "createdAt": "2025-05-27T20:51:18Z"
+                "createdAt": "2025-09-05T13:50:48Z"
             },
             "/-/block/sales_personal_cta.html": {
                 "zuid": "11-d6f3f0dfec-tdl2n1",
                 "type": "block",
                 "updatedAt": "2025-05-27T20:39:56Z",
-                "createdAt": "2025-05-27T20:44:51Z"
+                "createdAt": "2025-09-05T20:42:46Z"
             },
             "/-/block/consulting_provided.html": {
                 "zuid": "11-a0d6a781d2-nrmlvb",
@@ -90,19 +84,19 @@
                 "zuid": "11-f88b81de83-m5n4b0",
                 "type": "pageset",
                 "updatedAt": "2025-06-01T10:35:20Z",
-                "createdAt": "2025-06-06T19:28:22Z"
+                "createdAt": "2025-09-05T14:21:05Z"
             },
             "product_solutions": {
                 "zuid": "11-eec4b8aaf7-hrg59z",
                 "type": "pageset",
                 "updatedAt": "2025-06-09T15:17:18Z",
-                "createdAt": "2025-08-03T04:03:26Z"
+                "createdAt": "2025-09-06T02:28:47Z"
             },
             "/components/homepage/home-hero.html": {
                 "zuid": "11-eeffb3909e-s5hz81",
                 "type": "ajax-json",
                 "updatedAt": "2025-08-27T20:00:48Z",
-                "createdAt": "2025-09-04T12:56:36Z"
+                "createdAt": "2025-09-05T20:39:57Z"
             },
             "/-/block/client_logos.html": {
                 "zuid": "11-d0c6ba919e-lk12q4",
@@ -114,25 +108,61 @@
                 "zuid": "11-beb097baa4-xhn1wh",
                 "type": "block",
                 "updatedAt": "2025-09-04T02:37:40Z",
-                "createdAt": "2025-09-04T03:14:03Z"
+                "createdAt": "2025-09-04T14:13:51Z"
             },
             "/components/features/block_highlight.html": {
                 "zuid": "11-d0b2c4d8cb-33nddj",
                 "type": "ajax-json",
                 "updatedAt": "2025-09-04T02:52:22Z",
-                "createdAt": "2025-09-04T03:14:15Z"
+                "createdAt": "2025-09-05T20:40:06Z"
             },
             "/components/features/analytics_highlight.html": {
                 "zuid": "11-88d4a0c9fe-gmh9nv",
                 "type": "ajax-json",
                 "updatedAt": "2025-09-04T03:13:05Z",
-                "createdAt": "2025-09-04T03:21:48Z"
+                "createdAt": "2025-09-05T20:40:02Z"
             },
             "/components/forms/zoho-form.html": {
                 "zuid": "11-cc93e38af9-rmfgk1",
                 "type": "ajax-json",
-                "updatedAt": "2025-09-04T20:04:41.746648499Z",
-                "createdAt": "2025-09-04T20:04:41.746643826Z"
+                "updatedAt": "2025-09-04T20:04:41Z",
+                "createdAt": "2025-09-06T02:30:52Z"
+            },
+            "/-/block/demo_form_signup.html": {
+                "zuid": "11-becd95ad87-f010pv",
+                "type": "block",
+                "updatedAt": "2025-09-05T16:36:48Z",
+                "createdAt": "2025-09-05T16:36:48Z"
+            },
+            "contact_us": {
+                "zuid": "11-a287c0abd6-kdv7gl",
+                "type": "templateset",
+                "updatedAt": "2025-09-05T20:26:37Z",
+                "createdAt": "2025-09-05T20:34:11Z"
+            },
+            "/components/ctas/book-button.html": {
+                "zuid": "11-ccdfe5b99a-cw11dh",
+                "type": "ajax-json",
+                "updatedAt": "2025-09-05T20:37:39Z",
+                "createdAt": "2025-09-05T20:38:09Z"
+            },
+            "/components/ctas/email-subscription-form.html": {
+                "zuid": "11-b2c7e88eb3-s3jf4m",
+                "type": "ajax-json",
+                "updatedAt": "2025-09-06T01:59:50Z",
+                "createdAt": "2025-09-06T02:35:15Z"
+            },
+            "basic_page": {
+                "zuid": "11-c6a381a0f9-vx91vm",
+                "type": "templateset",
+                "updatedAt": "2025-09-06T02:04:34Z",
+                "createdAt": "2025-09-06T02:36:20Z"
+            },
+            "404-page": {
+                "zuid": "11-e691afacc8-nxl051",
+                "type": "snippet",
+                "updatedAt": "2025-09-06T13:15:20Z",
+                "createdAt": "2025-09-06T13:26:27Z"
             }
         },
         "styles": {
@@ -169,8 +199,8 @@
             "scrollcue.scss": {
                 "zuid": "10-90b48fa299-qcsf6f",
                 "type": "text/scss",
-                "updatedAt": "2025-09-04T13:42:15.317603612Z",
-                "createdAt": "2025-09-04T13:42:15.317593191Z"
+                "updatedAt": "2025-09-04T13:42:15Z",
+                "createdAt": "2025-09-04T13:42:20Z"
             }
         },
         "scripts": {
@@ -184,55 +214,55 @@
                 "zuid": "10-beb388d8f6-mlrjz8",
                 "type": "text/javascript",
                 "updatedAt": "2025-09-04T12:58:20Z",
-                "createdAt": "2025-09-04T12:58:20Z"
+                "createdAt": "2025-09-04T13:03:59Z"
             },
             "jarallax.js": {
                 "zuid": "10-a4a2e0cbd4-r39vt9",
                 "type": "text/javascript",
-                "updatedAt": "2025-09-04T13:04:51.171970801Z",
-                "createdAt": "2025-09-04T13:04:51.171961435Z"
+                "updatedAt": "2025-09-04T13:04:51Z",
+                "createdAt": "2025-09-04T13:46:04Z"
             },
             "navbar.js": {
                 "zuid": "10-f4f5c8a9f7-cgg0m5",
                 "type": "text/javascript",
-                "updatedAt": "2025-09-04T13:05:13.032448144Z",
-                "createdAt": "2025-09-04T13:05:13.032440925Z"
+                "updatedAt": "2025-09-04T13:05:13Z",
+                "createdAt": "2025-09-04T13:12:33Z"
             },
             "parallax.js": {
                 "zuid": "10-a6e1a290a6-w7snxk",
                 "type": "text/javascript",
-                "updatedAt": "2025-09-04T13:38:32.16016209Z",
-                "createdAt": "2025-09-04T13:38:32.160151255Z"
+                "updatedAt": "2025-09-04T13:38:32Z",
+                "createdAt": "2025-09-04T13:38:33Z"
             },
             "sidebar-menu.js": {
                 "zuid": "10-a691ea9383-f4n3vx",
                 "type": "text/javascript",
-                "updatedAt": "2025-09-04T13:39:01.826407913Z",
-                "createdAt": "2025-09-04T13:39:01.826399401Z"
+                "updatedAt": "2025-09-04T13:39:01Z",
+                "createdAt": "2025-09-04T13:39:04Z"
             },
             "tab-to-dropdown.js": {
                 "zuid": "10-98b5f7fdbd-fzw741",
                 "type": "text/javascript",
-                "updatedAt": "2025-09-04T13:39:09.720300531Z",
-                "createdAt": "2025-09-04T13:39:09.720292285Z"
+                "updatedAt": "2025-09-04T13:39:09Z",
+                "createdAt": "2025-09-04T13:39:11Z"
             },
             "swiper.js": {
                 "zuid": "10-aeb2d9aae1-04w3g4",
                 "type": "text/javascript",
-                "updatedAt": "2025-09-04T13:39:14.474085963Z",
-                "createdAt": "2025-09-04T13:39:14.47407864Z"
+                "updatedAt": "2025-09-04T13:39:14Z",
+                "createdAt": "2025-09-04T13:39:15Z"
             },
             "sidenav.js": {
                 "zuid": "10-aef2ccfea9-j38889",
                 "type": "text/javascript",
-                "updatedAt": "2025-09-04T13:39:24.215654916Z",
-                "createdAt": "2025-09-04T13:39:24.21564716Z"
+                "updatedAt": "2025-09-04T13:39:24Z",
+                "createdAt": "2025-09-04T13:39:26Z"
             },
             "scrollcue.js": {
                 "zuid": "10-b4b1bfe2de-sbd3dx",
                 "type": "text/javascript",
-                "updatedAt": "2025-09-04T13:39:48.487157463Z",
-                "createdAt": "2025-09-04T13:39:48.487151006Z"
+                "updatedAt": "2025-09-04T13:39:48Z",
+                "createdAt": "2025-09-06T02:37:26Z"
             }
         }
     }

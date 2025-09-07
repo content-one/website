@@ -1,0 +1,35 @@
+<!--Hero start-->
+<section class="bg-primary-dark pt-9 right-slant-shape" data-cue="fadeIn">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-12">
+                <div class="text-center text-lg-start mb-7 mb-lg-0" data-cues="slideInDown">
+                    <div class="mb-4">
+                        <h1 class="mb-5 display-5 text-white-stable">
+                            {{this.title}}
+                        </h1>
+                        <p class="mb-0 text-white-stable lead">{{this.title_followup_text}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-lg-1 col-lg-6 col-12">
+                <div class="position-relative z-1 pt-lg-9" data-cue="slideInRight">
+                    <div class="position-relative">
+                        <img src="{{this.image.getImage()}}" alt="video" class="img-fluid rounded-3" width="837" />
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Hero start-->
+
+<section>
+    <div class="container">
+        <div class="content">
+            {{this.body}}
+        </div>
+    </div>
+</section>
+

@@ -1,16 +1,16 @@
 <section class="container my-5 client-logos">
   <h6 class="text-center text-uppercase fw-semibold mb-5 trust-heading">{{this.component_title}}</h6>
   <div class="logo-bar d-flex justify-content-center align-items-center flex-wrap gap-4 gap-lg-5">
-    <img class="client-logo" src="{{this.logo_1.getImage()}}" alt="{{this.logo_1_name}}">
-    <img class="client-logo" src="{{this.logo_2.getImage()}}" alt="{{this.logo_2_name}}">
-    <img class="client-logo" src="{{this.logo_3.getImage()}}" alt="{{this.logo_3_name}}">
-    <img class="client-logo" src="{{this.logo_4.getImage()}}" alt="{{this.logo_4_name}}">
-    <img class="client-logo" src="{{this.logo_5.getImage()}}" alt="{{this.logo_5_name}}">
+    <img class="client-logo" src="{{this.logo_1.getImage(,48)}}" alt="{{this.logo_1_name}}">
+    <img class="client-logo" src="{{this.logo_2.getImage(,48)}}" alt="{{this.logo_2_name}}">
+    <img class="client-logo" src="{{this.logo_3.getImage(,48)}}" alt="{{this.logo_3_name}}">
+    <img class="client-logo" src="{{this.logo_4.getImage(,48)}}" alt="{{this.logo_4_name}}">
+    <img class="client-logo" src="{{this.logo_5.getImage(,48)}}" alt="{{this.logo_5_name}}">
   </div>
 </section>
 <style>
   /* Scoped styles for the client logos block */
-  .client-logos .trust-heading { letter-spacing: .08em; color: var(--bs-secondary-color); }
+  .client-logos .trust-heading { letter-spacing: .08em; color: var(--bs-primary-color); }
   .client-logos .client-logo { height: 48px; margin: 0 12px; object-fit: contain; filter: grayscale(1); opacity: .75; transition: opacity .2s ease, filter .2s ease; }
   .client-logos .client-logo:hover { opacity: 1; filter: grayscale(1); }
   @media (min-width: 576px) { .client-logos .client-logo { height: 54px; } }

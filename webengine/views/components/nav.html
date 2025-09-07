@@ -1,8 +1,39 @@
-      <!-- Navbar -->
-      <header>
+      <div id="nav-sentinel"></div>
+      <style>
+        /* Sticky / delayed slide-down nav */
+        .sticky-nav {
+          position: relative;        /* ensure stacking context when not fixed */
+          z-index: 1030;             /* match fixed layer so dropdowns sit above page */
+          will-change: transform;
+          transition: transform .35s ease, box-shadow .2s ease;
+          backface-visibility: hidden;
+        }
+        /* Fixed state but initially translated up (hidden) */
+        .sticky-nav.is-fixed {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 1030; /* above offcanvas */
+          transform: translateY(-105%);
+          box-shadow: none;
+          background: var(--bs-body-bg, #fff);
+        }
+        /* Visible state slides down into view */
+        .sticky-nav.is-fixed.is-visible {
+          transform: translateY(0);
+          box-shadow: 0 8px 24px rgba(0,0,0,.08);
+        }
+        .sticky-nav .dropdown-menu {
+          z-index: 1050; /* above header background/shadows & nearby content */
+        }
+        /* Optional: smoothen iOS momentum scroll repaints */
+        .offcanvas-nav { -webkit-transform: translateZ(0); transform: translateZ(0); }
+      </style>
+      <header class="sticky-nav" data-sticky-nav>
          <nav class="navbar navbar-expand-lg navbar-light w-100">
             <div class="container px-3">
-               <a class="navbar-brand" href="/"><img src="{{globals.logo_full.getImage()}}" height="36" alt /></a>
+               <a class="navbar-brand" title="Content.One CMS Homepage" href="/"><img src="{{globals.logo_full.getImage(,36)}}" height="36" alt="Content.One Logo" /></a>
                <button class="navbar-toggler offcanvas-nav-btn" type="button">
                   <i class="bi bi-list"></i>
                </button>
@@ -14,7 +45,7 @@
                   <div class="offcanvas-body pt-0 align-items-center">
                      <ul class="navbar-nav mx-auto align-items-lg-center">
                         <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
+                           <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
                            <ul class="dropdown-menu">
                               {{each product_solutions as solution}}
                                  <li><a class="dropdown-item" href="{{indy.getUrl()}}">{{solution.seo_link_title}}</a></li>
@@ -22,7 +53,7 @@
                            </ul>
                         </li>
                         <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Industries</a>
+                           <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Industries</a>
                            <ul class="dropdown-menu">
                               {{each industries as indy}}
                                  <li><a class="dropdown-item" href="{{indy.getUrl()}}">{{indy.seo_link_title}}</a></li>
@@ -30,7 +61,7 @@
                            </ul>
                         </li>
                         <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Features</a>
+                           <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Features</a>
                            <div class="dropdown-menu dropdown-menu-xxl">
                               <div class="row ">
                                  
@@ -75,7 +106,7 @@
                         </li>
                       
                         <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentation</a>
+                           <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentation</a>
                            <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item mb-3 text-body" target="_blank" href="https://docs.zesty.io/">
                                  <div class="d-flex align-items-center">
@@ -107,10 +138,54 @@
                      </ul>
                      <div class="mt-3 mt-lg-0 d-flex align-items-center">
                         <a href="https://www.zesty.io/login/" rel="nofollow" class="btn btn-light mx-2">Login</a>
-                        <a href="https://start.content.one/" rel="nofollow" class="btn btn-primary">Start Now</a>
+                        {{include /components/ctas/book-button.html}}
                      </div>
                   </div>
                </div>
             </div>
          </nav>
       </header>
+      <div id="nav-spacer" style="height:0"></div>
+<script>
+  (function () {
+    var header = document.querySelector('header.sticky-nav[data-sticky-nav]');
+    var spacer = document.getElementById('nav-spacer');
+    var sentinel = document.getElementById('nav-sentinel');
+    if (!header || !sentinel || !spacer) return;
+
+    var showDelay = 300; // ms delay before sliding down after it scrolls out
+    var revealTimer = null;
+    var isFixed = false;
+
+    // Keeps spacer height in sync with header height to avoid layout shift
+    function syncSpacer() {
+      spacer.style.height = isFixed ? header.offsetHeight + 'px' : '0';
+    }
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          // Back at top: remove fixed and visible states
+          isFixed = false;
+          header.classList.remove('is-fixed', 'is-visible');
+          if (revealTimer) { clearTimeout(revealTimer); revealTimer = null; }
+          syncSpacer();
+        } else {
+          // Scrolled past sentinel: fix header, then reveal after delay
+          isFixed = true;
+          header.classList.add('is-fixed');
+          syncSpacer();
+          if (revealTimer) { clearTimeout(revealTimer); }
+          revealTimer = setTimeout(function () {
+            header.classList.add('is-visible');
+          }, showDelay);
+        }
+      });
+    }, { rootMargin: '0px 0px 0px 0px', threshold: [0] });
+
+    io.observe(sentinel);
+
+    // Handle resize (header height can change with responsive layout)
+    window.addEventListener('resize', syncSpacer);
+  })();
+</script>
