@@ -1,5 +1,5 @@
 <!--Pageheader start-->
-<div class="pattern-square"></div>
+<!-- <div class="pattern-square"></div> -->
 <!--Pageheader end-->
  
 {{include /components/homepage/home-hero.html}}
