@@ -4,7 +4,7 @@ var theme = {
       theme.progressPageLoad();
       theme.menu();
       theme.otpVarification();
-      theme.stickyHeader();
+      // theme.stickyHeader();
       theme.counterState();
       theme.alertJS();
       theme.popovers();
@@ -81,26 +81,26 @@ var theme = {
    },
 
    // Sticky Header
-   stickyHeader: () => {
-      var navbar = document.querySelector(".navbar");
-      if (navbar == null) return;
-      var options = {
-         offset: 400,
-         offsetSide: "top",
-         classes: {
-            clone: "navbar-clone fixed",
-            stick: "navbar-stick",
-            unstick: "navbar-unstick",
-         },
-         onStick: function () {
-            var navbarClonedClass = this.clonedElem.classList;
-            if (navbarClonedClass.contains("transparent") && navbarClonedClass.contains("navbar-dark")) {
-               this.clonedElem.className = this.clonedElem.className.replace("navbar-dark", "navbar-light", "navbar-stick");
-            }
-         },
-      };
-      var banner = new Headhesive(".navbar", options);
-   },
+   // stickyHeader: () => {
+   //    var navbar = document.querySelector(".navbar");
+   //    if (navbar == null) return;
+   //    var options = {
+   //       offset: 400,
+   //       offsetSide: "top",
+   //       classes: {
+   //          clone: "navbar-clone fixed",
+   //          stick: "navbar-stick",
+   //          unstick: "navbar-unstick",
+   //       },
+   //       onStick: function () {
+   //          var navbarClonedClass = this.clonedElem.classList;
+   //          if (navbarClonedClass.contains("transparent") && navbarClonedClass.contains("navbar-dark")) {
+   //             this.clonedElem.className = this.clonedElem.className.replace("navbar-dark", "navbar-light", "navbar-stick");
+   //          }
+   //       },
+   //    };
+   //    var banner = new Headhesive(".navbar", options);
+   // },
 
    // Counter State
    counterState: () => {

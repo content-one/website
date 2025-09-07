@@ -106,10 +106,10 @@
           <!-- CMOs & Marketing Leaders -->
           <div class="tab-pane fade show active" id="v-pills-cmo" role="tabpanel" aria-labelledby="v-pills-cmo-tab" tabindex="0">
             <div class="position-relative scene" data-relative-input="true">
-              <figure>
+              <figure> 
                 <!-- Unsplash: marketing collaboration -->
                 <img
-                  src="https://hj5v68xn.media.zestyio.com/christina-wocintechchat-com-dKBTFoarrOU-unsplash.jpg?q=80&w=372&auto=format&fit=crop"
+                  src="https://hj5v68xn.media.zestyio.com/christina-wocintechchat-com-dKBTFoarrOU-unsplash.jpg?width=372"
                   alt="Marketing team collaborating"
                   class="img-fluid rounded-3">
               </figure>
@@ -122,7 +122,7 @@
               <figure>
                 <!-- Unsplash: security / server ops -->
                 <img
-                  src="https://hj5v68xn.media.zestyio.com/charlesdeluvio-Lks7vei-eAg-unsplash.jpg?q=80&w=372&auto=format&fit=crop"
+                  src="https://hj5v68xn.media.zestyio.com/charlesdeluvio-Lks7vei-eAg-unsplash.jpg?width=372"
                   alt="Secure infrastructure"
                   class="img-fluid rounded-3">
               </figure>
@@ -135,7 +135,7 @@
               <figure>
                 <!-- Unsplash: creative team working -->
                 <img
-                  src="https://hj5v68xn.media.zestyio.com/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg?q=80&w=372&auto=format&fit=crop"
+                  src="https://hj5v68xn.media.zestyio.com/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg?width=372"
                   alt="Content team collaborating"
                   class="img-fluid rounded-3">
               </figure>

@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="/assets/theme.css" crossorigin="anonymous"></link>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
 
 {{include /components/nav.html}}
 
@@ -7,28 +6,22 @@
 
 {{include /components/footer.html}}
 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
+ 
 <!-- Fullscreen Overlay -->
 <div id="fullscreenOverlay" class="overlay hidden">
   <span id="closeBtn" class="close-button">&times;</span>
   <img id="fullscreenImg" class="fullscreen-img" />
 </div>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+
+<script type="text/javascript" src="{{instance.getJsUrl()}}"></script>
+(** <script type="text/javascript" src="/assets/theme.min.js"></script> **)
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 <script>
 
-  window.addEventListener('load', () => {
-      scrollCue.init({
-        percentage: 0.90,  // trigger when 25% in view
-        interval: -400,   // stagger children
-        duration: 600,
-        // once: true,     // uncomment if you only want it to fire once
-      });
-    });
-
-    scrollCue.update();
 
     // column adjustment 
   document.addEventListener('DOMContentLoaded', function () {
