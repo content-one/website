@@ -6,25 +6,25 @@
                 "zuid": "11-a8b694fbef-kq7ds0",
                 "type": "templateset",
                 "updatedAt": "2018-08-13T22:56:07Z",
-                "createdAt": "2025-09-06T02:33:25Z"
+                "createdAt": "2025-09-07T20:43:19Z"
             },
             "loader": {
                 "zuid": "11-e4fe95fbef-b3kn74",
                 "type": "snippet",
                 "updatedAt": "2018-08-13T22:56:07Z",
-                "createdAt": "2025-09-06T02:37:54Z"
+                "createdAt": "2025-09-07T21:31:04Z"
             },
             "/components/nav.html": {
                 "zuid": "11-d2b1c58ff3-1dm88s",
                 "type": "ajax-json",
                 "updatedAt": "2025-03-14T19:29:05Z",
-                "createdAt": "2025-09-06T03:54:35Z"
+                "createdAt": "2025-10-06T12:49:05Z"
             },
             "/assets/theme.css": {
                 "zuid": "11-9ad6dec9d3-9znmtm",
                 "type": "ajax-json",
                 "updatedAt": "2025-03-14T19:33:35Z",
-                "createdAt": "2025-09-04T01:31:21Z"
+                "createdAt": "2025-09-07T20:21:51Z"
             },
             "/assets/theme.min.js": {
                 "zuid": "11-e299d5e4f6-6br1cw",
@@ -48,7 +48,7 @@
                 "zuid": "11-80e197a7b7-g6vb89",
                 "type": "templateset",
                 "updatedAt": "2025-05-21T20:20:18Z",
-                "createdAt": "2025-08-03T03:45:23Z"
+                "createdAt": "2025-10-06T14:34:37Z"
             },
             "/-/block/review_block.html": {
                 "zuid": "11-cecdcbc1d3-px5wrz",
@@ -96,13 +96,13 @@
                 "zuid": "11-eeffb3909e-s5hz81",
                 "type": "ajax-json",
                 "updatedAt": "2025-08-27T20:00:48Z",
-                "createdAt": "2025-09-05T20:39:57Z"
+                "createdAt": "2025-09-07T21:02:12Z"
             },
             "/-/block/client_logos.html": {
                 "zuid": "11-d0c6ba919e-lk12q4",
                 "type": "block",
                 "updatedAt": "2025-09-03T22:33:42Z",
-                "createdAt": "2025-09-04T02:13:01Z"
+                "createdAt": "2025-09-07T13:16:19Z"
             },
             "/-/block/feature_highlight.html": {
                 "zuid": "11-beb097baa4-xhn1wh",
@@ -114,13 +114,13 @@
                 "zuid": "11-d0b2c4d8cb-33nddj",
                 "type": "ajax-json",
                 "updatedAt": "2025-09-04T02:52:22Z",
-                "createdAt": "2025-09-05T20:40:06Z"
+                "createdAt": "2025-09-07T21:38:13Z"
             },
             "/components/features/analytics_highlight.html": {
                 "zuid": "11-88d4a0c9fe-gmh9nv",
                 "type": "ajax-json",
                 "updatedAt": "2025-09-04T03:13:05Z",
-                "createdAt": "2025-09-05T20:40:02Z"
+                "createdAt": "2025-09-07T21:38:21Z"
             },
             "/components/forms/zoho-form.html": {
                 "zuid": "11-cc93e38af9-rmfgk1",
@@ -163,6 +163,24 @@
                 "type": "snippet",
                 "updatedAt": "2025-09-06T13:15:20Z",
                 "createdAt": "2025-09-06T13:26:27Z"
+            },
+            "/components/casestudy/tsa.html": {
+                "zuid": "11-90d199fa87-qlhfqb",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-06T12:26:43Z",
+                "createdAt": "2025-10-06T14:25:48Z"
+            },
+            "customers": {
+                "zuid": "11-c2d1dbefac-mn7q8n",
+                "type": "templateset",
+                "updatedAt": "2025-10-06T14:39:05Z",
+                "createdAt": "2025-10-06T14:39:05Z"
+            },
+            "customer": {
+                "zuid": "11-94b8f4b98c-lrdw00",
+                "type": "pageset",
+                "updatedAt": "2025-10-06T14:40:10Z",
+                "createdAt": "2025-10-06T14:40:10Z"
             }
         },
         "styles": {
@@ -208,7 +226,7 @@
                 "zuid": "10-9688f0faef-x1wz1k",
                 "type": "text/javascript",
                 "updatedAt": "2018-08-13T22:56:05Z",
-                "createdAt": "2025-09-04T12:57:50Z"
+                "createdAt": "2025-09-07T18:29:18Z"
             },
             "cleave-function.js": {
                 "zuid": "10-beb388d8f6-mlrjz8",
@@ -232,7 +250,7 @@
                 "zuid": "10-a6e1a290a6-w7snxk",
                 "type": "text/javascript",
                 "updatedAt": "2025-09-04T13:38:32Z",
-                "createdAt": "2025-09-04T13:38:33Z"
+                "createdAt": "2025-09-07T18:36:13Z"
             },
             "sidebar-menu.js": {
                 "zuid": "10-a691ea9383-f4n3vx",
@@ -262,7 +280,7 @@
                 "zuid": "10-b4b1bfe2de-sbd3dx",
                 "type": "text/javascript",
                 "updatedAt": "2025-09-04T13:39:48Z",
-                "createdAt": "2025-09-06T02:37:26Z"
+                "createdAt": "2025-09-07T18:35:46Z"
             }
         }
     }

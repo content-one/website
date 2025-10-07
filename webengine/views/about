@@ -48,7 +48,7 @@
          </section>
          <!--Image end-->
 
-       
+       {{include /components/casestudy/tsa.html}}
 
          <!--Our values start-->
          <!-- <section class="my-xl-9 my-5">

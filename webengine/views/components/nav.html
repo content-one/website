@@ -17,12 +17,14 @@
           z-index: 1030; /* above offcanvas */
           transform: translateY(-105%);
           box-shadow: none;
-          background: var(--bs-body-bg, #fff);
+          background-color: transparent; /* rgba(var(--bs-body-bg-rgb, 255, 255, 255), 0.92); */
+          backdrop-filter: saturate(160%) blur(12px);
+          -webkit-backdrop-filter: saturate(160%) blur(12px);
         }
         /* Visible state slides down into view */
         .sticky-nav.is-fixed.is-visible {
           transform: translateY(0);
-          box-shadow: 0 8px 24px rgba(0,0,0,.08);
+          /* box-shadow: 0 8px 24px rgba(0,0,0,.08); */
         }
         .sticky-nav .dropdown-menu {
           z-index: 1050; /* above header background/shadows & nearby content */

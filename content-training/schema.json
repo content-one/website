@@ -1,0 +1,295 @@
+{
+generation_time: "1759761692",
+base: "https://hj5v68xn-dev.webengine.zesty.io",
+schema: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/zesty.schema",
+dataSource: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/datasource.js",
+resolverObject: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/resolvers.js",
+models: [
+{
+zuid: "6-fac89bfaef-mq66gd",
+label: "Globals",
+name: "clippings",
+gqlModelName: "Clipping",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/clippings.json",
+gqlGetMethodName: "getClipping",
+gqlGetAllMethodName: "getAllClippings",
+fields: {
+site_name: "text",
+logo: "images",
+logo_full: "images"
+}
+},
+{
+zuid: "6-b8e6a2faef-td5dsh",
+label: "Homepage",
+name: "homepage",
+gqlModelName: "Homepage",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/homepage.json",
+gqlGetMethodName: "getHomepage",
+gqlGetAllMethodName: "getAllHomepages",
+fields: {
+background_video: "images",
+main_h1_line: "text",
+main_title_byline: "wysiwyg_basic",
+hero_image: "images",
+og_image: "images"
+}
+},
+{
+zuid: "6-f8e8e1b8d6-09pjdg",
+label: "Industries",
+name: "industries",
+gqlModelName: "Industry",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/industries.json",
+gqlGetMethodName: "getIndustry",
+gqlGetAllMethodName: "getAllIndustries",
+fields: {
+title: "text",
+title_by_line: "text",
+header_background_image: "images",
+body: "wysiwyg_basic",
+first_block_before_content: "block_selector",
+cta_block: "block_selector",
+above_the_footer_block: "block_selector",
+og_image: "images",
+capabilities: "wysiwyg_basic"
+}
+},
+{
+zuid: "6-ead299ecb5-82tb76",
+label: "About",
+name: "about",
+gqlModelName: "About",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/about.json",
+gqlGetMethodName: "getAbout",
+gqlGetAllMethodName: "getAllAbouts",
+fields: {
+title: "text",
+body: "wysiwyg_basic",
+header_image: "images",
+h1_byline: "text"
+}
+},
+{
+zuid: "6-fec497dbd2-9gllrp",
+label: "Review Block",
+name: "review_block",
+gqlModelName: "ReviewBlock",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/review_block.json",
+gqlGetMethodName: "getReviewBlock",
+gqlGetAllMethodName: "getAllReviewBlocks",
+fields: {
+og_image: "images",
+title: "text"
+}
+},
+{
+zuid: "6-889b86d3e7-59393m",
+label: "Form Capture",
+name: "form_capture",
+gqlModelName: "FormCapture",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/form_capture.json",
+gqlGetMethodName: "getFormCapture",
+gqlGetAllMethodName: "getAllFormCaptures",
+fields: {
+og_image: "images",
+form_title: "text",
+form_title_byline: "text",
+opening_statement: "text",
+opening_title: "text"
+}
+},
+{
+zuid: "6-bcd8fd88ec-lckwgc",
+label: "Sales Personal CTA",
+name: "sales_personal_cta",
+gqlModelName: "SalesPersonalCta",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/sales_personal_cta.json",
+gqlGetMethodName: "getSalesPersonalCta",
+gqlGetAllMethodName: "getAllSalesPersonalCtas",
+fields: {
+og_image: "images",
+title: "text"
+}
+},
+{
+zuid: "6-cad5eea8d1-t9h8vb",
+label: "Consulting Provided",
+name: "consulting_provided",
+gqlModelName: "ConsultingProvided",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/consulting_provided.json",
+gqlGetMethodName: "getConsultingProvided",
+gqlGetAllMethodName: "getAllConsultingProvideds",
+fields: {
+og_image: "images",
+title: "text"
+}
+},
+{
+zuid: "6-da8cdb95c0-smjbdc",
+label: "Product Tour",
+name: "product_tour",
+gqlModelName: "ProductTour",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/product_tour.json",
+gqlGetMethodName: "getProductTour",
+gqlGetAllMethodName: "getAllProductTours",
+fields: {
+title: "text"
+}
+},
+{
+zuid: "6-cc8a8b9483-34jx97",
+label: "Product Tour Pages",
+name: "product_tour_pages",
+gqlModelName: "ProductTourPage",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/product_tour_pages.json",
+gqlGetMethodName: "getProductTourPage",
+gqlGetAllMethodName: "getAllProductTourPages",
+fields: {
+title: "text",
+body: "wysiwyg_basic",
+product_section: "one_to_one",
+hero_image: "images",
+bootstrap_icon_name: "text"
+}
+},
+{
+zuid: "6-94d7a1ffd2-stfn6g",
+label: "Product Sections",
+name: "product_sections",
+gqlModelName: "ProductSection",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/product_sections.json",
+gqlGetMethodName: "getProductSection",
+gqlGetAllMethodName: "getAllProductSections",
+fields: {
+section_name: "text",
+sort_order: "sort"
+}
+},
+{
+zuid: "6-e4f389fdf5-np2s13",
+label: "Product Solutions",
+name: "product_solutions",
+gqlModelName: "ProductSolution",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/product_solutions.json",
+gqlGetMethodName: "getProductSolution",
+gqlGetAllMethodName: "getAllProductSolutions",
+fields: {
+title: "text",
+body: "wysiwyg_basic",
+bootstrap_icon: "text",
+hero_image: "images",
+solution_short_description: "textarea"
+}
+},
+{
+zuid: "6-94a0eaac9d-8pq73q",
+label: "Client Logos",
+name: "client_logos",
+gqlModelName: "ClientLogo",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/client_logos.json",
+gqlGetMethodName: "getClientLogo",
+gqlGetAllMethodName: "getAllClientLogos",
+fields: {
+logo_1: "images",
+logo_2: "images",
+logo_3: "images",
+logo_4: "images",
+logo_5: "images",
+logo_1_name: "text",
+logo_2_name: "text",
+logo_3_name: "text",
+logo_4_name: "text",
+logo_5_name: "text",
+component_title: "text",
+og_image: "images"
+}
+},
+{
+zuid: "6-deb9cb95a3-1c421s",
+label: "Feature Highlight",
+name: "feature_highlight",
+gqlModelName: "FeatureHighlight",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/feature_highlight.json",
+gqlGetMethodName: "getFeatureHighlight",
+gqlGetAllMethodName: "getAllFeatureHighlights",
+fields: {
+title: "text",
+short_description: "textarea",
+application_highlight_image: "images",
+first_check_text: "text",
+second_check_text: "text",
+og_image: "images"
+}
+},
+{
+zuid: "6-d6ebfdda86-kf132v",
+label: "Demo Form Signup",
+name: "demo_form_signup",
+gqlModelName: "DemoFormSignup",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/demo_form_signup.json",
+gqlGetMethodName: "getDemoFormSignup",
+gqlGetAllMethodName: "getAllDemoFormSignups",
+fields: {
+form_title: "text",
+form_description: "wysiwyg_basic"
+}
+},
+{
+zuid: "6-ce81bcd0d5-xbkf0m",
+label: "Contact Us",
+name: "contact_us",
+gqlModelName: "ContactU",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/contact_us.json",
+gqlGetMethodName: "getContactU",
+gqlGetAllMethodName: "getAllContactUs",
+fields: {
+title: "text",
+body: "wysiwyg_basic"
+}
+},
+{
+zuid: "6-ba8cf2c2f8-5f358h",
+label: "Basic Page",
+name: "basic_page",
+gqlModelName: "BasicPage",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/basic_page.json",
+gqlGetMethodName: "getBasicPage",
+gqlGetAllMethodName: "getAllBasicPages",
+fields: {
+title: "text",
+body: "wysiwyg_basic",
+image: "images",
+title_followup_text: "textarea"
+}
+},
+{
+zuid: "6-ccc7cd99ac-742z3l",
+label: "Customers",
+name: "customers",
+gqlModelName: "Customer",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/customers.json",
+gqlGetMethodName: "getCustomer",
+gqlGetAllMethodName: "getAllCustomers",
+fields: {
+title: "text",
+content: "wysiwyg_basic"
+}
+},
+{
+zuid: "6-c8cdaec488-d32g6x",
+label: "Customer",
+name: "customer2",
+gqlModelName: "Customer2",
+gqlUrl: "https://hj5v68xn-dev.webengine.zesty.io/-/gql/customer2.json",
+gqlGetMethodName: "getCustomer2",
+gqlGetAllMethodName: "getAllCustomer2s",
+fields: {
+name: "text",
+short_description: "textarea",
+logo: "images",
+short_code: "text"
+}
+}
+]
+}

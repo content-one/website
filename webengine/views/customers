@@ -1,0 +1,191 @@
+<div class="customers-page">
+  <section class="py-6 py-lg-7 bg-gradient-primary text-white overflow-hidden position-relative">
+    <div class="container position-relative">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-9">
+          <span class="badge bg-white text-primary mb-3">Loved by teams worldwide</span>
+          <h1 class="display-4 fw-semibold mb-3">{{page.title}}</h1>
+          <p class="lead text-white-75 mb-4">Discover how modern organizations launch, scale, and share their missions with Content.One.</p>
+          <div class="d-inline-flex flex-wrap gap-3 justify-content-center">
+            <a class="btn btn-light btn-lg text-primary shadow" href="/book-a-demo/">Book a demo</a>
+            <a class="btn btn-outline-light btn-lg" href="/solutions/">Explore solutions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="https://placehold.co/1200x300/1E293B/FFFFFF?text=Customer+Stories" alt="Customer stories" class="position-absolute bottom-0 start-50 translate-middle-x opacity-10 w-100">
+  </section>
+
+  <section class="py-5 bg-light border-bottom">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-5">
+          <h2 class="h1 mb-3">Featured wins</h2>
+          <p class="text-secondary mb-0">Stories from customers who transformed their digital experience with Content.One. Filter by focus area or search by name.</p>
+        </div>
+        <div class="col-lg-7">
+          <div class="card border-0 shadow-sm p-3 p-lg-4">
+            <div class="row g-3 align-items-center">
+              <div class="col-md-6">
+                <div class="input-group input-group-lg">
+                  <span class="input-group-text bg-transparent border-0 ps-0"><i class="bi bi-search"></i></span>
+                  <input type="search" id="customerSearch" class="form-control border-0" placeholder="Search customers" aria-label="Search customers">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex flex-wrap gap-2" id="customerFilters" role="group" aria-label="Customer filters">
+                  <button type="button" class="btn btn-outline-primary btn-sm active" data-filter="all">All</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 py-lg-6">
+    <div class="container">
+      <div class="row g-4" id="customersGrid">
+        {{each customer as customer}}
+          <div class="col-12 col-md-6 col-xl-4" data-customer-card data-code="{{customer.short_code}}">
+            <article class="card h-100 border-0 shadow-sm">
+              <div class="ratio ratio-16x9 bg-pattern-light">
+                {{if {customer.logo} }}
+                  <img src="{{customer.logo.getImage(640,360)}}" alt="{{customer.name}} logo" class="object-fit-contain p-4">
+                {{else}}
+                  <div class="d-flex align-items-center justify-content-center h-100 w-100">
+                    <span class="text-muted fw-semibold">{{customer.short_code}}</span>
+                  </div>
+                {{end-if}}
+              </div>
+              <div class="card-body">
+                <h3 class="h4 mb-2">{{customer.name}}</h3>
+                <p class="text-secondary mb-3">{{customer.short_description}}</p>
+                {{if {customer.short_code} }}
+                  <span class="badge text-bg-primary-soft">{{customer.short_code}}</span>
+                {{end-if}}
+              </div>
+              <footer class="card-footer bg-white border-0 pt-0">
+                <a href="{{customer.getURL()}}" class="btn btn-outline-primary w-100">View story</a>
+              </footer>
+            </article>
+          </div>
+        {{/each}}
+      </div>
+      <div class="text-center d-none" id="customersEmpty">
+        <div class="card border-0 shadow-sm p-4 p-lg-5">
+          <h3 class="h4 mb-2">No customers match your search… yet.</h3>
+          <p class="text-secondary mb-0">Try a different keyword or clear the filters to see the full library.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        {{each customers as insight}}
+          <div class="col-lg-4">
+            <div class="card h-100 border-0 shadow bg-gradient-secondary text-white">
+              <div class="card-body">
+                <h4 class="h5 mb-3">{{insight.title}}</h4>
+                <div class="text-white-75">{{insight.content}}</div>
+              </div>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+  .customers-page .bg-gradient-primary {
+    background: linear-gradient(135deg, #0f172a 0%, #3f51b5 45%, #6f7bf7 100%);
+  }
+  .customers-page .bg-pattern-light {
+    background: linear-gradient(135deg, rgba(63, 81, 181, 0.12) 0%, rgba(15, 23, 42, 0.08) 100%);
+  }
+  .customers-page .bg-gradient-secondary {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.95) 0%, rgba(15, 23, 42, 0.72) 100%);
+  }
+  .customers-page .badge.text-bg-primary-soft {
+    background-color: rgba(63, 81, 181, 0.12);
+    color: #1e293b;
+    border: 1px solid rgba(63, 81, 181, 0.32);
+  }
+  .customers-page .card-footer .btn {
+    border-radius: 999px;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var filterGroup = document.getElementById('customerFilters');
+    var searchInput = document.getElementById('customerSearch');
+    var cards = Array.prototype.slice.call(document.querySelectorAll('[data-customer-card]'));
+    var emptyState = document.getElementById('customersEmpty');
+
+    if (!filterGroup || !searchInput || !cards.length) return;
+
+    // Generate filter buttons from unique short codes
+    var uniqueCodes = new Set();
+    cards.forEach(function (card) {
+      var code = card.getAttribute('data-code');
+      if (code) {
+        uniqueCodes.add(code.trim());
+      }
+    });
+
+    uniqueCodes.forEach(function (code) {
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'btn btn-outline-primary btn-sm';
+      button.textContent = code;
+      button.setAttribute('data-filter', code.toLowerCase());
+      filterGroup.appendChild(button);
+    });
+
+    function getActiveFilter() {
+      var activeButton = filterGroup.querySelector('.active');
+      return activeButton ? activeButton.getAttribute('data-filter') : 'all';
+    }
+
+    function updateFilters(event) {
+      var target = event.target;
+      if (target.matches('[data-filter]')) {
+        filterGroup.querySelectorAll('[data-filter]').forEach(function (btn) {
+          btn.classList.toggle('active', btn === target);
+        });
+        applyFilter();
+      }
+    }
+
+    function applyFilter() {
+      var activeFilter = getActiveFilter();
+      var query = searchInput.value.trim().toLowerCase();
+      var visibleCount = 0;
+
+      cards.forEach(function (card) {
+        var code = (card.getAttribute('data-code') || '').toLowerCase();
+        var textContent = card.textContent.toLowerCase();
+        var matchesFilter = activeFilter === 'all' || code === activeFilter;
+        var matchesSearch = !query || textContent.indexOf(query) !== -1;
+        var isVisible = matchesFilter && matchesSearch;
+
+        card.classList.toggle('d-none', !isVisible);
+        if (isVisible) visibleCount += 1;
+      });
+
+      emptyState.classList.toggle('d-none', visibleCount !== 0);
+    }
+
+    filterGroup.addEventListener('click', updateFilters);
+    searchInput.addEventListener('input', function () {
+      window.requestAnimationFrame(applyFilter);
+    });
+
+    applyFilter();
+  });
+</script>
