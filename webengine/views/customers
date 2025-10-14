@@ -21,7 +21,7 @@
       <div class="row g-4 align-items-center">
         <div class="col-lg-5">
           <h2 class="h1 mb-3">Featured wins</h2>
-          <p class="text-secondary mb-0">Stories from customers who transformed their digital experience with Content.One. Filter by focus area or search by name.</p>
+          <p class="text-grey mb-0">Stories from customers who transformed their digital experience with Content.One. Filter by focus area or search by name.</p>
         </div>
         <div class="col-lg-7">
           <div class="card border-0 shadow-sm p-3 p-lg-4">
@@ -61,7 +61,7 @@
               </div>
               <div class="card-body">
                 <h3 class="h4 mb-2">{{customer.name}}</h3>
-                <p class="text-secondary mb-3">{{customer.short_description}}</p>
+                <p class="text-grey mb-3">{{customer.short_description.subwords(100)}}</p>
                 {{if {customer.short_code} }}
                   <span class="badge text-bg-primary-soft">{{customer.short_code}}</span>
                 {{end-if}}
@@ -76,7 +76,7 @@
       <div class="text-center d-none" id="customersEmpty">
         <div class="card border-0 shadow-sm p-4 p-lg-5">
           <h3 class="h4 mb-2">No customers match your search… yet.</h3>
-          <p class="text-secondary mb-0">Try a different keyword or clear the filters to see the full library.</p>
+          <p class="text-grey mb-0">Try a different keyword or clear the filters to see the full library.</p>
         </div>
       </div>
     </div>
