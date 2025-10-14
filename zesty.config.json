@@ -168,19 +168,43 @@
                 "zuid": "11-90d199fa87-qlhfqb",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-06T12:26:43Z",
-                "createdAt": "2025-10-06T14:25:48Z"
+                "createdAt": "2025-10-06T21:37:52Z"
             },
             "customers": {
                 "zuid": "11-c2d1dbefac-mn7q8n",
                 "type": "templateset",
                 "updatedAt": "2025-10-06T14:39:05Z",
-                "createdAt": "2025-10-06T14:39:05Z"
+                "createdAt": "2025-10-06T14:49:39Z"
             },
             "customer": {
                 "zuid": "11-94b8f4b98c-lrdw00",
                 "type": "pageset",
                 "updatedAt": "2025-10-06T14:40:10Z",
-                "createdAt": "2025-10-06T14:40:10Z"
+                "createdAt": "2025-10-07T20:39:12Z"
+            },
+            "/components/casestudy/rocket_league.html": {
+                "zuid": "11-a885c7f3c6-7t5zvp",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-07T20:16:42Z",
+                "createdAt": "2025-10-07T20:18:19Z"
+            },
+            "/components/casestudy/sony.html": {
+                "zuid": "11-82afb7999e-nn45tn",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-10T18:16:30.884097671Z",
+                "createdAt": "2025-10-10T18:16:30.884092321Z"
+            },
+            "/components/casestudy/tsa-odd.html": {
+                "zuid": "11-e6b18590fd-skdhqg",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-10T20:41:53.845187037Z",
+                "createdAt": "2025-10-10T20:41:53.845181159Z"
+            },
+            "/components/casestudy/tsa-federated-franchise.html": {
+                "zuid": "11-dce3a9e389-2lqbsq",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-12T19:27:41.047101684Z",
+                "createdAt": "2025-10-12T19:27:41.047093577Z"
             }
         },
         "styles": {

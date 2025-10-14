@@ -1,1 +1,19 @@
-{{include /components/casestudy/tsa.html}}
+{{if {this.short_code} == 'tsa'}}
+    {{include /components/casestudy/tsa.html}}
+{{/if}}
+
+{{if {this.short_code} == 'tsa-odd' }}
+    {{include /components/casestudy/tsa-odd.html}}
+{{ /if }}
+
+{{if {this.short_code} == 'sony' }}
+    {{include /components/casestudy/sony.html}}
+{{ /if }}
+
+{{ if {this.short_code} == 'rocket' }}
+    {{include /components/casestudy/rocket_league.html}}
+{{ /if }}
+
+{{ if {this.short_code} == 'tsa-federated-franchise' }}
+    {{include /components/casestudy/tsa-federated-franchise.html}}
+{{ /if }}
