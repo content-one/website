@@ -17,3 +17,7 @@
 {{ if {this.short_code} == 'tsa-federated-franchise' }}
     {{include /components/casestudy/tsa-federated-franchise.html}}
 {{ /if }}
+
+{{ if {this.short_code} == 'petdesk' }}
+    {{include /components/casestudy/petdesk.html}}
+{{ /if }}

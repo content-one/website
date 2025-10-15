@@ -205,6 +205,12 @@
                 "type": "ajax-json",
                 "updatedAt": "2025-10-12T19:27:41.047101684Z",
                 "createdAt": "2025-10-12T19:27:41.047093577Z"
+            },
+            "/components/casestudy/petdesk.html": {
+                "zuid": "11-b4cf9285f4-3x2590",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-15T15:33:34.867412614Z",
+                "createdAt": "2025-10-15T15:33:34.867406357Z"
             }
         },
         "styles": {
