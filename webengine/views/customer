@@ -10,8 +10,24 @@
     {{include /components/casestudy/sony.html}}
 {{ /if }}
 
-{{ if {this.short_code} == 'rocket' }}
+{{ if {this.short_code} == 'rocket-league' }}
     {{include /components/casestudy/rocket_league.html}}
+{{ /if }} 
+
+{{ if {this.short_code} == 'uber' }}
+    {{include /components/casestudy/uber.html}}
+{{ /if }} 
+
+{{ if {this.short_code} == 'draftkings' }}
+    {{include /components/casestudy/draftkings.html}}
+{{ /if }}
+
+{{ if {this.short_code} == 'wattpad' }}
+    {{include /components/casestudy/wattpad.html}}
+{{ /if }} 
+
+{{ if {this.short_code} == 'singlife' }}
+    {{include /components/casestudy/singlife.html}}
 {{ /if }}
 
 {{ if {this.short_code} == 'tsa-federated-franchise' }}

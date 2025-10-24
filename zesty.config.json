@@ -18,7 +18,7 @@
                 "zuid": "11-d2b1c58ff3-1dm88s",
                 "type": "ajax-json",
                 "updatedAt": "2025-03-14T19:29:05Z",
-                "createdAt": "2025-10-06T12:49:05Z"
+                "createdAt": "2025-10-21T21:43:16Z"
             },
             "/assets/theme.css": {
                 "zuid": "11-9ad6dec9d3-9znmtm",
@@ -168,49 +168,157 @@
                 "zuid": "11-90d199fa87-qlhfqb",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-06T12:26:43Z",
-                "createdAt": "2025-10-06T21:37:52Z"
+                "createdAt": "2025-10-23T03:02:44Z"
             },
             "customers": {
                 "zuid": "11-c2d1dbefac-mn7q8n",
                 "type": "templateset",
                 "updatedAt": "2025-10-06T14:39:05Z",
-                "createdAt": "2025-10-06T14:49:39Z"
+                "createdAt": "2025-10-15T21:09:56Z"
             },
             "customer": {
                 "zuid": "11-94b8f4b98c-lrdw00",
                 "type": "pageset",
                 "updatedAt": "2025-10-06T14:40:10Z",
-                "createdAt": "2025-10-07T20:39:12Z"
+                "createdAt": "2025-10-23T00:13:42Z"
             },
             "/components/casestudy/rocket_league.html": {
                 "zuid": "11-a885c7f3c6-7t5zvp",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-07T20:16:42Z",
-                "createdAt": "2025-10-07T20:18:19Z"
+                "createdAt": "2025-10-23T03:01:55Z"
             },
             "/components/casestudy/sony.html": {
                 "zuid": "11-82afb7999e-nn45tn",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-10T18:16:30.884097671Z",
-                "createdAt": "2025-10-10T18:16:30.884092321Z"
+                "updatedAt": "2025-10-10T18:16:30Z",
+                "createdAt": "2025-10-23T03:06:18Z"
             },
             "/components/casestudy/tsa-odd.html": {
                 "zuid": "11-e6b18590fd-skdhqg",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-10T20:41:53.845187037Z",
-                "createdAt": "2025-10-10T20:41:53.845181159Z"
+                "updatedAt": "2025-10-10T20:41:53Z",
+                "createdAt": "2025-10-23T15:53:38Z"
             },
             "/components/casestudy/tsa-federated-franchise.html": {
                 "zuid": "11-dce3a9e389-2lqbsq",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-12T19:27:41.047101684Z",
-                "createdAt": "2025-10-12T19:27:41.047093577Z"
+                "updatedAt": "2025-10-12T19:27:41Z",
+                "createdAt": "2025-10-23T16:24:34Z"
             },
             "/components/casestudy/petdesk.html": {
                 "zuid": "11-b4cf9285f4-3x2590",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-15T15:33:34.867412614Z",
-                "createdAt": "2025-10-15T15:33:34.867406357Z"
+                "updatedAt": "2025-10-15T15:33:34Z",
+                "createdAt": "2025-10-23T03:01:45Z"
+            },
+            "/components/casestudy/singlife.html": {
+                "zuid": "11-aaaaa08694-q0zmg9",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-21T21:08:59Z",
+                "createdAt": "2025-10-23T03:06:53Z"
+            },
+            "/components/casestudy/wattpad.html": {
+                "zuid": "11-e6f5f1f1b9-n7pnzt",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-21T21:53:10Z",
+                "createdAt": "2025-10-23T03:08:34Z"
+            },
+            "/components/casestudy/draftkings.html": {
+                "zuid": "11-b28c9cc689-vff28h",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-22T21:57:36Z",
+                "createdAt": "2025-10-23T03:00:56Z"
+            },
+            "/components/casestudy/uber.html": {
+                "zuid": "11-a8a5a0b58b-mmt4vn",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-23T00:07:35Z",
+                "createdAt": "2025-10-23T03:00:35Z"
+            },
+            "/components/casestudy/side-cta.html": {
+                "zuid": "11-acacd6a6bf-3k9h7p",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-23T02:51:12Z",
+                "createdAt": "2025-10-23T02:59:15Z"
+            },
+            "/customers.scsss": {
+                "zuid": "11-e49c94dfd8-wh2j0c",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-23T16:52:30.518961557Z",
+                "createdAt": "2025-10-23T16:52:30.518956165Z"
+            },
+            "/page_html/solutions/marketing-website.html": {
+                "zuid": "11-e288a6b38f-6k2q6g",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-23T17:13:49.16873044Z",
+                "createdAt": "2025-10-23T17:13:49.16872352Z"
+            },
+            "/page_html/solutions/global-directory.html": {
+                "zuid": "11-9cb9e6f886-x4q9kb",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-23T19:43:16.119853929Z",
+                "createdAt": "2025-10-23T19:43:16.119847364Z"
+            },
+            "/page_html/solutions/ai-document-management.html": {
+                "zuid": "11-969296b6f7-ql1gw9",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-23T19:53:32.314200913Z",
+                "createdAt": "2025-10-23T19:53:32.314194094Z"
+            },
+            "/page_html/solutions/federated-multisite.html": {
+                "zuid": "11-acd88add98-gpl6qs",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-23T20:18:48.613493039Z",
+                "createdAt": "2025-10-23T20:18:48.613484517Z"
+            },
+            "/page_html/solutions/org-ai-chatbot.html": {
+                "zuid": "11-c4e1e8a6fc-dxww4d",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-23T20:54:49.465044721Z",
+                "createdAt": "2025-10-23T20:54:49.46503853Z"
+            },
+            "/page_html/solutions/mobile-app.html": {
+                "zuid": "11-9ebefcad82-0z1vvf",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-23T21:09:43.630025684Z",
+                "createdAt": "2025-10-23T21:09:43.630019608Z"
+            },
+            "/page_html/solutions/story-hub.html": {
+                "zuid": "11-9cd7e8c092-m70wt9",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-23T21:24:56.332311106Z",
+                "createdAt": "2025-10-23T21:24:56.332251485Z"
+            },
+            "page_html/features/visual-drag-n-drop": {
+                "zuid": "11-9ee49fb1a0-84s5r2",
+                "type": "snippet",
+                "updatedAt": "2025-10-24T16:40:36.143179396Z",
+                "createdAt": "2025-10-24T16:40:36.143172906Z"
+            },
+            "/page_html/features/visual-drag-n-drop-pages.html": {
+                "zuid": "11-b4beb9ea83-t4pb4z",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-24T16:59:09.004331523Z",
+                "createdAt": "2025-10-24T16:59:09.004320101Z"
+            },
+            "/page_html/features/wysiwyg-and-markdown-support.html": {
+                "zuid": "11-f4bcb2e1eb-rgh838",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-24T17:24:34.780717432Z",
+                "createdAt": "2025-10-24T17:24:34.780711527Z"
+            },
+            "/components/widgets/random_quotes.html": {
+                "zuid": "11-fea1affcde-mq1s19",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-24T18:47:52.412442119Z",
+                "createdAt": "2025-10-24T18:47:52.412438062Z"
+            },
+            "/page_html/features/ai-content-acceleration.html": {
+                "zuid": "11-a68be6d2e7-cckdfm",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-24T19:48:35.705939952Z",
+                "createdAt": "2025-10-24T19:48:35.705933109Z"
             }
         },
         "styles": {

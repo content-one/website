@@ -1,6 +1,10 @@
 <main>
 
-    <!--Accounting software start-->
+   
+    
+    {{include /page_html/solutions/{this.path_part}.html }}
+ 
+<!-- 
     <section class="py-md-10 pt-5 bg-primary bg-opacity-10 position-relative">
         <div class="container">
             <div class="row align-items-center py-lg-8">
@@ -15,7 +19,6 @@
                                 {{include /components/ctas/book-button.html}}
                                 <a href="#!" class="btn btn-white">How it works</a>
                             </div>
-                            <!-- <small>📣 Driving Success to Large Federated Non-Profits</small> -->
                         </div>
 
                     </div>
@@ -31,16 +34,50 @@
             </div>
         </div>
     </section>
-    <!--Accounting software end-->
-
     <section class="my-xl-9 my-5">
         <div class="container">
             <div class="content">
                 {{this.body}}
             </div>
         </div>
+    </section> -->
+     
+    <section class="bg-secondary p-5">
+        <div class="container">
+            
+            <h3 class="h3 mb-5">Explore Successes from Customers who've implemented a {{this.title}} solution with Content.One</h3>
+            <div class="row g-4" id="customersGrid">
+            {{each customer as customer where related_solutions LIKE '%{this.zuid}%'}} 
+            <div class="col-12 col-md-6 col-xl-3" data-customer-card data-code="{{customer.short_code}}">
+                <article class="customer-card card h-100 border-0 shadow-sm overflow-hidden">
+                <div class="customer-card__media position-relative">
+                    <img src="{{customer.header_image.getImage(640,360)}}" alt="{{customer.name}} background" class="w-100 h-100 object-fit-cover">
+                    <div class="customer-card__overlay position-absolute inset-0"></div>
+                    <div class="customer-card__logo position-absolute">
+                    {{if {customer.logo} }}
+                        <img src="{{customer.logo.getImage(220,120)}}" alt="{{customer.name}} logo">
+                    {{else}}
+                        <span class="fw-semibold">{{customer.short_code}}</span>
+                    {{end-if}}
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h3 class="h4 mb-2">{{customer.name}}</h3>
+                    <p class="text-grey mb-3">{{customer.short_description.subwords(20)}}...</p>
+                 
+                </div>
+                <footer class="card-footer border-0 pt-0 bg-transparent">
+                    <a href="{{customer.getURL()}}" class="btn btn-outline-primary w-100">Learn More</a>
+                </footer>
+                </article>
+            </div>
+            {{/each}}
+            </div>
+        </div>
     </section>
-{{ block('/-/block/client_logos.html') }}
+
+    {{ block('/-/block/client_logos.html') }}
+   
 
     {{blocks('/-/block/sales_personal_cta.html') }}
 </main>
