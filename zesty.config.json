@@ -18,7 +18,7 @@
                 "zuid": "11-d2b1c58ff3-1dm88s",
                 "type": "ajax-json",
                 "updatedAt": "2025-03-14T19:29:05Z",
-                "createdAt": "2025-10-21T21:43:16Z"
+                "createdAt": "2025-10-30T14:28:37Z"
             },
             "/assets/theme.css": {
                 "zuid": "11-9ad6dec9d3-9znmtm",
@@ -36,7 +36,7 @@
                 "zuid": "11-c4f9fce9d6-shm8f4",
                 "type": "pageset",
                 "updatedAt": "2025-03-14T19:53:56Z",
-                "createdAt": "2025-09-06T02:37:36Z"
+                "createdAt": "2025-10-30T21:01:47Z"
             },
             "/components/footer.html": {
                 "zuid": "11-9680efe6c2-1zp3dq",
@@ -78,19 +78,19 @@
                 "zuid": "11-aecfc5f3c0-tgxk51",
                 "type": "templateset",
                 "updatedAt": "2025-06-01T10:34:20Z",
-                "createdAt": "2025-06-02T19:46:26Z"
+                "createdAt": "2025-10-24T17:21:03Z"
             },
             "product_tour_pages": {
                 "zuid": "11-f88b81de83-m5n4b0",
                 "type": "pageset",
                 "updatedAt": "2025-06-01T10:35:20Z",
-                "createdAt": "2025-09-05T14:21:05Z"
+                "createdAt": "2025-10-24T18:06:25Z"
             },
             "product_solutions": {
                 "zuid": "11-eec4b8aaf7-hrg59z",
                 "type": "pageset",
                 "updatedAt": "2025-06-09T15:17:18Z",
-                "createdAt": "2025-09-06T02:28:47Z"
+                "createdAt": "2025-10-24T03:04:33Z"
             },
             "/components/homepage/home-hero.html": {
                 "zuid": "11-eeffb3909e-s5hz81",
@@ -126,7 +126,7 @@
                 "zuid": "11-cc93e38af9-rmfgk1",
                 "type": "ajax-json",
                 "updatedAt": "2025-09-04T20:04:41Z",
-                "createdAt": "2025-09-06T02:30:52Z"
+                "createdAt": "2025-10-31T14:27:11Z"
             },
             "/-/block/demo_form_signup.html": {
                 "zuid": "11-becd95ad87-f010pv",
@@ -144,7 +144,7 @@
                 "zuid": "11-ccdfe5b99a-cw11dh",
                 "type": "ajax-json",
                 "updatedAt": "2025-09-05T20:37:39Z",
-                "createdAt": "2025-09-05T20:38:09Z"
+                "createdAt": "2025-10-30T19:44:31Z"
             },
             "/components/ctas/email-subscription-form.html": {
                 "zuid": "11-b2c7e88eb3-s3jf4m",
@@ -168,13 +168,13 @@
                 "zuid": "11-90d199fa87-qlhfqb",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-06T12:26:43Z",
-                "createdAt": "2025-10-23T03:02:44Z"
+                "createdAt": "2025-10-23T16:32:16Z"
             },
             "customers": {
                 "zuid": "11-c2d1dbefac-mn7q8n",
                 "type": "templateset",
                 "updatedAt": "2025-10-06T14:39:05Z",
-                "createdAt": "2025-10-15T21:09:56Z"
+                "createdAt": "2025-10-23T17:00:30Z"
             },
             "customer": {
                 "zuid": "11-94b8f4b98c-lrdw00",
@@ -198,7 +198,7 @@
                 "zuid": "11-e6b18590fd-skdhqg",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-10T20:41:53Z",
-                "createdAt": "2025-10-23T15:53:38Z"
+                "createdAt": "2025-10-23T16:37:52Z"
             },
             "/components/casestudy/tsa-federated-franchise.html": {
                 "zuid": "11-dce3a9e389-2lqbsq",
@@ -242,83 +242,203 @@
                 "updatedAt": "2025-10-23T02:51:12Z",
                 "createdAt": "2025-10-23T02:59:15Z"
             },
-            "/customers.scsss": {
-                "zuid": "11-e49c94dfd8-wh2j0c",
-                "type": "ajax-json",
-                "updatedAt": "2025-10-23T16:52:30.518961557Z",
-                "createdAt": "2025-10-23T16:52:30.518956165Z"
-            },
             "/page_html/solutions/marketing-website.html": {
                 "zuid": "11-e288a6b38f-6k2q6g",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-23T17:13:49.16873044Z",
-                "createdAt": "2025-10-23T17:13:49.16872352Z"
+                "updatedAt": "2025-10-23T17:13:49Z",
+                "createdAt": "2025-10-24T02:55:22Z"
             },
             "/page_html/solutions/global-directory.html": {
                 "zuid": "11-9cb9e6f886-x4q9kb",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-23T19:43:16.119853929Z",
-                "createdAt": "2025-10-23T19:43:16.119847364Z"
+                "updatedAt": "2025-10-23T19:43:15Z",
+                "createdAt": "2025-10-24T15:13:32Z"
             },
             "/page_html/solutions/ai-document-management.html": {
                 "zuid": "11-969296b6f7-ql1gw9",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-23T19:53:32.314200913Z",
-                "createdAt": "2025-10-23T19:53:32.314194094Z"
+                "updatedAt": "2025-10-23T19:53:32Z",
+                "createdAt": "2025-10-24T02:55:16Z"
             },
             "/page_html/solutions/federated-multisite.html": {
                 "zuid": "11-acd88add98-gpl6qs",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-23T20:18:48.613493039Z",
-                "createdAt": "2025-10-23T20:18:48.613484517Z"
+                "updatedAt": "2025-10-23T20:18:48Z",
+                "createdAt": "2025-10-24T02:56:15Z"
             },
             "/page_html/solutions/org-ai-chatbot.html": {
                 "zuid": "11-c4e1e8a6fc-dxww4d",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-23T20:54:49.465044721Z",
-                "createdAt": "2025-10-23T20:54:49.46503853Z"
+                "updatedAt": "2025-10-23T20:54:49Z",
+                "createdAt": "2025-10-24T02:55:10Z"
             },
             "/page_html/solutions/mobile-app.html": {
                 "zuid": "11-9ebefcad82-0z1vvf",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-23T21:09:43.630025684Z",
-                "createdAt": "2025-10-23T21:09:43.630019608Z"
+                "updatedAt": "2025-10-23T21:09:43Z",
+                "createdAt": "2025-10-24T02:55:08Z"
             },
             "/page_html/solutions/story-hub.html": {
                 "zuid": "11-9cd7e8c092-m70wt9",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-23T21:24:56.332311106Z",
-                "createdAt": "2025-10-23T21:24:56.332251485Z"
-            },
-            "page_html/features/visual-drag-n-drop": {
-                "zuid": "11-9ee49fb1a0-84s5r2",
-                "type": "snippet",
-                "updatedAt": "2025-10-24T16:40:36.143179396Z",
-                "createdAt": "2025-10-24T16:40:36.143172906Z"
+                "updatedAt": "2025-10-23T21:24:56Z",
+                "createdAt": "2025-10-24T02:55:05Z"
             },
             "/page_html/features/visual-drag-n-drop-pages.html": {
                 "zuid": "11-b4beb9ea83-t4pb4z",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-24T16:59:09.004331523Z",
-                "createdAt": "2025-10-24T16:59:09.004320101Z"
+                "updatedAt": "2025-10-24T16:59:08Z",
+                "createdAt": "2025-10-24T19:43:29Z"
             },
             "/page_html/features/wysiwyg-and-markdown-support.html": {
                 "zuid": "11-f4bcb2e1eb-rgh838",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-24T17:24:34.780717432Z",
-                "createdAt": "2025-10-24T17:24:34.780711527Z"
+                "updatedAt": "2025-10-24T17:24:34Z",
+                "createdAt": "2025-10-24T18:50:56Z"
             },
             "/components/widgets/random_quotes.html": {
                 "zuid": "11-fea1affcde-mq1s19",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-24T18:47:52.412442119Z",
-                "createdAt": "2025-10-24T18:47:52.412438062Z"
+                "updatedAt": "2025-10-24T18:47:52Z",
+                "createdAt": "2025-10-30T01:40:49Z"
             },
-            "/page_html/features/ai-content-acceleration.html": {
-                "zuid": "11-a68be6d2e7-cckdfm",
+            "/page_html/features/scheduled-publishing-and-expiry.html": {
+                "zuid": "11-a8bfd5e6f4-sr7137",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-24T19:48:35.705939952Z",
-                "createdAt": "2025-10-24T19:48:35.705933109Z"
+                "updatedAt": "2025-10-24T19:59:47Z",
+                "createdAt": "2025-10-30T13:20:22Z"
+            },
+            "/page_html/features/multilingual-and-localization-tools.html": {
+                "zuid": "11-fcf5b782f8-2dqqq7",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-24T20:05:48Z",
+                "createdAt": "2025-10-24T20:20:37Z"
+            },
+            "/page_html/features/generative-ai-content-acceleration.html": {
+                "zuid": "11-e0f79bb7ad-j7skfk",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-26T17:18:20Z",
+                "createdAt": "2025-10-26T17:26:13Z"
+            },
+            "/page_html/features/analytics.html": {
+                "zuid": "11-82f1c284eb-15lbt9",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-26T17:52:16Z",
+                "createdAt": "2025-10-26T18:20:09Z"
+            },
+            "/page_html/features/geo-and-seo.html": {
+                "zuid": "11-ac95bab08b-3g2vss",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-26T18:37:17Z",
+                "createdAt": "2025-10-26T19:26:00Z"
+            },
+            "/page_html/features/personalization.html": {
+                "zuid": "11-b4c7d994ae-hmgd8c",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-26T19:51:32Z",
+                "createdAt": "2025-10-26T20:11:23Z"
+            },
+            "/page_html/features/reusable-component-libraries.html": {
+                "zuid": "11-eaadaef890-4rx5pg",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-29T21:17:14Z",
+                "createdAt": "2025-10-30T13:29:14Z"
+            },
+            "/page_html/features/audit-logs-and-activity-tracking.html": {
+                "zuid": "11-aca7a790a8-1wv331",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T02:13:04Z",
+                "createdAt": "2025-10-30T03:47:35Z"
+            },
+            "/page_html/features/headless-and-apis.html": {
+                "zuid": "11-8cfc98c98a-chdbjk",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T05:04:14Z",
+                "createdAt": "2025-10-30T05:47:38Z"
+            },
+            "/components/widgets/logos.html": {
+                "zuid": "11-a886a09591-gl17q5",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T13:23:36Z",
+                "createdAt": "2025-10-31T14:41:29Z"
+            },
+            "/components/widgets/sso-options.html": {
+                "zuid": "11-aea882889b-bs2zc5",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T13:57:42Z",
+                "createdAt": "2025-10-30T14:22:12Z"
+            },
+            "/page_html/features/single-sign-on-sso-and-roles.html": {
+                "zuid": "11-a8bbc586d8-5ghhmz",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T14:41:22Z",
+                "createdAt": "2025-10-30T15:00:18Z"
+            },
+            "capterra_landing_page": {
+                "zuid": "11-bcb09498bf-xnvgzh",
+                "type": "templateset",
+                "updatedAt": "2025-10-30T15:38:00Z",
+                "createdAt": "2025-10-30T15:56:30Z"
+            },
+            "/page_html/industries/cms-for-insurance.html": {
+                "zuid": "11-949de5c894-q3793f",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T18:04:47Z",
+                "createdAt": "2025-10-31T14:40:17Z"
+            },
+            "/page_html/industries/cms-for-non-profits.html": {
+                "zuid": "11-d2d895afaf-dpr2gk",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T19:03:33Z",
+                "createdAt": "2025-10-31T14:40:28Z"
+            },
+            "/page_html/features/workflow-automation-and-approvals.html": {
+                "zuid": "11-faceefdbfa-jv54j4",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T19:14:53Z",
+                "createdAt": "2025-10-30T19:14:53Z"
+            },
+            "/components/widgets/random_quotes_micro.html": {
+                "zuid": "11-a6aff3dfbe-z97pgr",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T19:38:48Z",
+                "createdAt": "2025-10-31T14:22:55Z"
+            },
+            "/page_html/industries/cms-for-government-and-public-sector-organizations.html": {
+                "zuid": "11-c0e9f3d497-zznr4v",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T20:05:38Z",
+                "createdAt": "2025-10-31T14:40:02Z"
+            },
+            "/page_html/industries/cms-for-financial-institutions-and-fintech-banks.html": {
+                "zuid": "11-c2ddcebf8c-z8513d",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-30T20:31:57Z",
+                "createdAt": "2025-10-31T14:29:46Z"
+            },
+            "/components/ctas/customer-button.html": {
+                "zuid": "11-88df8a978c-590c3c",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-31T14:15:23Z",
+                "createdAt": "2025-10-31T14:15:30Z"
+            },
+            "/page_html/features/webhooks-for-real-time-integrations.html": {
+                "zuid": "11-f2ccfcac98-t25bcs",
+                "type": "ajax-json",
+                "updatedAt": "2025-10-31T18:50:00.478708372Z",
+                "createdAt": "2025-10-31T18:50:00.478701931Z"
+            },
+            "/page_html/features/visual-code-based-templating.html": {
+                "zuid": "11-b6aee59ea5-pb7972",
+                "type": "ajax-json",
+                "updatedAt": "2025-11-01T18:44:16.351188696Z",
+                "createdAt": "2025-11-01T18:44:16.351182766Z"
+            },
+            "/page_html/features/template-versioning-and-rollbacks.html": {
+                "zuid": "11-e2a7e1fe9d-0p22fd",
+                "type": "ajax-json",
+                "updatedAt": "2025-11-01T20:48:14.083091729Z",
+                "createdAt": "2025-11-01T20:48:14.083085345Z"
             }
         },
         "styles": {
@@ -326,7 +446,7 @@
                 "zuid": "10-9cfbeefaef-f996qc",
                 "type": "text/less",
                 "updatedAt": "2018-08-13T22:56:05Z",
-                "createdAt": "2025-03-14T15:52:45Z"
+                "createdAt": "2025-10-31T14:32:28Z"
             },
             "homepage.less": {
                 "zuid": "10-e49ea5c5c7-ph20rp",
@@ -357,6 +477,12 @@
                 "type": "text/scss",
                 "updatedAt": "2025-09-04T13:42:15Z",
                 "createdAt": "2025-09-04T13:42:20Z"
+            },
+            "customers.scss": {
+                "zuid": "10-aae6d5dcde-5xtm0m",
+                "type": "text/scss",
+                "updatedAt": "2025-10-23T16:53:09Z",
+                "createdAt": "2025-10-23T16:53:12Z"
             }
         },
         "scripts": {

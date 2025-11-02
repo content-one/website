@@ -8,8 +8,6 @@
 
 {{ include /components/features/block_highlight.html }}
 
-
-
 <!--Priority-->
 <section class="py-xl-6 py-3">
   <div class="container">
@@ -34,7 +32,7 @@
         <div class="d-flex flex-column gap-5 p-xxl-6 text-center p-3 card card-lift">
           <div><i class="bi bi-lightning-charge fs-1 text-primary"></i></div>
           <div class="d-flex flex-column gap-2">
-            <h3 class="h4">AI Content Assistant</h3>
+            <h3 class="h4">Agentic Page Building</h3>
             <p class="mb-0">Plan, generate, and refine content at scale with AI-powered workflows.</p>
           </div>
         </div>
@@ -43,7 +41,7 @@
         <div class="d-flex flex-column gap-5 p-xxl-6 text-center p-3 card card-lift">
           <div><i class="bi bi-shield-lock fs-1 text-primary"></i></div>
           <div class="d-flex flex-column gap-2">
-            <h3 class="h4">Enterprise Security</h3>
+            <h3 class="h4">Enterprise Scale &amp; Security</h3>
             <p class="mb-0">Control governance and structure while scaling across departments securely.</p>
           </div>
         </div>
@@ -73,7 +71,7 @@
                 <p class="ubuntu-light"  id="personName"></p>
                 
             </div>
-            <img src="" alt="Person Image" id="personImage">
+            <img src="Face of the quote" alt="Person Image" id="personImage">
            
         </div>
     </div>
@@ -109,7 +107,7 @@
               <figure> 
                 <!-- Unsplash: marketing collaboration -->
                 <img
-                  src="https://hj5v68xn.media.zestyio.com/christina-wocintechchat-com-dKBTFoarrOU-unsplash.jpg?width=372"
+                  src="https://hj5v68xn.media.zestyio.com/christina-wocintechchat-com-dKBTFoarrOU-unsplash.jpg?width=800"
                   alt="Marketing team collaborating"
                   class="img-fluid rounded-3">
               </figure>

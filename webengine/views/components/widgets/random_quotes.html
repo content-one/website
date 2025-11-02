@@ -20,12 +20,16 @@
                               <img src="https://hj5v68xn.media.zestyio.com/five-stars-rating-icon-png.png" alt="" loading="lazy">
                             </div>
                           </div>
+                          
                           <span class="text-muted small">{{review.stars}}</span>
                         </div>
                         <span class="visually-hidden">Rated {{review.stars}} out of 5 stars</span>
                         {{/if}}
                     </div>
                 </div>
+                {{if {review.title} }}
+                          <h5>{{review.title}}</h5>
+                          {{/if}}
                 <div class="fs-5 text-grey mb-4">{{review.quote}}</div>
                 {{if {review.related_features} }}
                     {{each {review.related_features} as feature}}

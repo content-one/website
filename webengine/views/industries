@@ -1,3 +1,6 @@
+ {{include /page_html/industries/{this.path_part}.html}}
+
+ 
  <main>
    <!--hero start-->
    <section class="jarallax py-4 hero-agency" data-jarallax data-speed="0.4">
@@ -13,23 +16,9 @@
                         <div class="lead mb-0">{{this.title_by_line}}</div>
                      </div>
 
-                     <a href="#!" class="btn btn-primary" >Learn More</a>
+                     {{include /components/ctas/book-button.html}}
                   </div>
                </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!--hero end-->
-{{if {this.first_block_before_content} }}
-   {{blocks({this.first_block_before_content})}}
-{{/if}}
-   <!--body-->
-   <section class="my-xl-9 my-5">
-      <div class="container">
-         <div class="row">
-            <div class="content">
-            {{this.body}}
             </div>
          </div>
       </div>

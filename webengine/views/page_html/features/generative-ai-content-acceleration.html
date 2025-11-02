@@ -3,7 +3,7 @@
     <div class="container position-relative">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
-          <h1 class="display-4 text-white fw-bold mb-4">Supercharge your content engine with Content.One AI.</h1>
+          <h1 class="display-4 text-white fw-bold mb-4">Supercharge your team with Generative AI from Content.One </h1>
           <p class="lead text-white-75 mb-4">In today’s competitive landscape, the velocity and precision of content creation define brand visibility. Content.One lets teams ideate, localize, and optimize content at scale without adding headcount.</p>
           <div class="d-flex flex-wrap gap-3">
             <a href="/book-a-demo/" class="btn btn-light btn-lg text-primary">See AI in action</a>
@@ -28,7 +28,17 @@
           <p class="text-grey mb-0">From ideation to publication, Content.One AI delivers intelligent workflows so marketing, growth, and SEO teams can move from concept to live content in record time.</p>
         </div>
         <div class="col-lg-7">
-          {{include /components/widgets/logos.html}}
+          <div class="row row-cols-2 row-cols-md-3 g-3">
+            {{each customer as cus where cus.name not like '%technical%' limit 6 sort by rand()}}
+            <div class="col">
+              <div class="border rounded-4 p-3 h-100">
+                <a href="{{cus.getURL()}}" class="logo-card d-flex align-items-center justify-content-center h-100">
+                  <img src="{{cus.logo.getImage(120)}}" class="logo-card__image" alt="{{cus.name}} logo">
+                </a>
+              </div>
+            </div>
+            {{/each}}
+          </div>
         </div>
       </div>
     </div>
