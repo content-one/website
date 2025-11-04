@@ -6,7 +6,7 @@
                 "zuid": "11-a8b694fbef-kq7ds0",
                 "type": "templateset",
                 "updatedAt": "2018-08-13T22:56:07Z",
-                "createdAt": "2025-09-07T20:43:19Z"
+                "createdAt": "2025-11-01T18:59:00Z"
             },
             "loader": {
                 "zuid": "11-e4fe95fbef-b3kn74",
@@ -18,7 +18,7 @@
                 "zuid": "11-d2b1c58ff3-1dm88s",
                 "type": "ajax-json",
                 "updatedAt": "2025-03-14T19:29:05Z",
-                "createdAt": "2025-10-30T14:28:37Z"
+                "createdAt": "2025-11-02T23:27:07Z"
             },
             "/assets/theme.css": {
                 "zuid": "11-9ad6dec9d3-9znmtm",
@@ -48,7 +48,7 @@
                 "zuid": "11-80e197a7b7-g6vb89",
                 "type": "templateset",
                 "updatedAt": "2025-05-21T20:20:18Z",
-                "createdAt": "2025-10-06T14:34:37Z"
+                "createdAt": "2025-11-04T14:52:06Z"
             },
             "/-/block/review_block.html": {
                 "zuid": "11-cecdcbc1d3-px5wrz",
@@ -60,7 +60,7 @@
                 "zuid": "11-e6fec6a5e8-tgjsfq",
                 "type": "block",
                 "updatedAt": "2025-05-27T20:12:09Z",
-                "createdAt": "2025-09-05T13:50:48Z"
+                "createdAt": "2025-11-01T18:46:16Z"
             },
             "/-/block/sales_personal_cta.html": {
                 "zuid": "11-d6f3f0dfec-tdl2n1",
@@ -96,7 +96,7 @@
                 "zuid": "11-eeffb3909e-s5hz81",
                 "type": "ajax-json",
                 "updatedAt": "2025-08-27T20:00:48Z",
-                "createdAt": "2025-09-07T21:02:12Z"
+                "createdAt": "2025-10-31T18:28:46Z"
             },
             "/-/block/client_logos.html": {
                 "zuid": "11-d0c6ba919e-lk12q4",
@@ -114,13 +114,13 @@
                 "zuid": "11-d0b2c4d8cb-33nddj",
                 "type": "ajax-json",
                 "updatedAt": "2025-09-04T02:52:22Z",
-                "createdAt": "2025-09-07T21:38:13Z"
+                "createdAt": "2025-10-31T18:36:02Z"
             },
             "/components/features/analytics_highlight.html": {
                 "zuid": "11-88d4a0c9fe-gmh9nv",
                 "type": "ajax-json",
                 "updatedAt": "2025-09-04T03:13:05Z",
-                "createdAt": "2025-09-07T21:38:21Z"
+                "createdAt": "2025-10-31T18:44:18Z"
             },
             "/components/forms/zoho-form.html": {
                 "zuid": "11-cc93e38af9-rmfgk1",
@@ -138,13 +138,13 @@
                 "zuid": "11-a287c0abd6-kdv7gl",
                 "type": "templateset",
                 "updatedAt": "2025-09-05T20:26:37Z",
-                "createdAt": "2025-09-05T20:34:11Z"
+                "createdAt": "2025-10-31T18:25:24Z"
             },
             "/components/ctas/book-button.html": {
                 "zuid": "11-ccdfe5b99a-cw11dh",
                 "type": "ajax-json",
                 "updatedAt": "2025-09-05T20:37:39Z",
-                "createdAt": "2025-10-30T19:44:31Z"
+                "createdAt": "2025-10-31T18:10:42Z"
             },
             "/components/ctas/email-subscription-form.html": {
                 "zuid": "11-b2c7e88eb3-s3jf4m",
@@ -294,7 +294,7 @@
                 "zuid": "11-f4bcb2e1eb-rgh838",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-24T17:24:34Z",
-                "createdAt": "2025-10-24T18:50:56Z"
+                "createdAt": "2025-11-03T22:19:38Z"
             },
             "/components/widgets/random_quotes.html": {
                 "zuid": "11-fea1affcde-mq1s19",
@@ -342,7 +342,7 @@
                 "zuid": "11-eaadaef890-4rx5pg",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-29T21:17:14Z",
-                "createdAt": "2025-10-30T13:29:14Z"
+                "createdAt": "2025-11-04T00:10:43Z"
             },
             "/page_html/features/audit-logs-and-activity-tracking.html": {
                 "zuid": "11-aca7a790a8-1wv331",
@@ -396,7 +396,7 @@
                 "zuid": "11-faceefdbfa-jv54j4",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-30T19:14:53Z",
-                "createdAt": "2025-10-30T19:14:53Z"
+                "createdAt": "2025-11-02T22:59:30Z"
             },
             "/components/widgets/random_quotes_micro.html": {
                 "zuid": "11-a6aff3dfbe-z97pgr",
@@ -425,20 +425,44 @@
             "/page_html/features/webhooks-for-real-time-integrations.html": {
                 "zuid": "11-f2ccfcac98-t25bcs",
                 "type": "ajax-json",
-                "updatedAt": "2025-10-31T18:50:00.478708372Z",
-                "createdAt": "2025-10-31T18:50:00.478701931Z"
+                "updatedAt": "2025-10-31T18:50:00Z",
+                "createdAt": "2025-10-31T19:35:00Z"
             },
             "/page_html/features/visual-code-based-templating.html": {
                 "zuid": "11-b6aee59ea5-pb7972",
                 "type": "ajax-json",
-                "updatedAt": "2025-11-01T18:44:16.351188696Z",
-                "createdAt": "2025-11-01T18:44:16.351182766Z"
+                "updatedAt": "2025-11-01T18:44:16Z",
+                "createdAt": "2025-11-01T20:30:20Z"
             },
             "/page_html/features/template-versioning-and-rollbacks.html": {
                 "zuid": "11-e2a7e1fe9d-0p22fd",
                 "type": "ajax-json",
-                "updatedAt": "2025-11-01T20:48:14.083091729Z",
-                "createdAt": "2025-11-01T20:48:14.083085345Z"
+                "updatedAt": "2025-11-01T20:48:14Z",
+                "createdAt": "2025-11-01T20:50:54Z"
+            },
+            "/page_html/features/global-cdn-hosting.html": {
+                "zuid": "11-d8a8b8c9f8-h74mtt",
+                "type": "ajax-json",
+                "updatedAt": "2025-11-02T21:24:45Z",
+                "createdAt": "2025-11-02T23:17:40Z"
+            },
+            "/page_html/features/data-encryption-and-security.html": {
+                "zuid": "11-ee8687e1dc-jnr9zr",
+                "type": "ajax-json",
+                "updatedAt": "2025-11-02T23:01:45Z",
+                "createdAt": "2025-11-02T23:11:57Z"
+            },
+            "/page_html/features/automated-security-updates.html": {
+                "zuid": "11-faa0baaff5-gt1pv0",
+                "type": "ajax-json",
+                "updatedAt": "2025-11-02T23:19:17Z",
+                "createdAt": "2025-11-02T23:33:14Z"
+            },
+            "leadership": {
+                "zuid": "11-d496f0e9aa-374w3d",
+                "type": "pageset",
+                "updatedAt": "2025-11-03T20:30:25Z",
+                "createdAt": "2025-11-03T20:30:25Z"
             }
         },
         "styles": {

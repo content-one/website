@@ -1,15 +1,124 @@
 <main>
-         <div class="pattern-square"></div>
+           <!--Mission start-->
+         <section class="py-5 py-lg-6 border-top mission-section text-white position-relative overflow-hidden">
+            <div class="position-absolute top-0 start-0 w-100 h-100 mission-section__overlay"></div>
+            <div class="container position-relative">
+               <div class="row g-5 align-items-center">
+                  <div class="col-lg-5">
+                     <div class="badge bg-white text-primary mb-3 fw-semibold text-uppercase">Our mission</div>
+                     <h2 class="display-6 fw-semibold mb-3 text-white">Empower every team to build, launch, and scale experiences in one secure platform.</h2>
+                     <p class="text-white-75 mb-0">Content.One unifies marketer-friendly creation, developer precision, and AI assistance so organizations can thrive in a world of AI search and intelligent agents. We exist to give enterprises the governance of legacy suites with the agility and cost-efficiency of modern content tooling.</p>
+                  </div>
+                  <div class="col-lg-7">
+                     <div class="row g-3 g-lg-4">
+                        <div class="col-sm-6">
+                           <div class="mission-pill card border-0 shadow-sm h-100">
+                              <div class="card-body p-4">
+                                 <div class="d-flex align-items-start gap-3">
+                                    <i class="bi bi-graph-up-arrow text-primary fs-4"></i>
+                                    <div>
+                                       <h3 class="h6 mb-1 text-dark">Enterprise scale</h3>
+                                       <p class="text-muted small mb-0">Support thousands of pages, regional teams, and rigorous workflows without friction.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="mission-pill card border-0 shadow-sm h-100">
+                              <div class="card-body p-4">
+                                 <div class="d-flex align-items-start gap-3">
+                                    <i class="bi bi-shield-lock text-primary fs-4"></i>
+                                    <div>
+                                       <h3 class="h6 mb-1 text-dark">Security &amp; compliance</h3>
+                                       <p class="text-muted small mb-0">Encryption, audit logs, and SSO-ready controls trusted by regulated industries.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="mission-pill card border-0 shadow-sm h-100">
+                              <div class="card-body p-4">
+                                 <div class="d-flex align-items-start gap-3">
+                                    <i class="bi bi-cpu text-primary fs-4"></i>
+                                    <div>
+                                       <h3 class="h6 mb-1 text-dark">AI workforce</h3>
+                                       <p class="text-muted small mb-0">Activate AI copilots, insights, and automation that boost every team’s productivity.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="mission-pill card border-0 shadow-sm h-100">
+                              <div class="card-body p-4">
+                                 <div class="d-flex align-items-start gap-3">
+                                    <i class="bi bi-plug text-primary fs-4"></i>
+                                    <div>
+                                       <h3 class="h6 mb-1 text-dark">Seamless integration</h3>
+                                       <p class="text-muted small mb-0">Connect to enterprise tech stacks, analytics, and APIs without sacrificing speed.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="mission-heritage-card mt-4 rounded-4 overflow-hidden position-relative text-white shadow-sm">
+                        <div class="position-absolute top-0 start-0 w-100 h-100 mission-heritage-card__image"></div>
+                        <div class="position-absolute top-0 start-0 w-100 h-100 mission-heritage-card__overlay"></div>
+                        <div class="position-relative p-4 p-lg-5">
+                           <h3 class="h5 fw-semibold mb-2 text-white">From San Diego startup to global enterprise backbone</h3>
+                           <p class="text-white-75 small mb-2">We started as Zesty.io, serving high-growth SMB teams from our home in San Diego. As customers scaled, they needed a partner that combined flexibility, automation, and enterprise governance.</p>
+                           <p class="text-white-75 small mb-0">Content.One reflects that journey—pairing our coastal roots with a platform built for the world’s most ambitious digital teams.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div> 
+            </div>
+         </section>
+         <!--Mission end-->
+         
          <!--Pageheader start-->
          <section class="py-5 py-lg-8">
-            <div class="container">
+            <div class="container"> 
                <div class="row">
                   <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
                      <div class="text-center">
                         <small class="text-uppercase ls-md fw-semibold">{{this.title}}</small>
                         <h1 class="mb-3 mt-3">{{this.h1_byline}}</h1>
-                        <div class="mb-0 divx-lg-6">
-                           {{this.body}}
+                        <div class="leadership-story text-start text-lg-center">
+                           <div class="badge bg-light text-dark mb-3 fw-semibold text-uppercase">Built by teams who’ve powered the web for decades</div>
+                           <p class="text-grey mb-4">Our founders and builders have launched enterprise experiences since the earliest days of the web. Content.One distills that history into a platform that respects structure, unlocks creativity, and evolves with every shift in technology.</p>
+                           <div class="row g-4 text-start">
+                              <div class="col-lg-4">
+                                 <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body p-4">
+                                       <span class="badge bg-primary-subtle text-primary mb-2">01</span>
+                                       <h3 class="h5 fw-semibold mb-2">Create without barriers</h3>
+                                       <p class="text-grey small mb-0">We’ve seen what slows teams down: clunky systems, disconnected tools, and gatekeeping. Content.One removes those blockers so marketers, developers, and content teams can launch without friction.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4">
+                                 <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body p-4">
+                                       <span class="badge bg-primary-subtle text-primary mb-2">02</span>
+                                       <h3 class="h5 fw-semibold mb-2">Structure powers speed</h3>
+                                       <p class="text-grey small mb-0">The internet runs on structure—governance, frameworks, and security. We embed that DNA into every workflow so your teams move fast while staying secure, consistent, and enterprise-ready.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4">
+                                 <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body p-4">
+                                       <span class="badge bg-primary-subtle text-primary mb-2">03</span>
+                                       <h3 class="h5 fw-semibold mb-2">We evolve with the web</h3>
+                                       <p class="text-grey small mb-0">The internet never stands still—and neither do we. From AI-assisted content to headless delivery, we innovate alongside the most ambitious teams so you can stay ahead of what’s next.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -18,285 +127,229 @@
          </section>
          <!--Pageheader end-->
 
-         <!--Image start-->
-         <section class>
+         <!--Meaning start-->
+         <section class="py-5 py-lg-6 bg-light">
             <div class="container">
-               <div class="row gy-4">
-                  <div class="col-lg-4 col-md-4 col-12">
-                     <a href="https://hj5v68xn.media.zestyio.com/unified-content-one.jpg" class="glightbox rounded-3">
-                        <div
-                           class="rounded-3 card-lift"
-                           style="background-image: url(https://hj5v68xn.media.zestyio.com/unified-content-one.jpg); background-repeat: no-repeat; height: 350px; background-size: cover"></div>
-                     </a>
+               <div class="row justify-content-center text-center mb-5">
+                  <div class="col-lg-8">
+                     <div class="badge bg-white text-primary mb-3 fw-semibold text-uppercase">What Content.One means</div>
+                     <h2 class="display-6 fw-semibold mb-3">Leadership, simplicity, and a unified network for enterprise content.</h2>
+                     <p class="text-grey mb-0">“Content” signals our expertise in orchestrating digital experiences. “dot” represents the singularity of AI empowerment. “One” stands for a unified solution that bridges marketing, product, and engineering teams around the globe.</p>
                   </div>
-                  <div class="col-lg-4 col-md-4 col-12">
-                     <a href="https://hj5v68xn.media.zestyio.com/content-collaboration.jpg" class="glightbox rounded-3">
-                        <div
-                           class="rounded-3 card-lift"
-                           style="background-image: url(https://hj5v68xn.media.zestyio.com/content-collaboration.jpg); background-repeat: no-repeat; height: 350px; background-size: cover"></div>
-                     </a>
+               </div>
+               <div class="row g-4">
+                  <div class="col-lg-4">
+                     <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-start">
+                           <h3 class="h5 fw-semibold mb-2">We bridge the gap</h3>
+                           <p class="text-grey small mb-3">Content.One meets enterprises between legacy suites and headless-only stacks.</p>
+                           <ul class="list-unstyled d-grid gap-2 text-grey small mb-0">
+                              <li class="d-flex gap-2"><i class="bi bi-layers-half text-primary"></i><span>Visual editing with reusable components, backed by developer-grade templating.</span></li>
+                              <li class="d-flex gap-2"><i class="bi bi-cash-stack text-primary"></i><span>Lower complexity and total cost compared to Sitecore or Adobe Experience Manager.</span></li>
+                              <li class="d-flex gap-2"><i class="bi bi-diagram-3 text-primary"></i><span>Hybrid hosting and API delivery to compete with Contentstack, Contentful, and Hygraph.</span></li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-4 col-12">
-                     <a href="https://hj5v68xn.media.zestyio.com/content-one-accessible-anywhere.jpg" class="glightbox rounded-3">
-                        <div
-                           class="rounded-3 card-lift"
-                           style="background-image: url(https://hj5v68xn.media.zestyio.com/content-one-accessible-anywhere.jpg); background-repeat: no-repeat; height: 350px; background-size: cover"></div>
-                     </a>
+                  <div class="col-lg-4">
+                     <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-start">
+                           <h3 class="h5 fw-semibold mb-2">Performance without compromise</h3>
+                           <p class="text-grey small mb-3">The platform is engineered for 99.99%+ uptime, real-time cache control, and blazing-fast experiences.</p>
+                           <ul class="list-unstyled d-grid gap-2 text-grey small mb-0">
+                              <li class="d-flex gap-2"><i class="bi bi-rocket text-primary"></i><span>Global CDN hosting, smart cache destruction, and hybrid origin support.</span></li>
+                              <li class="d-flex gap-2"><i class="bi bi-lightning-charge text-primary"></i><span>Automated weekly updates across infrastructure, UI, and security.</span></li>
+                              <li class="d-flex gap-2"><i class="bi bi-gear-wide-connected text-primary"></i><span>Workflows, headless APIs, and analytics tightly integrated for scale.</span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-start">
+                           <h3 class="h5 fw-semibold mb-2">The “One” network</h3>
+                           <p class="text-grey small mb-3">Content.One is the foundation for a broader ecosystem of intelligent products.</p>
+                           <ul class="list-unstyled d-grid gap-2 text-grey small mb-0">
+                              <li class="d-flex gap-2"><i class="bi bi-grid text-primary"></i><span>cms.one for marketing websites and digital experiences.</span></li>
+                              <li class="d-flex gap-2"><i class="bi bi-chat-square-text text-primary"></i><span>brandchat.one to activate AI copilots with governed content.</span></li>
+                              <li class="d-flex gap-2"><i class="bi bi-people text-primary"></i><span>Future-ready apps—from mobile to CauseCircle—that share a secure content core.</span></li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
          </section>
-         <!--Image end-->
+         <!--Meaning end-->
 
-       {{include /components/casestudy/tsa.html}}
-
-         <!--Our values start-->
-         <!-- <section class="my-xl-9 my-5">
+         <!--Why Content.One start-->
+         <section class="py-5 py-lg-6">
             <div class="container">
-               <div class="row">
-                  <div class="col-lg-12 col-md-12 col-12">
-                     <div class="mb-xl-6 mb-5">
-                        <h2 class="mb-0">Our values</h2>
+               <div class="row align-items-start g-5">
+                  <div class="col-lg-5">
+                     <div class="badge bg-light text-dark mb-3 fw-semibold text-uppercase">Why enterprises choose us</div>
+                     <h2 class="display-6 fw-semibold mb-4">A modern content operating system for high-velocity teams.</h2>
+                     <p class="text-grey mb-0">From reusable component libraries and headless APIs to audit logs, SSO, and automated security updates, Content.One aligns everyone around a single source of truth. Marketing gets visual freedom, developers retain code precision, and IT enforces governance—without trade-offs.</p>
+                  </div> 
+                  <div class="col-lg-7">
+                     <div class="row g-4">
+                        <div class="col-md-6">
+                           <div class="border rounded-4 h-100 p-4 shadow-sm">
+                              <h3 class="h6 fw-semibold mb-2">Hybrid delivery</h3>
+                              <p class="text-grey small mb-0">Serve HTML, JSON, or both with modes built for traditional, headless, or hybrid deployments.</p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="border rounded-4 h-100 p-4 shadow-sm">
+                              <h3 class="h6 fw-semibold mb-2">Workflow automation</h3>
+                              <p class="text-grey small mb-0">Custom approvals, audit trails, and cache-aware publishing keep teams aligned across regions.</p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="border rounded-4 h-100 p-4 shadow-sm">
+                              <h3 class="h6 fw-semibold mb-2">Security-first</h3>
+                              <p class="text-grey small mb-0">Encryption at rest, SSO, SOC 2 controls, staged environments, and expiring developer tokens built-in.</p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="border rounded-4 h-100 p-4 shadow-sm">
+                              <h3 class="h6 fw-semibold mb-2">Innovation cadence</h3>
+                              <p class="text-grey small mb-0">Weekly platform updates deliver new capabilities with zero downtime or paid upgrade paths.</p>
+                           </div>
+                        </div>
                      </div>
-                  </div>
-               </div>
-               <div class="row d-flex align-items-center mb-md-9 mb-6">
-                  <div class="col-lg-6 col-md-6 col-12">
-                     <figure class="mb-4 mb-md-0">
-                        <img src="https://hj5v68xn.media.zestyio.com/about-value-img-1.jpg" alt="value" class="img-fluid rounded-3" />
-                     </figure>
-                  </div>
-                  <div class="col-lg-5 offset-lg-1 col-md-6 col-12">
-                     <span class="text-primary fw-semibold">01</span>
-                     <div class="mb-4">
-                        <h3 class="mt-4 mb-3">Create Brands</h3>
-                        <p class="mb-0">
-                           We create brands, interactions, communications, and a wide variety of design daily. It is not only a work routine but also our way of fulfilling seemingly impossible tasks.
-                        </p>
-                     </div>
-
-                     <a href="#!" class="icon-link icon-link-hover">
-                        Explore service
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                           <path
-                              fill-rule="evenodd"
-                              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                        </svg>
-                     </a>
-                  </div>
-               </div>
-               <div class="row d-flex align-items-center mb-md-9 mb-6">
-                  <div class="col-lg-5 col-md-6 col-12 order-2">
-                     <span class="text-primary fw-semibold">02</span>
-                     <div class="mb-4">
-                        <h3 class="mt-4 mb-3">Care Deeply</h3>
-                        <p class="mb-0">
-                           We care deeply about achieving our clients’ business goals. Our inner processes are built around contributing to these goals. Because every personality impacts the final
-                           product, we cherish and consider all viewpoints.
-                        </p>
-                     </div>
-
-                     <a href="#!" class="icon-link icon-link-hover">
-                        Case study
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                           <path
-                              fill-rule="evenodd"
-                              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                        </svg>
-                     </a>
-                  </div>
-
-                  <div class="col-lg-6 offset-lg-1 col-md-6 col-12 order-md-2">
-                     <figure class="mb-4">
-                        <img src="https://hj5v68xn.media.zestyio.com/about-value-img-2.jpg" alt="value" class="img-fluid rounded-3" />
-                     </figure>
-                  </div>
-               </div>
-
-               <div class="row d-flex align-items-center mb-md-9 mb-6">
-                  <div class="col-lg-6 col-md-6 col-12">
-                     <figure class="mb-4 mb-md-0">
-                        <img src="https://hj5v68xn.media.zestyio.com/about-value-img-3.jpg" alt="value" class="img-fluid rounded-3" />
-                     </figure>
-                  </div>
-                  <div class="col-lg-5 offset-lg-1 col-md-6 col-12">
-                     <span class="text-primary fw-semibold">03</span>
-                     <div class="mb-4">
-                        <h3 class="mt-4 mb-3">Growth Together</h3>
-                        <p class="mb-0">We continue to transform and experiment with methodologies and approaches. But one thing remains unchangeable — the direction of our growth.</p>
-                     </div>
-
-                     <a href="#!" class="icon-link icon-link-hover">
-                        Join our team
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                           <path
-                              fill-rule="evenodd"
-                              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                        </svg>
-                     </a>
                   </div>
                </div>
             </div>
-         </section> -->
-         <!--Our values end-->
+         </section>
+         <!--Why Content.One end-->
 
-         <!--Behind the block start-->
-         <!-- <section class="mb-lg-9 mb-5">
+         <!--Leadership start-->
+         <section class="py-5 py-lg-6 bg-light border-top border-bottom">
             <div class="container">
-               <div class="row">
-                  <div class="col-lg-12 col-md-12 xol-12">
-                     <div class="text-center mb-7">
-                        <small class="text-uppercase ls-md fw-semibold">Behind the block</small>
-                        <h2 class="mt-3">Our Leadership Team</h2>
-                        <p class="mb-0">Working from all around the world to build the Web of tomorrow.</p>
-                     </div>
+               <div class="row justify-content-center text-center mb-5">
+                  <div class="col-lg-8">
+                     <div class="badge bg-white text-primary mb-3 fw-semibold text-uppercase">Leadership</div>
+                     <h2 class="display-6 fw-semibold mb-3">Meet the people guiding Content.One.</h2>
+                     <p class="text-grey mb-0">Our leadership team blends product innovation, enterprise delivery, and decades of experience modernizing global content operations.</p>
                   </div>
                </div>
-               <div class="row gy-5">
-                  <div class="col-lg-3 col-md-6 col-12">
-                     <figure class="mb-4 zoom-img">
-                        <img src="./assets/images/team/team-img-4.jpg" alt="team" class="rounded-3 img-fluid" />
-                     </figure>
-                     <div class="mb-4">
-                        <h4 class="mb-1"><a href="#!" class="text-reset">Jitu Chauhna</a></h4>
-                        <span class="fs-6">Co-Founder & CEO</span>
+               <div class="row g-4">
+                  {{each leadership as leader}}
+                  <div class="col-md-6 col-lg-2">
+                     <div class="card border-0 shadow-sm h-100 leadership-card" data-bs-toggle="tooltip" data-bs-placement="top" title="{{leader.bio.striptags()}}">
+                        <div class="rounded-top overflow-hidden">
+                           <img src="{{leader.image.getImage()}}" alt="{{leader.name}} headshot" class="w-100 h-100 object-fit-cover" loading="lazy">
+                        </div>
+                        <div class="card-body text-start">
+                           <h3 class="h5 fw-semibold mb-1">{{leader.name}}</h3>
+                           <p class="text-primary small mb-0">{{leader.title}}</p>
+                        </div> 
                      </div>
-
-                     <span>
-                        <a href="#!" class="btn btn-instagram btn-icon">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                              <path
-                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                           </svg>
-                        </a>
-                     </span>
-                     <span>
-                        <a href="#!" class="btn btn-twitter btn-icon">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                              <path
-                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                           </svg>
-                        </a>
-                     </span>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-12">
-                     <figure class="mb-4 zoom-img">
-                        <img src="./assets/images/team/team-img-2.jpg" alt="team" class="rounded-3 img-fluid" />
-                     </figure>
-                     <div class="mb-4">
-                        <h4 class="mb-1"><a href="#!" class="text-reset">Anita Parmar</a></h4>
-                        <span class="fs-6">Co-Founder</span>
-                     </div>
-
-                     <span>
-                        <a href="#!" class="btn btn-instagram btn-icon">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                              <path
-                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                           </svg>
-                        </a>
-                     </span>
-                     <span>
-                        <a href="#!" class="btn btn-twitter btn-icon">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                              <path
-                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                           </svg>
-                        </a>
-                     </span>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-12">
-                     <figure class="mb-4 zoom-img">
-                        <img src="./assets/images/team/team-img-3.jpg" alt="team" class="rounded-3 img-fluid" />
-                     </figure>
-                     <div class="mb-4">
-                        <h4 class="mb-1"><a href="#!" class="text-reset">Sandip Chauhan</a></h4>
-                        <span class="fs-6">Creative Director</span>
-                     </div>
-
-                     <span>
-                        <a href="#!" class="btn btn-instagram btn-icon">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                              <path
-                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                           </svg>
-                        </a>
-                     </span>
-                     <span>
-                        <a href="#!" class="btn btn-twitter btn-icon">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                              <path
-                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                           </svg>
-                        </a>
-                     </span>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-12">
-                     <figure class="mb-4 zoom-img">
-                        <img src="./assets/images/team/team-img-1.jpg" alt="team" class="rounded-3 img-fluid" />
-                     </figure>
-                     <div class="mb-4">
-                        <h4 class="mb-1"><a href="#!" class="text-reset">Manasvi Suthar</a></h4>
-                        <span class="fs-6">Lead Developer</span>
-                     </div>
-
-                     <span>
-                        <a href="#!" class="btn btn-instagram btn-icon">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                              <path
-                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                           </svg>
-                        </a>
-                     </span>
-                     <span>
-                        <a href="#!" class="btn btn-twitter btn-icon">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                              <path
-                                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                           </svg>
-                        </a>
-                     </span>
-                  </div>
+                  {{/each}}
                </div>
             </div>
-         </section> -->
-         <!--Behind the block end-->
+</section>
+<!--Leadership end-->
 
-         <!--Open positions start-->
-         <!-- <section class="py-lg-9 py-5">
+
+
+<!--Future start-->
+         <section class="py-5 py-lg-6">
             <div class="container">
                <div class="row align-items-center g-5">
-                  <div class="col-xl-4 col-md-6 col-12">
-                     <small class="text-uppercase ls-md fw-semibold">Careers / all open positions</small>
-                     <h2 class="h1 my-3">Become one of us</h2>
-                     <p class="mb-6 pe-lg-4">Do you want to join our team and work remotely from anywhere you’d like? We can’t wait to hear from you!</p>
-                     <a href="#!" class="btn btn-primary">View open positions</a>
+                  <div class="col-lg-6">
+                     <div class="badge bg-light text-dark mb-3 fw-semibold text-uppercase">Looking ahead</div>
+                     <h2 class="display-6 fw-semibold mb-3">Building the next era of intelligent content operations.</h2>
+                     <p class="text-grey mb-4">Our roadmap expands the “One” network with AI agents, omnichannel orchestration, and data-driven insights that give enterprises full command of their digital footprint. Every enhancement rolls out automatically—no migrations, no version lag.</p>
+                     <ul class="list-unstyled d-grid gap-2 text-grey mb-4">
+                        <li class="d-flex gap-2"><i class="bi bi-stars text-primary"></i><span>AI copilots embedded in authoring, personalization, and analytics workflows.</span></li>
+                        <li class="d-flex gap-2"><i class="bi bi-diagram-2 text-primary"></i><span>Composable integrations that keep legacy and modern stacks in sync.</span></li>
+                        <li class="d-flex gap-2"><i class="bi bi-shield-check text-primary"></i><span>Continuous security automation so governance keeps pace with innovation.</span></li>
+                     </ul>
+                     <div class="d-flex flex-wrap gap-3">
+                        <a href="/book-a-demo/" class="btn btn-primary btn-lg">Connect with our team</a>
+                        <a href="/product/" class="btn btn-outline-primary btn-lg">Explore the platform</a>
+                     </div>
                   </div>
-                  <div class="col-xl-6 offset-xl-2 col-md-6 col-12">
+                  <div class="col-lg-6">
                      <div class="row g-4">
-                        <div class="col-lg-6 col-md-6 col-12">
-                           <a href="#!">
-                              <div
-                                 class="mb-4 rounded-3 card-lift"
-                                 style="background-image: url(https://hj5v68xn.media.zestyio.com/about-grid-img-1.jpg); background-repeat: no-repeat; height: 180px; background-size: cover"></div>
-                           </a>
-                           <a href="#!">
-                              <div
-                                 class="rounded-3 card-lift"
-                                 style="background-image: url(https://hj5v68xn.media.zestyio.com/about-grid-img-3.jpg); background-repeat: no-repeat; height: 180px; background-size: cover"></div>
-                           </a>
+                        <div class="col-sm-6">
+                           <div class="border rounded-4 h-100 p-4 shadow-sm text-center">
+                              <h3 class="display-5 fw-semibold text-primary mb-2">99.99%</h3>
+                              <p class="text-grey small mb-0">Uptime delivered across enterprise contracts with proactive monitoring.</p>
+                           </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-12">
-                           <a href="#!">
-                              <div
-                                 class="rounded-3 card-lift"
-                                 style="background-image: url(https://hj5v68xn.media.zestyio.com/about-grid-img-2.jpg); background-repeat: no-repeat; height: 386px; background-size: cover"></div>
-                           </a>
+                        <div class="col-sm-6">
+                           <div class="border rounded-4 h-100 p-4 shadow-sm text-center">
+                              <h3 class="display-5 fw-semibold text-primary mb-2">Global</h3>
+                              <p class="text-grey small mb-0">Hybrid CDN and headless delivery serving audiences on every continent.</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="border rounded-4 h-100 p-4 shadow-sm text-center">
+                              <h3 class="display-5 fw-semibold text-primary mb-2">Weekly</h3>
+                              <p class="text-grey small mb-0">Release cadence that keeps every customer on the latest secure build.</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="border rounded-4 h-100 p-4 shadow-sm text-center">
+                              <h3 class="display-5 fw-semibold text-primary mb-2">Unified</h3>
+                              <p class="text-grey small mb-0">Single content graph connecting marketing, product, and AI experiences.</p>
+                           </div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-         </section> -->
-         <!--Open positions end-->
-      </main>
+</section>
+<!--Future end-->
+
+</main>
+
+<style>
+  .mission-section {
+    background: radial-gradient(circle at top left, #0b214b 0%, #071325 35%, #050c18 100%);
+  }
+  .mission-section__overlay {
+    background: linear-gradient(135deg, rgba(14, 116, 144, 0.35), rgba(59, 130, 246, 0.25));
+    opacity: 0.85;
+  }
+  .mission-pill {
+    background: #ffffff;
+    border-radius: 1.5rem;
+  }
+  .mission-heritage-card {
+    min-height: 220px;
+  }
+  .mission-heritage-card__image {
+    background-image: url('https://hj5v68xn.media.zestyio.com/San-Diego-from-Ferry-Landing.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  .mission-heritage-card__overlay {
+    background: linear-gradient(145deg, rgba(5, 12, 24, 0.9), rgba(14, 116, 144, 0.7));
+  }
+  .leadership-card:hover,
+  .leadership-card:focus-within {
+    transform: translateY(-4px);
+    transition: transform 0.2s ease;
+  }
+</style>
+
+<script>
+  (function () {
+    if (typeof bootstrap === 'undefined' || !bootstrap.Tooltip) {
+      return;
+    }
+    var tooltipTriggerList = Array.prototype.slice.call(document.querySelectorAll('.leadership-card[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+      new bootstrap.Tooltip(tooltipTriggerEl, {
+        trigger: 'hover focus',
+        html: false,
+        container: 'body'
+      });
+    });
+  })();
+</script>

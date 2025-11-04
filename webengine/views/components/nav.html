@@ -84,7 +84,7 @@
                                  </div>
                                  <div class="col col-4">
                                     <div class="mt-3 mt-lg-0">
-                                        {{each product_sections as section order by section.sort_order limit 1,2}}
+                                        {{each product_sections as section order by section.sort_order limit 1,1}}
                                           <div>
                                              <div class="dropdown-header">{{section.section_name}}</div>
                                              {{each product_tour_pages as nav_page where product_section = '{section.zuid}' }}
@@ -96,7 +96,7 @@
                                  </div>
                                  <div class="col col-3">
                                     <div class="mt-3 mt-lg-0">
-                                        {{each product_sections as section order by section.sort_order limit 3,2}}
+                                        {{each product_sections as section order by section.sort_order limit 2,2}}
                                           <div>
                                              <div class="dropdown-header">{{section.section_name}}</div>
                                              {{each product_tour_pages as nav_page where product_section = '{section.zuid}' }}
