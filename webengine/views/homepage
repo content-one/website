@@ -2,7 +2,8 @@
 <!-- <div class="pattern-square"></div> -->
 <!--Pageheader end-->
  
-{{include /components/homepage/home-hero.html}}
+{{include /components/homepage/hero-ai-cool.html}}
+<!-- {{include /components/homepage/home-hero.html}} -->
 
 {{ block('/-/block/client_logos.html') }}
 

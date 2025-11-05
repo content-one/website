@@ -6,7 +6,7 @@
                 "zuid": "11-a8b694fbef-kq7ds0",
                 "type": "templateset",
                 "updatedAt": "2018-08-13T22:56:07Z",
-                "createdAt": "2025-11-01T18:59:00Z"
+                "createdAt": "2025-11-05T20:48:43Z"
             },
             "loader": {
                 "zuid": "11-e4fe95fbef-b3kn74",
@@ -42,13 +42,13 @@
                 "zuid": "11-9680efe6c2-1zp3dq",
                 "type": "ajax-json",
                 "updatedAt": "2025-03-14T21:08:54Z",
-                "createdAt": "2025-09-06T02:15:27Z"
+                "createdAt": "2025-11-05T04:13:08Z"
             },
             "about": {
                 "zuid": "11-80e197a7b7-g6vb89",
                 "type": "templateset",
                 "updatedAt": "2025-05-21T20:20:18Z",
-                "createdAt": "2025-11-04T14:52:06Z"
+                "createdAt": "2025-11-04T15:23:24Z"
             },
             "/-/block/review_block.html": {
                 "zuid": "11-cecdcbc1d3-px5wrz",
@@ -78,7 +78,7 @@
                 "zuid": "11-aecfc5f3c0-tgxk51",
                 "type": "templateset",
                 "updatedAt": "2025-06-01T10:34:20Z",
-                "createdAt": "2025-10-24T17:21:03Z"
+                "createdAt": "2025-11-05T17:15:28Z"
             },
             "product_tour_pages": {
                 "zuid": "11-f88b81de83-m5n4b0",
@@ -96,7 +96,7 @@
                 "zuid": "11-eeffb3909e-s5hz81",
                 "type": "ajax-json",
                 "updatedAt": "2025-08-27T20:00:48Z",
-                "createdAt": "2025-10-31T18:28:46Z"
+                "createdAt": "2025-11-05T18:17:00Z"
             },
             "/-/block/client_logos.html": {
                 "zuid": "11-d0c6ba919e-lk12q4",
@@ -180,7 +180,7 @@
                 "zuid": "11-94b8f4b98c-lrdw00",
                 "type": "pageset",
                 "updatedAt": "2025-10-06T14:40:10Z",
-                "createdAt": "2025-10-23T00:13:42Z"
+                "createdAt": "2025-11-05T03:07:05Z"
             },
             "/components/casestudy/rocket_league.html": {
                 "zuid": "11-a885c7f3c6-7t5zvp",
@@ -300,7 +300,7 @@
                 "zuid": "11-fea1affcde-mq1s19",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-24T18:47:52Z",
-                "createdAt": "2025-10-30T01:40:49Z"
+                "createdAt": "2025-11-05T06:21:47Z"
             },
             "/page_html/features/scheduled-publishing-and-expiry.html": {
                 "zuid": "11-a8bfd5e6f4-sr7137",
@@ -463,6 +463,18 @@
                 "type": "pageset",
                 "updatedAt": "2025-11-03T20:30:25Z",
                 "createdAt": "2025-11-03T20:30:25Z"
+            },
+            "solutions": {
+                "zuid": "11-e8d98fa7e8-s1s7z4",
+                "type": "templateset",
+                "updatedAt": "2025-11-05T15:18:23Z",
+                "createdAt": "2025-11-05T17:16:56Z"
+            },
+            "/components/homepage/hero-ai-cool.html": {
+                "zuid": "11-f0f5dfc6a1-6cs92r",
+                "type": "ajax-json",
+                "updatedAt": "2025-11-05T20:04:50Z",
+                "createdAt": "2025-11-05T20:49:04Z"
             }
         },
         "styles": {

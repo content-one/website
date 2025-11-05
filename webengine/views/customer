@@ -9,7 +9,7 @@
 {{if {this.short_code} == 'sony' }}
     {{include /components/casestudy/sony.html}}
 {{ /if }}
-
+ 
 {{ if {this.short_code} == 'rocket-league' }}
     {{include /components/casestudy/rocket_league.html}}
 {{ /if }} 
