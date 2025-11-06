@@ -168,7 +168,7 @@
         video.style.width = '100%';
         video.style.height = 'auto';
         video.style.objectFit = (img.style && img.style.objectFit) || 'cover';
-        video.style.opacity = '0';
+        video.style.opacity = '0'; 
         video.style.transition = 'opacity .3s ease';
         var naturalWidth = img.naturalWidth || img.width || img.clientWidth;
         var naturalHeight = img.naturalHeight || img.height || img.clientHeight;
@@ -189,14 +189,14 @@
         if (!wrapper.style.aspectRatio) {
           wrapper.style.aspectRatio = ratio;
         }
-        if (!wrapper.style.minHeight) {
-          var computedHeight = img.clientHeight || img.offsetHeight;
-          if (computedHeight) {
-            wrapper.style.minHeight = computedHeight + 'px';
-          } else {
-            wrapper.style.minHeight = '320px';
-          }
-        }
+        // if (!wrapper.style.minHeight) {
+        //   var computedHeight = img.clientHeight || img.offsetHeight;
+        //   if (computedHeight) {
+        //     wrapper.style.minHeight = computedHeight + 'px';
+        //   } else {
+        //     wrapper.style.minHeight = '320px';
+        //   }
+        // }
         try {
           video.poster = img.currentSrc || img.src;
         } catch (_) {
