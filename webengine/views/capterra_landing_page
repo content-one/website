@@ -297,3 +297,16 @@
     });
   });
 </script>
+
+<script type="text/javascript">
+  (function(l,o,w,n,g){
+  window._gz=function(e,t){window._ct={vid:e,vkey:t,
+  uc:true,hasDoNotTrackIPs:false};window.ct};
+  n=l.createElement(o);g=l.getElementsByTagName(o)[0];
+  n["async"]=1;
+  n.src=w;g.parentNode.insertBefore(n,g)})(
+  document,"script",
+  "https://tr.capterra.com/static/wp.js");
+  window._gz('c8fe14b3-b689-4949-895b-55e9f27769cb', 
+  'da41b876710afed7abfa202ce92323c0');
+</script>
