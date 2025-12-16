@@ -85,14 +85,22 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>  
         <div class="col-12 col-lg-8">
             <div class="card border-0 shadow-sm h-100">
             <div class="card-body">
-              <img src="{{this.logo.getImage()}}" align="left" width="60" class="mr-3" alt="Salvation Army crest" >
-              <h3 class="h5 text-primary text-uppercase ml-2 mb-1">The Salvation Army National at a glance</h3>
-              <p class="text-grey">One centralized experience, thousands of local stories, all focused on service.</p></p>
-              <div class="row row-cols-1 row-cols-sm-2 ml-2 g-3 mt-3">
+              <div>
+                <div class="d-flex align-items-start gap-3">
+                  <div class="flex-shrink-0">
+                    <img src="{{this.logo.getImage()}}" width="60" alt="Salvation Army crest">
+                  </div>
+                  <div class="flex-grow-1">
+                    <h3 class="h5 text-primary text-uppercase mb-1">The Salvation Army National at a glance</h3>
+                    <p class="text-grey mb-0">One centralized experience, thousands of local stories, all focused on service.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row row-cols-1 row-cols-sm-2 ml-2 g-3 mt-1">
                 <div class="col">
                   <div class="border rounded-4 p-3 h-100">
                     <p class="fw-semibold text-primary mb-1">Challenge</p>
@@ -708,6 +716,7 @@
     opacity: 0;
     transform: translateY(24px);
     transition: opacity .6s ease, transform .6s ease;
+    scroll-margin-top: 160px;
   }
   .tsa-case-study .fade-section.is-visible {
     opacity: 1;
