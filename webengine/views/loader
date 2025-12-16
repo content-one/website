@@ -4,6 +4,8 @@
 
 <noscript><link rel="stylesheet" href="/assets/theme.css" crossorigin="anonymous"></noscript>
 
+<script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-955374362/FhacCNqOoMAbEJq2x8cD', 'event_callback': callback }); return false; } </script>
+
 <!-- Fullscreen white cover that fades away after styles load -->
 <div id="page-cover"></div>
 <style>

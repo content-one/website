@@ -231,27 +231,32 @@
                   <div class="col-lg-8">
                      <div class="badge bg-white text-primary mb-3 fw-semibold text-uppercase">Leadership</div>
                      <h2 class="display-6 fw-semibold mb-3">Meet the people guiding Content.One.</h2>
-                     <p class="text-grey mb-0">Our leadership team blends product innovation, enterprise delivery, and decades of experience modernizing global content operations.</p>
+                     <p class="text-grey mb-0">Our leadership team blends product innovation, enterprise delivery, and decades of
+                        experience modernizing global content operations.</p>
                   </div>
                </div>
-               <div class="row g-4">
-                  {{each leadership as leader}}
-                  <div class="col-md-6 col-lg-2">
-                     <div class="card border-0 shadow-sm h-100 leadership-card" data-bs-toggle="tooltip" data-bs-placement="top" title="{{leader.bio.striptags()}}">
-                        <div class="rounded-top overflow-hidden">
-                           <img src="{{leader.image.getImage()}}" alt="{{leader.name}} headshot" class="w-100 h-100 object-fit-cover" loading="lazy">
+               <div class="row px-md-5 px-lg-7">
+                  <div class="row g-4">
+                     {{each leadership as leader order by leader.sort_order ASC}}
+                     <div class="col-md-6 col-lg-3">
+                        <div class="card border-0 shadow-sm h-100 leadership-card" data-bs-toggle="tooltip"
+                           data-bs-placement="top" title="{{leader.bio.striptags()}}">
+                           <div class="rounded-top overflow-hidden">
+                              <img src="{{leader.image.getImage()}}" alt="{{leader.name}} headshot"
+                                 class="w-100 h-100 object-fit-cover" loading="lazy">
+                           </div>
+                           <div class="card-body text-start">
+                              <h3 class="h5 fw-semibold mb-1">{{leader.name}}</h3>
+                              <p class="text-primary small mb-0">{{leader.title}}</p>
+                           </div>
                         </div>
-                        <div class="card-body text-start">
-                           <h3 class="h5 fw-semibold mb-1">{{leader.name}}</h3>
-                           <p class="text-primary small mb-0">{{leader.title}}</p>
-                        </div> 
                      </div>
+                     {{/each}}
                   </div>
-                  {{/each}}
                </div>
             </div>
-</section>
-<!--Leadership end-->
+         </section>
+         <!--Leadership end-->
 
 
 
