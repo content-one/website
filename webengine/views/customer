@@ -37,3 +37,5 @@
 {{ if {this.short_code} == 'petdesk' }}
     {{include /components/casestudy/petdesk.html}}
 {{ /if }}
+
+{{blocks('/-/block/sales_personal_cta.html')}}
