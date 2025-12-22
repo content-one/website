@@ -1,60 +1,66 @@
-<section class="content-one-venn">
+ <section class="content-one-venn">
   <div class="venn-grid">
     <div class="venn-copy">
       <p class="venn-kicker">Content.One Empowers</p>
       <h2>Full Team Alignment</h2>
-      <p>
-        Using Content.One, each user persona has the ability to work both independently and collaboratively,
-        achieving maximum efficiency.
-      </p>
-      <p>
-        Our platform offers a full feature suite designed and built for every type of user - and our functionality
-        continues to grow with customer feedback and meet new demands.
-      </p>
-      <p>
-        Using Content.One allows for organizations to ensure that all team members have the tools needed to become
-        more performant - instead of technology being a bottleneck, we strive to be a facilitator for our clients’
-        continued marketing success.
-      </p>
-    </div>     
-
+      <div class="venn-text-columns">
+        <p>
+          Using Content.One, each user persona has the ability to work independently and collaboratively, achieving
+          maximum efficiency. Our platform offers a full feature suite designed for every type of user and continues
+          to grow with customer feedback to meet new demands.
+        </p>
+        <p>
+          Content.One ensures teams have the tools to stay performant—rather than technology being a bottleneck, we
+          strive to be a facilitator for our clients’ continued marketing success and content velocity.
+        </p>    
+      </div>   
+    </div>           
+   
     <div class="venn-visual" aria-label="Content.One Full Team Alignment Venn diagram">
       <div class="venn-circle marketing" data-team="marketing" tabindex="0" role="button" aria-pressed="false">
-        <div class="venn-title">Marketing + Content Teams</div>
-        <ul>
-          <li>Visual drag and drop tools</li>
-          <li>Publishing workflows</li>
-          <li>Automated SEO</li>
-          <li>Integrated A/B testing and analytics</li>
-        </ul>
-      </div>
-
+        <div class="venn-title">Marketing</div> 
+        <div class="venn-popover" role="tooltip">
+          <h2  class="text-white">Marketing + Content Teams</h2> 
+          <ul> 
+            <li>Visual drag and drop tools</li> 
+            <li>Publishing workflows</li> 
+            <li>Automated SEO</li>
+            <li>Integrated A/B testing and analytics</li>
+          </ul> 
+        </div>
+      </div> 
+ 
       <div class="venn-circle business" data-team="business" tabindex="0" role="button" aria-pressed="false">
-        <div class="venn-title">Business Teams</div>
-        <ul>
-          <li>Workflow Dashboards</li>
-          <li>Metrics Reporting</li>
-          <li>Per page performance</li>
-          <li>Full activity log</li>
-          <li>Easy team governance</li>
-        </ul>
-      </div>
+        <div class="venn-title">Business</div>
+        <div class="venn-popover" role="tooltip">
+            <h2 class="text-white">Business Teams</h2>
+          <ul>
+            <li>Workflow Dashboards</li>
+            <li>Metrics Reporting</li>
+            <li>Per page performance</li>
+            <li>Full activity log</li>
+            <li>Easy team governance</li>
+          </ul>
+        </div>
+      </div> 
 
       <div class="venn-circle development" data-team="development" tabindex="0" role="button" aria-pressed="false">
-        <div class="venn-title">Development Teams/ Digital Teams</div>
-        <ul>
-          <li>Instant APIs</li>
-          <li>SDKs</li>
-          <li>Customizable interface</li>
-          <li>Unlimited Integrations</li>
-          <li>State of the art platform documentation</li>
-        </ul>
+        <div class="venn-title">Development</div>
+        <div class="venn-popover" role="tooltip">
+            <h2  class="text-white">Development Teams/ Digital Teams</h2>
+          <ul>
+            <li>Instant APIs</li>
+            <li>SDKs</li>
+            <li>Customizable interface</li>
+            <li>Unlimited Integrations</li>
+            <li>State of the art platform documentation</li>
+          </ul>
+        </div>
       </div>
 
       <div class="venn-logo" aria-hidden="true">
         <div class="logo-orb">
-          <div class="logo-mark">C1</div>
-          <div class="logo-text">Content.One</div>
+          <img src="https://hj5v68xn.media.zestyio.com/content-one-brand-2025-square.png" alt="Content.One logo" class="logo-img" />
         </div>
       </div>
     </div>
@@ -68,17 +74,18 @@
 
 <style>
   :root {
-    --venn-blue: #88a9f7;
-    --venn-orange: #f89c7d;
-    --venn-green: #8ab583;
-    --venn-brand: #ff7a00;
+    --venn-blue: #5d6fe2;
+    --venn-orange: #6f8deb;
+    --venn-green: #6bb1e3;
+    --venn-brand: #4453bc;
     --venn-text: #1f1f1f;
+    --venn-size: clamp(340px, 46vw, 520px);
   }
 
   .content-one-venn {
     background: radial-gradient(circle at 15% 20%, #f8fbff 0%, #f2f6ff 35%, #ffffff 100%);
     border-radius: 24px;
-    padding: 48px 40px;
+    padding: 48px 40px 52px;
     color: var(--venn-text);
     overflow: hidden;
     position: relative;
@@ -86,9 +93,8 @@
 
   .venn-grid {
     display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 36px;
-    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 32px;
   }
 
   .venn-copy h2 {
@@ -101,7 +107,14 @@
     font-size: 16px;
     line-height: 1.6;
     margin: 0 0 12px;
-    max-width: 520px;
+    max-width: none;
+  }
+
+  .venn-text-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 12px 28px;
+    max-width: none;
   }
 
   .venn-kicker {
@@ -114,23 +127,30 @@
 
   .venn-visual {
     position: relative;
-    min-height: 520px;
+    min-height: calc(var(--venn-size) * 1.6);
+    width: 100%;
+    margin: 0 auto;
   }
 
   .venn-circle {
     position: absolute;
-    width: 420px;
-    height: 420px;
+    width: var(--venn-size);
+    height: var(--venn-size);
     border-radius: 50%;
-    padding: 64px 56px 56px;
+    padding: 40px;
     box-sizing: border-box;
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.9);
     border: 2px solid transparent;
     mix-blend-mode: multiply;
     box-shadow: 0 18px 60px rgba(31, 37, 50, 0.12);
     transition: transform 220ms ease, box-shadow 220ms ease, border-color 160ms ease;
     cursor: pointer;
     outline: none;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .venn-circle:focus-visible {
@@ -150,66 +170,151 @@
 
   .venn-title {
     font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 8px;
+    font-size: 22px;
+    margin: 0;
+    color: #fff; 
+    transform: translateX(0);
+  }
+  
+  .marketing .venn-title {
+    transform: translateX(-20%);
   }
 
-  .marketing {
+  .development .venn-title {
+    transform: translateX(15%);
+  }
+
+  .business .venn-title {
+    transform: translateY(-15%);
+  }
+ 
+  .marketing { 
     background: var(--venn-blue);
-    left: 6%;
-    top: 22%;
+    left: calc(32% - (var(--venn-size) / 2));
+    top: calc(64% - (var(--venn-size) / 2));
   }
 
   .business {
     background: var(--venn-orange);
-    right: 5%;
-    top: 4%;
+    left: calc(50% - (var(--venn-size) / 2));
+    top: calc(30% - (var(--venn-size) / 2));
   }
 
   .development {
     background: var(--venn-green);
-    right: 12%;
-    bottom: 4%;
+    left: calc(68% - (var(--venn-size) / 2));
+    top: calc(64% - (var(--venn-size) / 2));
   }
 
   .venn-circle.active {
     border-color: var(--venn-brand);
-    z-index: 2;
+    z-index: 4;
     transform: translateY(-6px);
+  }
+
+  .venn-circle:hover {
+    z-index: 3;
+  }
+
+  .venn-popover {
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%, -42%);
+    width: 82%;
+    background: rgba(15, 17, 28, 0.55);
+    border-radius: 14px;
+    padding: 12px 14px;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.24);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 160ms ease, transform 160ms ease;
+    color: #fff;
+  }
+
+  .business .venn-popover {
+    top: 46%;
+  }
+
+  .marketing .venn-popover,
+  .development .venn-popover {
+    top: 60%;
+  }
+
+  .venn-popover ul {
+    margin: 0;
+    padding-left: 16px;
+    line-height: 1.45;
+    color: inherit;
+  }
+
+  .venn-circle:hover .venn-popover,
+  .venn-circle:focus-visible .venn-popover,
+  .venn-circle.active .venn-popover {
+    opacity: 1;
+    transform: translate(-50%, -48%);
   }
 
   .venn-logo {
     position: absolute;
-    left: 48%;
-    top: 54%;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
+  }
+
+  .marketing:hover,
+  .marketing:focus-visible,
+  .marketing.active {
+    background-image:
+      linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.35)),
+      url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80');
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: normal;
+    color: #fff;
+  }
+
+  .business:hover,
+  .business:focus-visible,
+  .business.active {
+    background-image:
+      linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.35)),
+      url('https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=900&q=80');
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: normal;
+    color: #fff;
+  }
+
+  .development:hover,
+  .development:focus-visible,
+  .development.active {
+    background-image:
+      linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.35)),
+      url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80');
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: normal;
+    color: #fff;
   }
 
   .logo-orb {
     width: 110px;
     height: 110px;
     border-radius: 50%;
-    background: radial-gradient(circle at 25% 25%, #ffd3b2, #ff7a00 60%, #d95c00 100%);
+    background: transparent;
     display: grid;
     place-items: center;
-    color: #fff;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    border: 3px solid #fff;
+    overflow: hidden;
+    box-shadow: none;
+    border: none;
   }
 
-  .logo-mark {
-    font-size: 26px;
-    font-weight: 800;
-    letter-spacing: -0.03em;
-  }
-
-  .logo-text {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    margin-top: -2px;
+  .logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .venn-detail {
@@ -234,18 +339,16 @@
   }
 
   @media (max-width: 1080px) {
+    :root {
+      --venn-size: clamp(300px, 58vw, 480px);
+    }
+
     .venn-grid {
-      grid-template-columns: 1fr;
+      gap: 28px;
     }
 
     .venn-visual {
-      min-height: 480px;
-    }
-
-    .venn-circle {
-      width: 340px;
-      height: 340px;
-      padding: 48px 36px;
+      min-height: calc(var(--venn-size) * 1.5);
     }
 
     .venn-copy p {
@@ -254,12 +357,16 @@
   }
 
   @media (max-width: 780px) {
+    :root {
+      --venn-size: clamp(260px, 88vw, 340px);
+    }
+
     .content-one-venn {
       padding: 32px 24px;
     }
 
     .venn-visual {
-      min-height: 400px;
+      min-height: calc(var(--venn-size) * 1.5);
     }
 
     .venn-circle {
@@ -267,9 +374,17 @@
       width: 100%;
       height: auto;
       border-radius: 20px;
-      margin-bottom: 14px;
+      margin-bottom: 24px;
       mix-blend-mode: normal;
-      opacity: 0.9;
+      opacity: 0.95;
+      padding: 20px 16px 16px;
+      display: block;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      overflow: hidden;
+      transform: none;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
     }
 
     .marketing,
@@ -287,6 +402,50 @@
       top: auto;
       transform: none;
       margin: 12px auto 0;
+    }
+
+    .logo-orb {
+      width: 90px;
+      height: 90px;
+    }
+
+    .venn-popover {
+      position: static;
+      width: 100%;
+      top: auto;
+      left: auto;
+      transform: none;
+      opacity: 1;
+      pointer-events: auto;
+      margin-top: 8px;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+      color: #fff;
+      background: rgba(15, 17, 28, 0.75);
+      border-radius: 14px;
+      padding: 14px 12px;
+      max-width: 100%;
+      overflow: hidden;
+    }
+
+    .venn-circle.active .venn-popover,
+    .venn-circle:focus-within .venn-popover,
+    .venn-circle:hover .venn-popover {
+      opacity: 1;
+      pointer-events: auto;
+      transform: none;
+    }
+
+    .venn-title {
+      text-align: center;
+      transform: none;
+      margin-bottom: 10px;
+    }
+
+    .marketing .venn-title,
+    .development .venn-title,
+    .business .venn-title {
+      text-align: center;
+      transform: none;
     }
   }
 </style>
@@ -356,13 +515,5 @@
         }
       });
     });
-
-    // Initialize with marketing active for immediate context.
-    const firstCircle = circles[0];
-    if (firstCircle) {
-      firstCircle.classList.add('active');
-      firstCircle.setAttribute('aria-pressed', 'true');
-      showDetail(firstCircle.dataset.team);
-    }
   })();
 </script>
