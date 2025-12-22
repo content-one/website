@@ -168,7 +168,7 @@
                 "zuid": "11-90d199fa87-qlhfqb",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-06T12:26:43Z",
-                "createdAt": "2025-11-06T21:23:35Z"
+                "createdAt": "2025-12-18T02:13:51Z"
             },
             "customers": {
                 "zuid": "11-c2d1dbefac-mn7q8n",
@@ -180,67 +180,67 @@
                 "zuid": "11-94b8f4b98c-lrdw00",
                 "type": "pageset",
                 "updatedAt": "2025-10-06T14:40:10Z",
-                "createdAt": "2025-11-05T03:07:05Z"
+                "createdAt": "2025-12-16T02:57:59Z"
             },
             "/components/casestudy/rocket_league.html": {
                 "zuid": "11-a885c7f3c6-7t5zvp",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-07T20:16:42Z",
-                "createdAt": "2025-10-23T03:01:55Z"
+                "createdAt": "2025-12-16T02:48:33Z"
             },
             "/components/casestudy/sony.html": {
                 "zuid": "11-82afb7999e-nn45tn",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-10T18:16:30Z",
-                "createdAt": "2025-10-23T03:06:18Z"
+                "createdAt": "2025-12-16T02:44:06Z"
             },
             "/components/casestudy/tsa-odd.html": {
                 "zuid": "11-e6b18590fd-skdhqg",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-10T20:41:53Z",
-                "createdAt": "2025-12-15T22:28:35Z"
+                "createdAt": "2025-12-18T02:42:59Z"
             },
             "/components/casestudy/tsa-federated-franchise.html": {
                 "zuid": "11-dce3a9e389-2lqbsq",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-12T19:27:41Z",
-                "createdAt": "2025-12-15T22:27:20Z"
+                "createdAt": "2025-12-16T02:44:07Z"
             },
             "/components/casestudy/petdesk.html": {
                 "zuid": "11-b4cf9285f4-3x2590",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-15T15:33:34Z",
-                "createdAt": "2025-10-23T03:01:45Z"
+                "createdAt": "2025-12-16T02:43:57Z"
             },
             "/components/casestudy/singlife.html": {
                 "zuid": "11-aaaaa08694-q0zmg9",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-21T21:08:59Z",
-                "createdAt": "2025-10-23T03:06:53Z"
+                "createdAt": "2025-12-16T02:44:03Z"
             },
             "/components/casestudy/wattpad.html": {
                 "zuid": "11-e6f5f1f1b9-n7pnzt",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-21T21:53:10Z",
-                "createdAt": "2025-10-23T03:08:34Z"
+                "createdAt": "2025-12-16T02:44:16Z"
             },
             "/components/casestudy/draftkings.html": {
                 "zuid": "11-b28c9cc689-vff28h",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-22T21:57:36Z",
-                "createdAt": "2025-10-23T03:00:56Z"
+                "createdAt": "2025-12-16T02:43:55Z"
             },
             "/components/casestudy/uber.html": {
                 "zuid": "11-a8a5a0b58b-mmt4vn",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-23T00:07:35Z",
-                "createdAt": "2025-10-23T03:00:35Z"
+                "createdAt": "2025-12-16T02:44:14Z"
             },
             "/components/casestudy/side-cta.html": {
                 "zuid": "11-acacd6a6bf-3k9h7p",
                 "type": "ajax-json",
                 "updatedAt": "2025-10-23T02:51:12Z",
-                "createdAt": "2025-10-23T02:59:15Z"
+                "createdAt": "2025-12-16T02:15:11Z"
             },
             "/page_html/solutions/marketing-website.html": {
                 "zuid": "11-e288a6b38f-6k2q6g",
@@ -491,8 +491,44 @@
             "/components/casestudy/side-cta copy.html": {
                 "zuid": "11-f0a4c599cd-qxnrk5",
                 "type": "ajax-json",
-                "updatedAt": "2025-12-16T02:26:08.482499927Z",
-                "createdAt": "2025-12-16T02:26:08.482492992Z"
+                "updatedAt": "2025-12-16T02:26:08Z",
+                "createdAt": "2025-12-16T02:26:08Z"
+            },
+            "/components/casestudy/sliver-cta.html": {
+                "zuid": "11-daf4e4d7f8-rhvd89",
+                "type": "ajax-json",
+                "updatedAt": "2025-12-16T02:30:31Z",
+                "createdAt": "2025-12-16T02:30:34Z"
+            },
+            "components/features/hybrid": {
+                "zuid": "11-a084bc87cf-kb8bs1",
+                "type": "snippet",
+                "updatedAt": "2025-12-18T02:39:48Z",
+                "createdAt": "2025-12-18T02:39:48Z"
+            },
+            "/components/features/hybrid_advantage.html": {
+                "zuid": "11-84b7f7cff6-hbwnrc",
+                "type": "ajax-json",
+                "updatedAt": "2025-12-18T02:45:54Z",
+                "createdAt": "2025-12-18T02:45:57Z"
+            },
+            "/components/features/flexstack.html": {
+                "zuid": "11-c2da89888a-hj4z77",
+                "type": "ajax-json",
+                "updatedAt": "2025-12-18T03:17:44.148250814Z",
+                "createdAt": "2025-12-18T03:17:44.148246074Z"
+            },
+            "/components/features/on_demand_developers.html": {
+                "zuid": "11-9c91d4ed89-wcvnlg",
+                "type": "ajax-json",
+                "updatedAt": "2025-12-18T04:41:37.831584082Z",
+                "createdAt": "2025-12-18T04:41:37.831573742Z"
+            },
+            "/components/features/ven-diagram.html": {
+                "zuid": "11-babd9cbfa4-jgwhwp",
+                "type": "ajax-json",
+                "updatedAt": "2025-12-22T01:16:48.046214205Z",
+                "createdAt": "2025-12-22T01:16:48.046205194Z"
             }
         },
         "styles": {

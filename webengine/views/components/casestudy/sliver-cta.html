@@ -1,18 +1,20 @@
-<div class="case-sliver-cta my-5">
-  <div class="sliver-card">
-    <div class="sliver-body">
-      <div>
-        <p class="eyebrow mb-2">Let’s explore together</p>
-        <h3 class="h4 text-white mb-2">Is Content.One right for you?</h3>
-        <p class="mb-0 text-white-75">See how we can unify your sites, speed up content delivery, and keep your teams in sync.</p>
+<template id="case-sliver-cta-template">
+  <div class="case-sliver-cta my-5">
+    <div class="sliver-card">
+      <div class="sliver-body">
+        <div>
+          <p class="eyebrow mb-2">Let’s explore together</p>
+          <h3 class="h4 text-white mb-2">Is Content.One right for you?</h3>
+          <p class="mb-0 text-white-75">See how we can unify your sites, speed up content delivery, and keep your teams in sync.</p>
+        </div>
+        <div class="sliver-actions">
+          <a href="/contact/" class="btn btn-light">Setup Exploratory Call</a>
+          <a href="/customers/" class="btn btn-outline-light">Explore more stories</a>
+        </div>
       </div>
-      <div class="sliver-actions">
-        <a href="/contact/" class="btn btn-light">Setup Exploratory Call</a>
-        <a href="/customers/" class="btn btn-outline-light">Explore more stories</a>
-      </div>
-    </div>
+    </div> 
   </div>
-</div>
+</template> 
 
 <style>
   .case-sliver-cta .sliver-card {
@@ -60,3 +62,27 @@
     color: #0b1224;
   }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var template = document.getElementById('case-sliver-cta-template');
+    if (!template) return;
+
+    var caseStudyContainers = document.querySelectorAll('[class$="case-study"]');
+    if (!caseStudyContainers.length) return;
+
+    caseStudyContainers.forEach(function (container) {
+      var sections = container.querySelectorAll('.fade-section');
+      if (!sections.length) return;
+
+      sections.forEach(function (section, idx) {
+        var position = idx + 1;
+        var alreadyHasSliver = section.nextElementSibling && section.nextElementSibling.classList.contains('case-sliver-cta');
+        if (position % 5 === 0 && !alreadyHasSliver) {
+          var clone = template.content.cloneNode(true);
+          section.insertAdjacentElement('afterend', clone.querySelector('.case-sliver-cta'));
+        }
+      });
+    });
+  });
+</script>
